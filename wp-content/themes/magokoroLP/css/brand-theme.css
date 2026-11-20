@@ -1,0 +1,125 @@
+:root {
+  --brand-blue: #3f769e;
+  --brand-blue-deep: #2d5878;
+  --brand-teal: #4b8b82;
+  --brand-teal-light: #76aaa3;
+  --brand-sky: #e8f3f6;
+  --brand-sage: #e4f0ec;
+  --brand-cream: #f8f5ee;
+  --brand-gold: #d2a85e;
+  --brand-ink: #344b5e;
+}
+
+body {
+  color: var(--brand-ink);
+}
+
+.header_logo {
+  min-width: 300px;
+}
+
+.brand-lockup {
+  display: inline-flex;
+  flex-direction: column;
+  color: var(--brand-blue-deep);
+  line-height: 1;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.brand-lockup__eyebrow {
+  width: fit-content;
+  margin: 0 0 5px 2px;
+  padding: 4px 8px 3px;
+  border-radius: 4px;
+  background: var(--brand-teal);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.brand-lockup__name {
+  font-size: clamp(23px, 2vw, 32px);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.brand-lockup__name span {
+  margin-right: 0.18em;
+  color: var(--brand-teal);
+}
+
+.fv_top,
+.notice_txt > span::after {
+  background-color: var(--brand-sky);
+}
+
+.time {
+  background-color: var(--brand-blue);
+}
+
+.header_btn_line,
+.cta_btn_line {
+  box-shadow: 0 5px 0 #337a61;
+}
+
+.header_btn_tel,
+.cta_btn_tel,
+.cta_content,
+.qa_list,
+.flow_item {
+  box-shadow: 0 8px 22px rgba(45, 88, 120, 0.1);
+}
+
+.cta_left {
+  background: linear-gradient(135deg, var(--brand-teal-light), var(--brand-blue));
+}
+
+.footer-copy {
+  color: var(--brand-blue-deep);
+}
+
+.point,
+.declare,
+.example,
+.flow,
+.company {
+  background-color: var(--brand-sky);
+  background-image: none;
+}
+
+.fv_campaign img,
+.notice_campaign img,
+.cta_txt,
+.fv_txt_pc,
+.fv_txt_sp {
+  filter: hue-rotate(126deg) saturate(0.58) brightness(1.08);
+}
+
+@media screen and (max-width: 1000px) {
+  .header_logo {
+    min-width: 250px;
+  }
+
+  .brand-lockup__name {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header_logo {
+    min-width: 0;
+  }
+
+  .brand-lockup__eyebrow {
+    margin-bottom: 3px;
+    padding: 3px 5px 2px;
+    font-size: 9px;
+    letter-spacing: 0.08em;
+  }
+
+  .brand-lockup__name {
+    font-size: clamp(15px, 4.7vw, 20px);
+  }
+}

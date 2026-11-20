@@ -1,0 +1,3 @@
+/* 改善モード（?fixes=1）でだけ読み込む。原本CSSは無改変。 */
+.mock-fixes .popup_close { cursor: pointer; }
+.mock-fixes .popup_close:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
