@@ -36,3 +36,5 @@ GTM内でGA4・Google広告を管理する場合、GTM以外のIDは空欄のま
 
 `main`ブランチへpushすると、`.github/workflows/pages.yml` が静的ファイルをGitHub Pagesへ公開します。リポジトリは非公開で作成しますが、GitHub Pagesの閲覧URLが一般公開になるかどうかは、GitHubアカウントのプランとPages設定に依存します。
 
+Actions内では `scripts/build-pages.mjs` がGitHub Project Pages用のサブパスを付与し、`_site/` を生成して公開します。元のHTMLはローカルおよび独自ドメイン向けのルート相対パスを維持します。
+
