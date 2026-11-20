@@ -8,16 +8,16 @@
 
   var requestedTheme = 'v3';
   var theme = 'v4';
-  var stockPreview = true;
+  var licensedStock = true;
   var animalIllustrationPreview = true;
 
   window.MOCK_BRAND_THEME = requestedTheme;
   window.MOCK_BRAND_IMPLEMENTATION_THEME = theme;
-  window.MOCK_STOCK_PREVIEW = stockPreview;
+  window.SITE_LICENSED_STOCK = licensedStock;
   window.MOCK_ANIMAL_ILLUSTRATION_PREVIEW = animalIllustrationPreview;
   if (theme === 'v1') return;
 
-  if (stockPreview) document.documentElement.classList.add('stock-preview');
+  if (licensedStock) document.documentElement.classList.add('licensed-stock');
   if (animalIllustrationPreview) document.documentElement.classList.add('animal-illustration-preview');
 
   if (theme === 'v2' || theme === 'v3') {
@@ -38,7 +38,7 @@
     document.documentElement.classList.add('brand-v4');
     var v4Stylesheet = document.createElement('link');
     v4Stylesheet.rel = 'stylesheet';
-    v4Stylesheet.href = '/_mock/brand-v4.css?flow-align=20261120f' + (stockPreview ? '&stock-preview=1' : '');
+    v4Stylesheet.href = '/_mock/brand-v4.css?flow-align=20261120f' + (licensedStock ? '&licensed-stock=1' : '');
     document.head.appendChild(v4Stylesheet);
   }
 
@@ -57,23 +57,23 @@
       (text ? '<p>' + text + '</p>' : ''));
   }
 
-  function replacePreviewImage(selector, src, alt) {
+  function replaceLicensedImage(selector, src, alt) {
     var image = document.querySelector(selector);
     if (!image) return;
     image.classList.remove('lazyload');
-    image.classList.add('adobe-stock-preview');
+    image.classList.add('adobe-licensed-stock');
     image.src = src;
     image.removeAttribute('data-src');
     image.alt = alt;
   }
 
-  function applyStockPreviewImages() {
-    if (!stockPreview) return;
+  function applyLicensedStockImages() {
+    if (!licensedStock) return;
 
-    // Adobe Stock の非生成AI写真による比較用プレビュー。透かし入り素材は確認用途のみ。
-    replacePreviewImage('.risk_bottom_img', '/_mock/adobe-preview/customer-547072089.jpg', '住まいの害獣被害に悩むお客様');
-    replacePreviewImage('.reasons_item:first-child .reasons_img', '/_mock/adobe-preview/inspection-628511626.jpg', '天井裏を確認する専門スタッフ');
-    replacePreviewImage('.flow_item:nth-child(3) .flow_item_img', '/_mock/adobe-preview/consultation-2150844450.jpg', '契約内容を説明する専門スタッフ');
+    // 正規ライセンス取得済みのAdobe Stock写真。
+    replaceLicensedImage('.risk_bottom_img', '/_mock/adobe-stock/customer-547072089.jpg', '住まいの害獣被害に悩むお客様');
+    replaceLicensedImage('.reasons_item:first-child .reasons_img', '/_mock/adobe-stock/inspection-628511626.jpg', '天井裏を確認する専門スタッフ');
+    replaceLicensedImage('.flow_item:nth-child(3) .flow_item_img', '/_mock/adobe-stock/consultation-2150844450.jpg', '契約内容を説明する専門スタッフ');
   }
 
   function enhance() {
@@ -112,7 +112,7 @@
 
     if (usesFocusedHero && !isImpactTheme) {
       appendMarkup(document.querySelector('.fv_content'), 'v3-hero-portrait',
-        '<img src="' + (stockPreview ? '/_mock/adobe-preview/hero-196255348.jpg' : '/wp-content/uploads/2025/03/%E5%90%8D%E7%A7%B0%E6%9C%AA%E8%A8%AD%E5%AE%9A-2.png.webp') + '" alt="害獣駆除スタッフ">' +
+        '<img src="/wp-content/uploads/2025/03/%E5%90%8D%E7%A7%B0%E6%9C%AA%E8%A8%AD%E5%AE%9A-2.png.webp" alt="害獣駆除スタッフ">' +
         '<span>専門スタッフが丁寧に対応します</span>');
     }
 
@@ -270,7 +270,7 @@
       });
     }
 
-    applyStockPreviewImages();
+    applyLicensedStockImages();
   }
 
   if (document.readyState === 'loading') {
