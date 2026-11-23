@@ -2866,6 +2866,26 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  box-shadow:
+    0 5px 0 #c9411b,
+    0 11px 20px rgba(175, 61, 25, 0.2);
+  transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+}
+
+.brand-v4 .v4-risk-contact:hover {
+  background: var(--v4-accent);
+  filter: brightness(1.04);
+  transform: translateY(-1px);
+  box-shadow:
+    0 6px 0 #c9411b,
+    0 13px 22px rgba(175, 61, 25, 0.23);
+}
+
+.brand-v4 .v4-risk-contact:active {
+  transform: translateY(4px);
+  box-shadow:
+    0 1px 0 #c9411b,
+    0 5px 10px rgba(175, 61, 25, 0.18);
 }
 
 @media screen and (min-width: 701px) {
