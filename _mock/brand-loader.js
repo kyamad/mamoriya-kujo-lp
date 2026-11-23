@@ -38,7 +38,7 @@
     document.documentElement.classList.add('brand-v4');
     var v4Stylesheet = document.createElement('link');
     v4Stylesheet.rel = 'stylesheet';
-    v4Stylesheet.href = '/_mock/brand-v4.css?layout-fixes=20261123n' + (licensedStock ? '&licensed-stock=1' : '');
+    v4Stylesheet.href = '/_mock/brand-v4.css?layout-fixes=20261123o' + (licensedStock ? '&licensed-stock=1' : '');
     document.head.appendChild(v4Stylesheet);
   }
 
@@ -148,6 +148,33 @@
       var body = item.querySelector('.voice_item_txt');
       if (title) title.innerHTML = voiceCopy[index].title;
       if (body) body.innerHTML = voiceCopy[index].body;
+    });
+
+    var reasonCopy = [
+      {
+        title: '現場を細部まで確認する専門調査',
+        body: '専門スタッフが現地へ伺い、被害の範囲をはじめ、侵入経路、巣やフンの位置まで一つずつ確認します。現場の全体像を丁寧に把握したうえで、状況に合った駆除方法と再発防止策を組み立て、内容を分かりやすくご説明します。'
+      },
+      {
+        title: '年間2,000件超の実績を生かした駆除',
+        body: '年間2,000件以上の施工実績をもとに、害獣の種類や現場の状態に合わせた方法を選び、速やかに駆除します。巣に蓄積した大量のフンの清掃から、消毒・消臭・殺虫まで、経験を積んだ専門スタッフが確実に対応します。'
+      },
+      {
+        title: '侵入口まで対策し再発を防止',
+        body: '駆除後の再侵入を防ぐため、侵入口の封鎖や周辺環境の見直しまで行い、再発の原因を根本から取り除きます。さらに清掃と消毒を施し、害獣が持ち込んだ病原菌の拡散や二次被害のリスクも抑えます。'
+      },
+      {
+        title: '駆除後の補修までまとめて対応',
+        body: '害獣に荒らされた断熱材や、糞尿が染み込んだ天井板・床下なども丁寧に補修します。調査・駆除だけでなく、被害箇所の補修まで自社で一貫して対応できるため、まとめてお任せいただけます。'
+      }
+    ];
+
+    document.querySelectorAll('.reasons_item').forEach(function (item, index) {
+      if (!reasonCopy[index]) return;
+      var title = item.querySelector('.reasons_title_txt span');
+      var body = item.querySelector('.reasons_des p');
+      if (title) title.textContent = reasonCopy[index].title;
+      if (body) body.textContent = reasonCopy[index].body;
     });
 
     var addContents = document.querySelectorAll('.add_content');
@@ -277,9 +304,10 @@
 
     document.querySelectorAll('.fv_campaign, .notice_campaign').forEach(function (target) {
       appendMarkup(target, 'v2-campaign-card',
-        '<span class="v2-campaign-label">このページをご覧の方限定</span>' +
-        '<span class="v2-campaign-normal">通常価格 20,000円</span>' +
-        '<strong>7,000<small>円（税込）〜</small></strong>' +
+        '<span class="v2-campaign-title">このページをご覧の方限定</span>' +
+        '<span class="v2-campaign-discount">約65%OFF</span>' +
+        '<span class="v2-campaign-old"><small>通常価格</small><strong>20,000<em>円</em></strong></span>' +
+        '<span class="v2-campaign-new"><small>特別価格</small><strong>7,000<em>円（税込）〜</em></strong></span>' +
         '<span class="v2-campaign-note">まずは無料でご相談ください</span>');
     });
 

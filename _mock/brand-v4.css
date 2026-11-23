@@ -3023,4 +3023,212 @@
   }
 }
 
+/* 2026-11-23: price-transition campaign card and stopwatch alignment. */
+.brand-v4 .v2-campaign-card {
+  position: relative;
+  display: block;
+  min-height: 0;
+  aspect-ratio: 1600 / 592;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: 24px;
+  background: url('/_mock/v4-campaign-assets/campaign-card-v2.png') center / 100% 100% no-repeat;
+  filter: drop-shadow(0 13px 18px rgba(21, 71, 67, 0.2));
+}
+
+.brand-v4 .v2-campaign-title,
+.brand-v4 .v2-campaign-discount,
+.brand-v4 .v2-campaign-old,
+.brand-v4 .v2-campaign-new,
+.brand-v4 .v2-campaign-note {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.brand-v4 .v2-campaign-title {
+  top: 6%;
+  right: 18%;
+  left: 18%;
+  height: 18%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: clamp(18px, 2vw, 27px);
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.brand-v4 .v2-campaign-discount {
+  top: 29%;
+  right: 6%;
+  padding: 7px 12px 6px;
+  border-radius: 999px;
+  background: var(--v4-accent);
+  box-shadow: 0 4px 9px rgba(175, 61, 25, 0.2);
+  color: #fff;
+  font-size: clamp(12px, 1.2vw, 17px);
+  font-weight: 900;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.brand-v4 .v2-campaign-old,
+.brand-v4 .v2-campaign-new {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.brand-v4 .v2-campaign-old {
+  top: 29%;
+  bottom: 18%;
+  left: 8%;
+  width: 24%;
+  color: var(--v4-teal-dark);
+}
+
+.brand-v4 .v2-campaign-new {
+  top: 29%;
+  right: 7%;
+  bottom: 17%;
+  width: 40%;
+  color: var(--v4-accent-dark);
+}
+
+.brand-v4 .v2-campaign-old > small,
+.brand-v4 .v2-campaign-new > small {
+  margin-bottom: 4px;
+  color: inherit;
+  font-size: clamp(12px, 1.3vw, 18px);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.brand-v4 .v2-campaign-old > strong,
+.brand-v4 .v2-campaign-new > strong {
+  display: flex;
+  min-width: 0;
+  align-items: baseline;
+  justify-content: center;
+  color: inherit;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.brand-v4 .v2-campaign-old > strong {
+  font-size: clamp(28px, 4vw, 48px);
+  text-decoration: line-through;
+  text-decoration-color: var(--v4-accent);
+  text-decoration-thickness: 3px;
+}
+
+.brand-v4 .v2-campaign-new > strong {
+  font-size: clamp(44px, 6vw, 76px);
+}
+
+.brand-v4 .v2-campaign-old em,
+.brand-v4 .v2-campaign-new em {
+  margin-left: 2px;
+  color: inherit;
+  font-size: 0.36em;
+  font-style: normal;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.brand-v4 .v2-campaign-note {
+  right: 10%;
+  bottom: 14.5%;
+  justify-content: center;
+  color: var(--v4-teal-dark);
+  font-size: clamp(11px, 1.1vw, 15px);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0;
+  white-space: nowrap;
+  transform: none;
+}
+
+.brand-v4 .v4-declare-overlay-label {
+  /* Align the label centre to the stopwatch's visible 12 o'clock tick. */
+  right: 22%;
+  transform: translateX(50%);
+}
+
+@media screen and (max-width: 700px) {
+  .brand-v4 .v2-campaign-card {
+    min-height: 182px;
+    aspect-ratio: auto;
+    border-radius: 16px;
+  }
+
+  .brand-v4 .v2-campaign-title {
+    top: 6%;
+    right: 14%;
+    left: 14%;
+    height: 18%;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+  }
+
+  .brand-v4 .v2-campaign-discount {
+    top: 31%;
+    right: 5%;
+    padding: 4px 7px 3px;
+    font-size: 10px;
+  }
+
+  .brand-v4 .v2-campaign-old {
+    top: 29%;
+    bottom: 18%;
+    left: 7%;
+    width: 26%;
+  }
+
+  .brand-v4 .v2-campaign-new {
+    top: 29%;
+    right: 5%;
+    bottom: 17%;
+    width: 43%;
+  }
+
+  .brand-v4 .v2-campaign-old > small,
+  .brand-v4 .v2-campaign-new > small {
+    margin-bottom: 2px;
+    font-size: 10px;
+  }
+
+  .brand-v4 .v2-campaign-old > strong {
+    font-size: 21px;
+    text-decoration-thickness: 2px;
+  }
+
+  .brand-v4 .v2-campaign-new > strong {
+    font-size: 31px;
+  }
+
+  .brand-v4 .v2-campaign-old em,
+  .brand-v4 .v2-campaign-new em {
+    font-size: 0.34em;
+  }
+
+  .brand-v4 .v2-campaign-note {
+    right: 7%;
+    bottom: 14%;
+    font-size: 9px;
+  }
+
+  .brand-v4 .v4-declare-overlay-label {
+    right: 22.8%;
+    transform: translateX(50%);
+  }
+}
+
 
