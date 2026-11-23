@@ -2703,7 +2703,7 @@
   /* Keep the complete right edge of the hero artwork visible and reduce dead space. */
   .brand-v4 .v4-mobile-hero-art {
     height: 272px;
-    background-position: right center;
+    background-position: right 12px center;
     background-size: auto 112%;
   }
 
@@ -2805,8 +2805,12 @@
   }
 
   .brand-v4 .v2-campaign-note {
-    font-size: 11px;
+    align-self: center;
+    font-size: 12px;
+    line-height: 1.4;
+    letter-spacing: -0.06em;
     white-space: nowrap;
+    transform: translateY(-2px);
   }
 }
 
