@@ -2858,6 +2858,14 @@
   outline-offset: 4px;
 }
 
+@media screen and (min-width: 1001px) {
+  /* Optically centre the button body; its lower drop shadow must not shift the visual baseline. */
+  .brand-v4 .v4-symptom-cta {
+    position: relative;
+    top: -3px;
+  }
+}
+
 /* Centre the lower free-consultation CTA within its full button shape. */
 .brand-v4 .v4-risk-contact {
   display: flex;

@@ -38,7 +38,7 @@
     document.documentElement.classList.add('brand-v4');
     var v4Stylesheet = document.createElement('link');
     v4Stylesheet.rel = 'stylesheet';
-    v4Stylesheet.href = '/_mock/brand-v4.css?layout-fixes=20261123j' + (licensedStock ? '&licensed-stock=1' : '');
+    v4Stylesheet.href = '/_mock/brand-v4.css?layout-fixes=20261123k' + (licensedStock ? '&licensed-stock=1' : '');
     document.head.appendChild(v4Stylesheet);
   }
 
