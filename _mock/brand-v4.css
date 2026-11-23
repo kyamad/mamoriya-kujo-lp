@@ -2700,6 +2700,17 @@
 
 /* 2026-11-23: mobile-only layout corrections. Desktop/tablet rules stay intact. */
 @media screen and (max-width: 700px) {
+  /* Keep the service-area reception message on one centred line. */
+  .brand-v4 .v2-hero-kicker {
+    width: fit-content;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 14px;
+    padding-left: 14px;
+    white-space: nowrap;
+  }
+
   /* Keep the complete right edge of the hero artwork visible and reduce dead space. */
   .brand-v4 .v4-mobile-hero-art {
     height: 272px;
