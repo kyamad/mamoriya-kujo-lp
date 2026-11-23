@@ -2948,23 +2948,51 @@
   }
 }
 
-/* Generated visual cues for the first and third reassurance declarations. */
-.brand-v4 .declare_item .v4-declare-generated {
+/* Generated visual cues layered over the original reassurance photos. */
+.brand-v4 .v4-declare-media {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+.brand-v4 .v4-declare-media > img:first-child {
   display: block;
   width: 100%;
-  aspect-ratio: 433 / 294;
-  padding: 18px;
-  box-sizing: border-box;
-  object-fit: contain;
-  border: 1px solid rgba(75, 139, 130, 0.18);
-  border-radius: 18px;
-  background: linear-gradient(145deg, #fffdf7 0%, #f7fbf9 100%);
+}
+
+.brand-v4 .v4-declare-media .v4-declare-overlay {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 38%;
+  height: auto;
+  margin: 0;
+  pointer-events: none;
+  filter: drop-shadow(0 7px 10px rgba(26, 55, 51, 0.25));
+}
+
+.brand-v4 .v4-declare-overlay.is-free-note {
+  top: 5%;
+  right: 4%;
+}
+
+.brand-v4 .v4-declare-overlay.is-stopwatch {
+  right: 4%;
+  bottom: 4%;
+  width: 34%;
 }
 
 @media screen and (max-width: 600px) {
-  .brand-v4 .declare_item .v4-declare-generated {
-    padding: 12px;
+  .brand-v4 .v4-declare-media {
     border-radius: 14px;
+  }
+
+  .brand-v4 .v4-declare-media .v4-declare-overlay {
+    width: 40%;
+  }
+
+  .brand-v4 .v4-declare-overlay.is-stopwatch {
+    width: 36%;
   }
 }
 

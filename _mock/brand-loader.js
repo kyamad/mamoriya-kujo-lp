@@ -38,7 +38,7 @@
     document.documentElement.classList.add('brand-v4');
     var v4Stylesheet = document.createElement('link');
     v4Stylesheet.rel = 'stylesheet';
-    v4Stylesheet.href = '/_mock/brand-v4.css?layout-fixes=20261123l' + (licensedStock ? '&licensed-stock=1' : '');
+    v4Stylesheet.href = '/_mock/brand-v4.css?layout-fixes=20261123m' + (licensedStock ? '&licensed-stock=1' : '');
     document.head.appendChild(v4Stylesheet);
   }
 
@@ -71,6 +71,23 @@
     replaceImage(selector, src, alt, 'adobe-licensed-stock');
   }
 
+  function addImageOverlay(selector, src, alt, modifier) {
+    var baseImage = document.querySelector(selector);
+    if (!baseImage || baseImage.closest('.v4-declare-media')) return;
+
+    var media = document.createElement('div');
+    media.className = 'v4-declare-media';
+    baseImage.parentNode.insertBefore(media, baseImage);
+    media.appendChild(baseImage);
+
+    var overlay = document.createElement('img');
+    overlay.className = 'v4-declare-overlay ' + modifier;
+    overlay.src = src;
+    overlay.alt = alt;
+    overlay.decoding = 'async';
+    media.appendChild(overlay);
+  }
+
   function applyLicensedStockImages() {
     if (!licensedStock) return;
 
@@ -81,9 +98,9 @@
   }
 
   function applyContentRefresh() {
-    // 「4つの安心宣言」の要点を一目で理解できる専用ビジュアルへ差し替える。
-    replaceImage('.declare_item:nth-child(1) img', '/_mock/v4-declare-assets/free-note.png', '無料と書かれた付箋', 'v4-declare-generated');
-    replaceImage('.declare_item:nth-child(3) img', '/_mock/v4-declare-assets/stopwatch.png', '最短即日対応を表すストップウォッチ', 'v4-declare-generated');
+    // 「4つの安心宣言」の元写真を残し、要点が伝わるビジュアルを重ねる。
+    addImageOverlay('.declare_item:nth-child(1) > img', '/_mock/v4-declare-assets/free-note.png', '無料と書かれた付箋', 'is-free-note');
+    addImageOverlay('.declare_item:nth-child(3) > img', '/_mock/v4-declare-assets/stopwatch.png', '最短即日対応を表すストップウォッチ', 'is-stopwatch');
 
     var startHeading = document.querySelector('.start_heading_txt');
     if (startHeading) {
