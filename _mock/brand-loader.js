@@ -38,7 +38,7 @@
     document.documentElement.classList.add('brand-v4');
     var v4Stylesheet = document.createElement('link');
     v4Stylesheet.rel = 'stylesheet';
-    v4Stylesheet.href = '/_mock/brand-v4.css?layout-fixes=20261123o' + (licensedStock ? '&licensed-stock=1' : '');
+    v4Stylesheet.href = '/_mock/brand-v4.css?layout-fixes=20261123t' + (licensedStock ? '&licensed-stock=1' : '');
     document.head.appendChild(v4Stylesheet);
   }
 
@@ -304,11 +304,7 @@
 
     document.querySelectorAll('.fv_campaign, .notice_campaign').forEach(function (target) {
       appendMarkup(target, 'v2-campaign-card',
-        '<span class="v2-campaign-title">このページをご覧の方限定</span>' +
-        '<span class="v2-campaign-discount">約65%OFF</span>' +
-        '<span class="v2-campaign-old"><small>通常価格</small><strong>20,000<em>円</em></strong></span>' +
-        '<span class="v2-campaign-new"><small>特別価格</small><strong>7,000<em>円（税込）〜</em></strong></span>' +
-        '<span class="v2-campaign-note">まずは無料でご相談ください</span>');
+        '<img class="v2-campaign-art" src="/_mock/v4-campaign-assets/campaign-card-final-a.png" alt="通常価格20,000円から特別価格7,000円〜、約65%OFF。まずは無料でご相談ください">');
     });
 
     appendMarkup(document.querySelector('.cta_left'), 'v2-cta-copy',

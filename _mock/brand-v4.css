@@ -2193,7 +2193,6 @@
 }
 
 
-
 /* 2026-11-20: stronger pest-control identity in the first view. */
 .brand-v4 .v4-pest-seal {
   display: inline-flex;
@@ -3229,6 +3228,49 @@
     right: 22.8%;
     transform: translateX(50%);
   }
+}
+
+/* 2026-11-23: selected campaign card A is a single baked image. */
+.brand-v4 .v2-campaign-card {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: 0;
+  aspect-ratio: auto;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 18px;
+  background: none;
+  filter: drop-shadow(0 12px 18px rgba(21, 71, 67, 0.2));
+  line-height: 0;
+}
+
+.brand-v4 .v2-campaign-art {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  margin: 0;
+  object-fit: contain;
+  filter: none !important;
+}
+
+.brand-v4 .fv_campaign:hover,
+.brand-v4 .notice_campaign:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 700px) {
+  .brand-v4 .v2-campaign-card {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: auto;
+    min-height: 0;
+    border-radius: 10px;
+  }
+
 }
 
 
