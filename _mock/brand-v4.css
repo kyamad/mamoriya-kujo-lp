@@ -2920,14 +2920,23 @@
 }
 
 @media screen and (min-width: 801px) {
-  /* Align the licensed photo and reassurance card from the same top edge. */
+  /* Match the reassurance card to the licensed photo's full height. */
   .brand-v4 .risk_bottom {
-    align-items: flex-start;
+    align-items: stretch;
   }
 
   .brand-v4 .risk_bottom_bubble {
+    display: flex;
     margin-top: 0;
     margin-bottom: 0;
+  }
+
+  .brand-v4 .v2-risk-reassurance {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    box-sizing: border-box;
+    justify-content: center;
   }
 }
 
