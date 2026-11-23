@@ -2919,4 +2919,16 @@
   }
 }
 
+@media screen and (min-width: 801px) {
+  /* Align the licensed photo and reassurance card from the same top edge. */
+  .brand-v4 .risk_bottom {
+    align-items: flex-start;
+  }
+
+  .brand-v4 .risk_bottom_bubble {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
 
