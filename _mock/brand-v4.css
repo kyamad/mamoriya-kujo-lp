@@ -2698,4 +2698,116 @@
   }
 }
 
+/* 2026-11-23: mobile-only layout corrections. Desktop/tablet rules stay intact. */
+@media screen and (max-width: 700px) {
+  /* Keep the complete right edge of the hero artwork visible and reduce dead space. */
+  .brand-v4 .v4-mobile-hero-art {
+    height: 272px;
+    background-position: right center;
+    background-size: auto 112%;
+  }
+
+  /* Vertically align each symptom label with its circular kanji icon. */
+  .brand-v4 .v4-symptom-list li {
+    min-height: 34px;
+    align-items: center;
+  }
+
+  .brand-v4 .v4-symptom-list i {
+    line-height: 1;
+  }
+
+  /* Remove unintended forced breaks and restore a consistent reading rhythm. */
+  .brand-v4 .trouble_bottom {
+    padding-top: 58px;
+  }
+
+  .brand-v4 .trouble_bottom_heading {
+    width: 92vw;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 1.45;
+    text-align: center;
+  }
+
+  .brand-v4 .trouble_bottom_content {
+    width: 92vw;
+  }
+
+  .brand-v4 .trouble_bottom_txt {
+    width: 100%;
+    margin: 0 0 28px;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0;
+    text-align: left;
+    line-break: strict;
+  }
+
+  .brand-v4 .trouble_bottom_txt span {
+    font-size: 18px;
+    line-height: inherit;
+  }
+
+  .brand-v4 .trouble_bottom_txt br.sp_LL_hidiven {
+    display: none;
+  }
+
+  .brand-v4 .trouble_bottom_img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* Avoid nested viewport widths pushing review cards off centre. */
+  .brand-v4 .voice_content {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .brand-v4 .voice_list {
+    width: 92vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .brand-v4 .voice_item {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* Keep the limited-offer label and tax notation as complete phrases. */
+  .brand-v4 .v2-campaign-card {
+    grid-template-columns: minmax(0, 1.18fr) minmax(0, 1fr);
+    column-gap: 8px;
+  }
+
+  .brand-v4 .v2-campaign-label {
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .brand-v4 .v2-campaign-card strong {
+    display: flex;
+    min-width: 0;
+    align-items: baseline;
+    font-size: clamp(29px, 9vw, 34px);
+    white-space: nowrap;
+  }
+
+  .brand-v4 .v2-campaign-card small {
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .brand-v4 .v2-campaign-note {
+    font-size: 11px;
+    white-space: nowrap;
+  }
+}
+
 
