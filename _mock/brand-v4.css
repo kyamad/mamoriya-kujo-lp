@@ -2858,6 +2858,16 @@
   outline-offset: 4px;
 }
 
+/* Centre the lower free-consultation CTA within its full button shape. */
+.brand-v4 .v4-risk-contact {
+  display: flex;
+  min-height: 52px;
+  padding: 0 22px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 @media screen and (min-width: 701px) {
   /* Keep the guarantee wording together inside its badge. */
   .brand-v4 .v2-hero-trust span:nth-child(3) {
