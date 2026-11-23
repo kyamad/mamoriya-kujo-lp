@@ -2948,4 +2948,24 @@
   }
 }
 
+/* Generated visual cues for the first and third reassurance declarations. */
+.brand-v4 .declare_item .v4-declare-generated {
+  display: block;
+  width: 100%;
+  aspect-ratio: 433 / 294;
+  padding: 18px;
+  box-sizing: border-box;
+  object-fit: contain;
+  border: 1px solid rgba(75, 139, 130, 0.18);
+  border-radius: 18px;
+  background: linear-gradient(145deg, #fffdf7 0%, #f7fbf9 100%);
+}
+
+@media screen and (max-width: 600px) {
+  .brand-v4 .declare_item .v4-declare-generated {
+    padding: 12px;
+    border-radius: 14px;
+  }
+}
+
 

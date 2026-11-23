@@ -38,7 +38,7 @@
     document.documentElement.classList.add('brand-v4');
     var v4Stylesheet = document.createElement('link');
     v4Stylesheet.rel = 'stylesheet';
-    v4Stylesheet.href = '/_mock/brand-v4.css?layout-fixes=20261123k' + (licensedStock ? '&licensed-stock=1' : '');
+    v4Stylesheet.href = '/_mock/brand-v4.css?layout-fixes=20261123l' + (licensedStock ? '&licensed-stock=1' : '');
     document.head.appendChild(v4Stylesheet);
   }
 
@@ -57,14 +57,18 @@
       (text ? '<p>' + text + '</p>' : ''));
   }
 
-  function replaceLicensedImage(selector, src, alt) {
+  function replaceImage(selector, src, alt, className) {
     var image = document.querySelector(selector);
     if (!image) return;
     image.classList.remove('lazyload');
-    image.classList.add('adobe-licensed-stock');
+    if (className) image.classList.add(className);
     image.src = src;
     image.removeAttribute('data-src');
     image.alt = alt;
+  }
+
+  function replaceLicensedImage(selector, src, alt) {
+    replaceImage(selector, src, alt, 'adobe-licensed-stock');
   }
 
   function applyLicensedStockImages() {
@@ -74,6 +78,62 @@
     replaceLicensedImage('.risk_bottom_img', '/_mock/adobe-stock/customer-547072089.jpg', '住まいの害獣被害に悩むお客様');
     replaceLicensedImage('.reasons_item:first-child .reasons_img', '/_mock/adobe-stock/inspection-628511626.jpg', '天井裏を確認する専門スタッフ');
     replaceLicensedImage('.flow_item:nth-child(3) .flow_item_img', '/_mock/adobe-stock/consultation-2150844450.jpg', '契約内容を説明する専門スタッフ');
+  }
+
+  function applyContentRefresh() {
+    // 「4つの安心宣言」の要点を一目で理解できる専用ビジュアルへ差し替える。
+    replaceImage('.declare_item:nth-child(1) img', '/_mock/v4-declare-assets/free-note.png', '無料と書かれた付箋', 'v4-declare-generated');
+    replaceImage('.declare_item:nth-child(3) img', '/_mock/v4-declare-assets/stopwatch.png', '最短即日対応を表すストップウォッチ', 'v4-declare-generated');
+
+    var startHeading = document.querySelector('.start_heading_txt');
+    if (startHeading) {
+      startHeading.innerHTML = '迅速対応「まもりや駆除」が<br class="sp_LL_display"><span>首都圏</span>での駆除サービスを開始！';
+    }
+
+    var startTop = document.querySelector('.start_top_des');
+    if (startTop) {
+      startTop.innerHTML = '<span class="wrap_txt">東京</span><span class="wrap_txt">神奈川</span><span class="wrap_txt">埼玉</span><span class="wrap_txt">千葉</span>の一都三県で、多数の害獣駆除サービスに対してフォローアップに努めてきた運営会社が、満を持して<span class="border_txt">2026年12月1日</span>より、同区域の害獣駆除にまつわる施工サービスを、一気通貫の形で提供開始しました。<br><br>地域ごと、害獣被害には特徴がありますが「まもりや駆除」では多種の害獣に対し、それぞれ専門的に対応しております。';
+    }
+
+    var startBottom = document.querySelector('.start_bottom_content p');
+    if (startBottom) {
+      startBottom.textContent = '迅速対応「まもりや駆除」は、これまでに年間2,000件以上の害獣駆除施工サポート実績を持ち、数多くの害獣被害を解決してきました。信頼と実績を積み重ね、様々なメディアからお声がけいただいております。';
+    }
+
+    var voiceItems = document.querySelectorAll('.voice_item');
+    var voiceCopy = [
+      {
+        title: '気づいた時には被害が拡大。<br><span>迅速な駆除</span>で静かな暮らしに',
+        body: '夜になると天井裏から走り回るような音がしていましたが、しばらく様子を見ていました。ところがネズミは短期間で増え、糞尿の臭いや天井板のシミ、台所の食品被害まで出るようになり、慌てて相談しました。担当の方は状況を丁寧に聞き取り、屋根裏をきれいに清掃したうえで侵入経路も封鎖してくれました。<br>作業後は屋根裏が静かになり、穏やかな日常が戻りました。これほど早く解決できるなら、もっと早くプロにお願いすればよかったと思います。'
+      },
+      {
+        title: '天井のシミを調べると、<br><span>ハクビシンの侵入</span>が判明',
+        body: 'これまでなかった天井のシミと屋根裏の気配が気になり、正体が分からないまま相談しました。すぐに来てくれたスタッフが調査したところ、原因はハクビシン。屋根裏には糞尿の塊も複数ありました。片付けと徹底した消毒に加え、特定した侵入経路もしっかり封鎖してもらいました。放置すれば天井板が腐り、抜け落ちるおそれもあったと聞き、早い段階で発見して駆除につなげられたことに安心しました。'
+      },
+      {
+        title: 'かゆみと刺された跡。<br>原因は<span>アライグマのノミ・ダニ</span>',
+        body: '屋根裏の物音をそのままにしていたところ、体のあちこちに刺されたような跡とかゆみが出て、不安になり相談しました。調査で分かった原因はアライグマです。アライグマは一匹で数千匹ものノミやダニを持ち、歩くだけでも周囲へ広げることがあると知り、ぞっとしました。荒らされた断熱材を交換し、ノミ・ダニの駆除と消毒まで対応してもらいました。異変に気づいた時点で、早く専門家へ相談するべきだったと感じています。'
+      }
+    ];
+    voiceItems.forEach(function (item, index) {
+      if (!voiceCopy[index]) return;
+      var title = item.querySelector('.voice_item_top p');
+      var body = item.querySelector('.voice_item_txt');
+      if (title) title.innerHTML = voiceCopy[index].title;
+      if (body) body.innerHTML = voiceCopy[index].body;
+    });
+
+    var addContents = document.querySelectorAll('.add_content');
+    var addIntroCopy = [
+      'ネズミは繁殖力が強く、短期間で数が増えるため、被害を広げないためには早めの対応が重要です。暗く静かで、食べ物や水を得やすい場所を好み、壁の隙間や床下、天井裏、屋根裏、物置のほか、キッチンや水回りにも住み着きます。建物へ侵入すると、食品を荒らすだけでなく電気配線をかじることがあり、サルモネラ菌やレプトスピラ菌などの病原菌を媒介する衛生上のリスクもあります。',
+      '都市部でも、コウモリは建物のわずかな隙間から入り込み、屋根裏や天井裏、壁の隙間、瓦の下、換気口、シャッターや戸袋など、暗く静かな場所に住み着くことがあります。蚊などを食べる益獣である一方、糞尿による悪臭や建物の傷み、病原菌を媒介するリスクもあります。特に糞に含まれるヒストプラズマ菌を吸い込むと、呼吸器系の疾患につながる可能性があります。住み着いた後に自力で対処することは難しく、追い出すだけでなく再侵入を防ぐ施工まで行うことが大切です。専門的な知識と技術をもとに、安全で確実な解決を目指します。',
+      '近年、トコジラミ（別名：ナンキンムシ）の被害は再び増え、一般家庭や宿泊施設で深刻な問題になっています。夜間に活動して人の血を吸い、かゆみや皮膚炎に加えて心理的なストレスを招くこともあります。小さく、隙間に隠れる性質があるため発見しにくく、放置すると短期間で繁殖するおそれがあります。被害を抑える鍵は、見つけた段階で速やかに対処することです。ここでは、基本知識、安全で効果的な駆除方法、費用、対応地域（東京・神奈川・千葉・埼玉）を順にご案内します。専門知識と経験を生かし、確実な駆除を行います。'
+    ];
+    addContents.forEach(function (content, index) {
+      if (!addIntroCopy[index]) return;
+      var intro = content.querySelector('.add_top_txt p');
+      if (intro) intro.textContent = addIntroCopy[index];
+    });
   }
 
   function enhance() {
@@ -271,6 +331,7 @@
     }
 
     applyLicensedStockImages();
+    applyContentRefresh();
   }
 
   if (document.readyState === 'loading') {
