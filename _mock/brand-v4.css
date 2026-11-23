@@ -305,12 +305,12 @@
   grid-template-columns: auto auto 1fr auto;
   align-items: center;
   gap: 18px;
-  padding: 18px 26px;
-  border: 1px solid var(--v4-line);
-  border-left: 6px solid var(--v4-accent);
-  border-radius: 14px;
-  background: var(--v4-white);
-  box-shadow: 0 9px 26px rgba(38, 59, 70, 0.12);
+  min-height: 220px;
+  padding: 50px 76px 46px;
+  border: 0;
+  border-radius: 20px;
+  background: url('/_mock/v4-campaign-assets/gift-card.png') center / 100% 100% no-repeat;
+  filter: drop-shadow(0 12px 18px rgba(38, 59, 70, 0.18));
 }
 
 .brand-v4 .v2-campaign-label {
@@ -990,8 +990,8 @@
   .brand-v4 .v2-campaign-card {
     grid-template-columns: 1fr auto;
     gap: 8px 12px;
-    padding: 13px 14px;
-    border-left-width: 4px;
+    min-height: 180px;
+    padding: 34px 34px 30px;
   }
 
   .brand-v4 .v2-campaign-label,
@@ -2982,6 +2982,26 @@
   width: 34%;
 }
 
+.brand-v4 .v4-declare-overlay-label {
+  position: absolute;
+  z-index: 3;
+  right: 5%;
+  bottom: 35%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 12px 6px;
+  border: 2px solid #fff;
+  border-radius: 999px;
+  background: var(--v4-accent);
+  box-shadow: 0 5px 12px rgba(26, 55, 51, 0.22);
+  color: #fff;
+  font-size: clamp(13px, 1.2vw, 18px);
+  font-weight: 900;
+  line-height: 1;
+  white-space: nowrap;
+}
+
 @media screen and (max-width: 600px) {
   .brand-v4 .v4-declare-media {
     border-radius: 14px;
@@ -2993,6 +3013,13 @@
 
   .brand-v4 .v4-declare-overlay.is-stopwatch {
     width: 36%;
+  }
+
+  .brand-v4 .v4-declare-overlay-label {
+    right: 4%;
+    bottom: 37%;
+    padding: 5px 8px 4px;
+    font-size: 11px;
   }
 }
 
