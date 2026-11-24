@@ -1,23 +1,21 @@
 /*
  * 迅速対応まもりや駆除：本番環境設定
  * ------------------------------------------------------------
- * ・計測は既定でOFF。自社で発行した計測IDが確定するまで外部送信しない。
- * ・本番で計測する場合は、自社で発行したIDだけをここに設定し、
- *   ANALYTICS_ENABLED を true、ALLOWED_HOSTS に本番ホスト名を入れる。
- * ・本番では ANALYTICS_ENABLED、ALLOWED_HOSTS、各計測IDを更新する。
+ * ・自社発行のGTMコンテナを公開ホストでのみ読み込む。
+ * ・ローカル環境や許可していないホストでは外部送信しない。
  */
 window.MOCK_CONFIG = {
-  ANALYTICS_ENABLED: false,
+  ANALYTICS_ENABLED: true,
 
   // 本番用ID（空欄のままなら何も読み込まない）
-  GTM_PRIMARY_ID: '',      // 例: 'GTM-XXXXXXX'
+  GTM_PRIMARY_ID: 'GTM-KQGQ6PK3',
   GTM_SECONDARY_ID: '',    // 2コンテナ構成が本当に必要な場合のみ
   GOOGLE_ADS_ID: '',       // 例: 'AW-XXXXXXXXXX'（GTM内で設定するなら空欄）
   GOOGLE_ADS_PHONE_CONVERSION_NUMBER: '', // 電話番号置換を使う場合のみ
   GA4_MEASUREMENT_ID: '',  // 例: 'G-XXXXXXXXXX'（GTM内で設定するなら空欄）
 
   // タグを読み込んでよいホスト名。空配列なら、どのホストでも読み込まない。
-  ALLOWED_HOSTS: [],
+  ALLOWED_HOSTS: ['kyamad.github.io'],
 
   // 連絡先（正式なLINE URLが確定したら更新）
   PHONE_NUMBER: '0120-000-000',

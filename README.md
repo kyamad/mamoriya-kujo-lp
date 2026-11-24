@@ -14,7 +14,7 @@ URLパラメータは不要です。採用済みデザインと表示修正は�
 
 ## 計測設定
 
-計測は初期状態で無効です。`/_mock/config.js` に自社で発行したIDと本番ホスト名を設定するまで、GTM・Google広告・GA4の外部スクリプトは読み込まれません。
+GTMコンテナ `GTM-KQGQ6PK3` は、公開ホスト `kyamad.github.io` でのみ読み込まれます。ローカル環境や許可していないホストでは、GTM・Google広告・GA4の外部スクリプトは読み込まれません。設定は `/_mock/config.js` で管理します。
 
 - `ANALYTICS_ENABLED`
 - `ALLOWED_HOSTS`
