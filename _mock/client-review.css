@@ -149,6 +149,15 @@
   background: rgba(255, 255, 255, .97);
 }
 
+/* The original feature panel intentionally overlapped the old hero. Once the
+   pest ticker sits between them that negative margin makes both sections
+   collide, so restore normal flow and keep a clear visual gap. */
+.client-review.brand-v4 .v4-top-features {
+  margin-top: 0 !important;
+  padding-top: 32px !important;
+  background: #fff !important;
+}
+
 .client-review .review-pest-label {
   position: relative;
   z-index: 2;
@@ -355,7 +364,7 @@
   height: 100%;
   grid-column: 2;
   grid-row: 1;
-  background: #d9ebe7 url('/_mock/v4-top-assets/mamoriya_hero.png') 66% center / auto 92% no-repeat;
+  background: #d9ebe7 url('/_mock/v4-top-assets/mamoriya_hero.png') right center / auto 78% no-repeat;
 }
 
 .client-review.review-c.brand-v4 .v4-hero-tel { box-shadow: 0 8px 0 #8f2d10; }
@@ -384,6 +393,12 @@
   .client-review .review-pest-label { min-width: 86px; padding: 0 10px; font-size: 12px; }
   .client-review .review-pest-item { min-width: 154px; padding-right: 10px; gap: 8px; font-size: 13px; }
   .client-review .review-pest-item img { width: 56px; height: 56px; border-radius: 9px; }
+
+  .client-review.brand-v4 .v4-top-features {
+    margin-top: 0 !important;
+    padding-top: 20px !important;
+    background: #fff !important;
+  }
 
   .client-review.review-a.brand-v4 .fv { background: #edf4f6; }
   .client-review.review-a.brand-v4 .fv::before { content: none; }
