@@ -1,0 +1,443 @@
+/* Client feedback pass: shared fixes plus three clearly different first views. */
+.client-review {
+  --review-deep: #123f3d;
+  --review-teal: #2f6f67;
+  --review-orange: #e95b2a;
+  --review-paper: #f4faf8;
+}
+
+/* Shared: real photographs throughout the animal cards. */
+.client-review.brand-v4 .v3-example-card img,
+.client-review.brand-v4.animal-illustration-preview .v3-example-card img {
+  background: #e8eeeb;
+  object-fit: cover;
+}
+
+/* Shared: the section heading must stay on one line, including mobile. */
+.client-review.brand-v4 .example_heading_txt {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+}
+
+/* Shared: repair low-contrast headings. */
+.client-review.brand-v4 .evaluation_heading .v2-section-heading {
+  display: grid;
+  width: min(92vw, 900px);
+  margin: 0 auto 30px;
+  justify-items: center;
+  text-align: center;
+}
+
+.client-review.brand-v4 .evaluation_heading .v2-section-heading > span {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--review-teal);
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.client-review.brand-v4 .evaluation_heading .v2-section-heading h2 {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(28px, 3vw, 42px);
+  font-weight: 900;
+  line-height: 1.35;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, .34);
+}
+
+.client-review.brand-v4 .v4-symptom-heading span {
+  color: #d7eee8;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.client-review.brand-v4 .v4-symptom-heading h2 {
+  font-size: clamp(27px, 2.4vw, 36px);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, .28);
+}
+
+/* Shared: remove the busy photo behind the mouse-growth explanation. */
+.client-review.brand-v4 .trouble_bottom {
+  position: relative;
+  background-color: #edf7f4;
+  background-image: linear-gradient(135deg, rgba(47, 111, 103, .055) 25%, transparent 25%, transparent 50%, rgba(47, 111, 103, .055) 50%, rgba(47, 111, 103, .055) 75%, transparent 75%, transparent);
+  background-size: 28px 28px;
+}
+
+.client-review.brand-v4 .trouble_bottom_txt {
+  color: #29484a;
+  text-shadow: none;
+}
+
+/* Shared: notebook lines never cross the review copy. */
+.client-review.brand-v4 .voice_item {
+  border: 1px solid #d7e6e2;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(30, 75, 69, .09);
+}
+
+.client-review.brand-v4 .voice_item_txt {
+  padding: 0;
+  background: none;
+}
+
+/* Shared: pest-detail accordion. */
+.client-review.brand-v4 .add_content {
+  overflow: hidden;
+  border: 1px solid #d2e3df;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 12px 32px rgba(30, 75, 69, .08);
+}
+
+.client-review.brand-v4 .add_top_txt.is-clamped p {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.client-review.brand-v4 .review-details-toggle {
+  display: flex;
+  width: min(92%, 560px);
+  min-height: 56px;
+  margin: 22px auto 32px;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border: 2px solid var(--review-teal);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--review-deep);
+  font-size: 17px;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 0 6px 0 #d1e3df;
+}
+
+.client-review.brand-v4 .review-details-toggle:hover {
+  background: #eef8f5;
+}
+
+.client-review.brand-v4 .review-details-toggle i {
+  font-size: 24px;
+  font-style: normal;
+  line-height: 1;
+}
+
+.client-review.brand-v4 .add_list[hidden] {
+  display: none !important;
+}
+
+/* Shared: photo ticker directly after the first-view message. */
+.client-review .review-pest-ticker {
+  position: relative;
+  z-index: 8;
+  display: flex;
+  width: 100%;
+  min-height: 92px;
+  align-items: center;
+  overflow: hidden;
+  border-top: 1px solid rgba(47, 111, 103, .22);
+  border-bottom: 1px solid rgba(47, 111, 103, .22);
+  background: rgba(255, 255, 255, .97);
+}
+
+.client-review .review-pest-label {
+  position: relative;
+  z-index: 2;
+  align-self: stretch;
+  display: grid;
+  min-width: 126px;
+  padding: 0 22px;
+  place-items: center;
+  background: var(--review-deep);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: .08em;
+}
+
+.client-review .review-pest-window {
+  min-width: 0;
+  flex: 1;
+  overflow: hidden;
+}
+
+.client-review .review-pest-track {
+  display: flex;
+  width: max-content;
+  gap: 12px;
+  animation: review-pest-scroll 32s linear infinite;
+}
+
+.client-review .review-pest-track:hover {
+  animation-play-state: paused;
+}
+
+.client-review .review-pest-item {
+  display: flex;
+  min-width: 190px;
+  padding: 8px 18px 8px 8px;
+  align-items: center;
+  gap: 12px;
+  color: var(--review-deep);
+  font-size: 15px;
+}
+
+.client-review .review-pest-item img {
+  width: 68px;
+  height: 68px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+@keyframes review-pest-scroll {
+  to { transform: translateX(calc(-50% - 6px)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .client-review .review-pest-track { animation: none; }
+}
+
+/* Approach A: copy-first split hero. */
+.client-review.review-a.brand-v4 .fv {
+  background-color: #edf4f6;
+  background-position: 92% center;
+  background-size: auto 76%;
+}
+
+.client-review.review-a.brand-v4 .fv::before {
+  background: linear-gradient(90deg, #edf4f6 0 51%, rgba(237, 244, 246, .94) 58%, rgba(237, 244, 246, .18) 76%);
+}
+
+.client-review.review-a.brand-v4 .fv_content {
+  min-height: 610px;
+  padding-top: 34px;
+  padding-bottom: 38px;
+}
+
+.client-review.review-a.brand-v4 .fv_txt {
+  width: 59%;
+}
+
+.client-review.review-a.brand-v4 .v2-hero-copy {
+  display: flex;
+  flex-direction: column;
+}
+
+.client-review.review-a.brand-v4 .v2-hero-copy h1 { order: -3; margin-top: 0; }
+.client-review.review-a.brand-v4 .v2-hero-kicker { order: -2; width: fit-content; margin: 18px 0 0; }
+.client-review.review-a.brand-v4 .v2-hero-copy > p { order: -1; }
+
+/* Approach B: centered editorial headline, art below the message. */
+.client-review.review-b.brand-v4 .fv {
+  background: linear-gradient(180deg, #f7fbfa 0 58%, #e4f1ed 58% 100%);
+}
+
+.client-review.review-b.brand-v4 .fv::before { content: none; }
+
+.client-review.review-b.brand-v4 .fv_content {
+  display: grid;
+  width: min(94vw, 1180px);
+  min-height: 830px;
+  padding: 34px 0 20px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 300px;
+}
+
+.client-review.review-b.brand-v4 .fv_txt {
+  width: 100%;
+  grid-row: 1;
+}
+
+.client-review.review-b.brand-v4 .v2-hero-copy {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.client-review.review-b.brand-v4 .v2-hero-copy h1 {
+  order: -3;
+  max-width: 1050px;
+  margin: 0;
+  font-size: clamp(58px, 6vw, 86px);
+  text-align: center;
+}
+
+.client-review.review-b.brand-v4 .v2-hero-copy h1 strong { display: inline-block; }
+.client-review.review-b.brand-v4 .v2-hero-kicker { order: -2; margin: 18px 0 0; }
+.client-review.review-b.brand-v4 .v2-hero-copy > p { order: -1; max-width: 820px; text-align: center; }
+.client-review.review-b.brand-v4 .v2-hero-trust { justify-content: center; }
+.client-review.review-b.brand-v4 .v4-hero-actions { justify-content: center; }
+.client-review.review-b.brand-v4 .v4-mobile-hero-art {
+  display: block;
+  width: min(620px, 72vw);
+  height: 300px;
+  margin: -12px auto 0;
+  grid-row: 2;
+  background: transparent url('/_mock/v4-top-assets/mamoriya_hero.png') center 32% / 100% auto no-repeat;
+}
+
+/* Approach C: urgent-action panel with a distinct image side. */
+.client-review.review-c.brand-v4 .fv {
+  padding: 34px 0 0;
+  background: #eef5f3;
+}
+
+.client-review.review-c.brand-v4 .fv::before { content: none; }
+
+.client-review.review-c.brand-v4 .fv_content {
+  display: grid;
+  width: min(94vw, 1240px);
+  min-height: 610px;
+  padding: 0;
+  grid-template-columns: 56% 44%;
+  overflow: hidden;
+  border-radius: 24px;
+  background: var(--review-deep);
+  box-shadow: 0 24px 58px rgba(18, 63, 61, .2);
+}
+
+.client-review.review-c.brand-v4 .fv_txt {
+  width: 100%;
+  padding: 48px 44px;
+  grid-column: 1;
+}
+
+.client-review.review-c.brand-v4 .v2-hero-copy {
+  display: flex;
+  flex-direction: column;
+}
+
+.client-review.review-c.brand-v4 .v2-hero-copy h1 {
+  order: -3;
+  margin: 0;
+  color: #fff;
+  font-size: clamp(50px, 4.7vw, 72px);
+  text-shadow: none;
+}
+
+.client-review.review-c.brand-v4 .v2-hero-kicker {
+  order: -2;
+  width: fit-content;
+  margin: 22px 0 0;
+  border-color: #a9d1c8;
+}
+
+.client-review.review-c.brand-v4 .v2-hero-copy > p {
+  order: -1;
+  color: #e7f3f0;
+}
+
+.client-review.review-c.brand-v4 .v2-hero-trust span {
+  width: auto;
+  height: auto;
+  min-height: 48px;
+  padding: 10px 15px;
+  border: 1px solid #8dbbb2;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, .08);
+  color: #fff;
+  box-shadow: none;
+}
+
+.client-review.review-c.brand-v4 .v4-mobile-hero-art {
+  display: block;
+  width: 100%;
+  height: 100%;
+  grid-column: 2;
+  grid-row: 1;
+  background: #d9ebe7 url('/_mock/v4-top-assets/mamoriya_hero.png') 66% center / auto 92% no-repeat;
+}
+
+.client-review.review-c.brand-v4 .v4-hero-tel { box-shadow: 0 8px 0 #8f2d10; }
+
+@media (max-width: 700px) {
+  .client-review.brand-v4 .example_heading_txt {
+    font-size: clamp(20px, 5.85vw, 27px);
+    letter-spacing: -.035em;
+  }
+
+  .client-review.brand-v4 .evaluation_heading .v2-section-heading h2 { font-size: 27px; }
+  .client-review.brand-v4 .v4-symptom-heading span { font-size: 14px; }
+  .client-review.brand-v4 .v4-symptom-heading h2 { font-size: 29px; }
+
+  .client-review.brand-v4 .voice_item {
+    width: 92vw;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 34px 22px;
+  }
+
+  .client-review.brand-v4 .add_content { width: 94vw; margin-right: auto; margin-left: auto; }
+  .client-review.brand-v4 .review-details-toggle { font-size: 16px; }
+
+  .client-review .review-pest-ticker { min-height: 78px; }
+  .client-review .review-pest-label { min-width: 86px; padding: 0 10px; font-size: 12px; }
+  .client-review .review-pest-item { min-width: 154px; padding-right: 10px; gap: 8px; font-size: 13px; }
+  .client-review .review-pest-item img { width: 56px; height: 56px; border-radius: 9px; }
+
+  .client-review.review-a.brand-v4 .fv { background: #edf4f6; }
+  .client-review.review-a.brand-v4 .fv::before { content: none; }
+  .client-review.review-a.brand-v4 .fv_content {
+    display: flex;
+    min-height: 0;
+    padding: 24px 4vw 30px;
+    flex-direction: column;
+  }
+  .client-review.review-a.brand-v4 .fv_txt { width: 100%; order: 1; }
+  .client-review.review-a.brand-v4 .v4-mobile-hero-art {
+    order: 2;
+    width: min(84vw, 430px);
+    height: 260px;
+    margin: 8px auto -6px;
+    background-position: center 28%;
+    background-size: 100% auto;
+  }
+  .client-review.review-a.brand-v4 .v2-hero-copy h1 { font-size: clamp(42px, 11.5vw, 54px); }
+
+  .client-review.review-b.brand-v4 .fv_content {
+    min-height: 0;
+    padding: 24px 4vw 20px;
+    grid-template-rows: auto 230px;
+  }
+  .client-review.review-b.brand-v4 .v2-hero-copy h1 {
+    width: 100%;
+    font-size: clamp(36px, 9.4vw, 44px);
+    line-height: 1.2;
+  }
+  .client-review.review-b.brand-v4 .v2-hero-copy h1 strong { display: table; margin-right: auto; margin-left: auto; }
+  .client-review.review-b.brand-v4 .v4-hero-actions { width: 100%; align-self: stretch; }
+  .client-review.review-b.brand-v4 .v4-hero-tel { min-width: 0; flex: 1 1 60%; }
+  .client-review.review-b.brand-v4 .v4-hero-line { min-width: 0; flex: 1 1 40%; }
+  .client-review.review-b.brand-v4 .v4-mobile-hero-art { width: 92vw; height: 240px; margin-top: 0; }
+
+  .client-review.review-c.brand-v4 .fv { padding-top: 14px; }
+  .client-review.review-c.brand-v4 .fv_content {
+    display: flex;
+    width: 94vw;
+    min-height: 0;
+    flex-direction: column;
+    border-radius: 18px;
+  }
+  .client-review.review-c.brand-v4 .fv_txt { order: 1; padding: 30px 22px 28px; }
+  .client-review.review-c.brand-v4 .v4-mobile-hero-art {
+    order: 2;
+    width: 100%;
+    height: 245px;
+    background-position: center 27%;
+    background-size: 94% auto;
+  }
+  .client-review.review-c.brand-v4 .v2-hero-copy h1 { font-size: clamp(41px, 10.8vw, 51px); }
+  .client-review.review-c.brand-v4 .v4-hero-actions { flex-direction: column; }
+  .client-review.review-c.brand-v4 .v4-hero-tel,
+  .client-review.review-c.brand-v4 .v4-hero-line { width: 100%; min-width: 0; }
+}

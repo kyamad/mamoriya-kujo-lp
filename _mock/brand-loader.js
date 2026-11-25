@@ -9,7 +9,7 @@
   var requestedTheme = 'v3';
   var theme = 'v4';
   var licensedStock = true;
-  var animalIllustrationPreview = true;
+  var animalIllustrationPreview = false;
 
   window.MOCK_BRAND_THEME = requestedTheme;
   window.MOCK_BRAND_IMPLEMENTATION_THEME = theme;
