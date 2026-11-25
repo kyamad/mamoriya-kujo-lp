@@ -47,7 +47,8 @@
       button.className = 'review-details-toggle';
       button.setAttribute('aria-controls', id);
       button.setAttribute('aria-expanded', 'false');
-      button.innerHTML = '<span>' + (title ? title.textContent.replace('について', '') : '詳しい内容') + 'を続きを読む</span><i aria-hidden="true">＋</i>';
+      var closedLabel = title ? title.textContent + '詳しく見る' : '詳しい内容を見る';
+      button.innerHTML = '<span>' + closedLabel + '</span><i aria-hidden="true">＋</i>';
       intro.insertAdjacentElement('afterend', button);
 
       button.addEventListener('click', function () {
@@ -56,7 +57,7 @@
         list.hidden = open;
         intro.classList.toggle('is-clamped', open);
         button.querySelector('span').textContent = open
-          ? (title ? title.textContent.replace('について', '') : '詳しい内容') + 'を続きを読む'
+          ? closedLabel
           : '詳細を閉じる';
         button.querySelector('i').textContent = open ? '＋' : '−';
       });

@@ -135,6 +135,13 @@
   display: none !important;
 }
 
+/* Preserve the guarantee condition's note style after removing the 30-day copy. */
+.client-review .guarantee_bottom > span {
+  font-size: 16px;
+  color: #a84f45;
+  text-align: center;
+}
+
 /* Shared: photo ticker directly after the first-view message. */
 .client-review .review-pest-ticker {
   position: relative;
@@ -241,6 +248,15 @@
   flex-direction: column;
 }
 
+.client-review.review-a.brand-v4 .v2-hero-copy h1 strong {
+  width: fit-content;
+  max-width: 100%;
+  padding-right: .22em;
+  padding-left: .22em;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
 .client-review.review-a.brand-v4 .v2-hero-copy h1 { order: -3; margin-top: 0; }
 .client-review.review-a.brand-v4 .v2-hero-kicker { order: -2; width: fit-content; margin: 18px 0 0; }
 .client-review.review-a.brand-v4 .v2-hero-copy > p { order: -1; }
@@ -248,13 +264,15 @@
 .client-review.review-a.brand-v4 .v4-mobile-hero-art {
   display: block;
   position: absolute;
-  top: 24px;
-  right: clamp(26px, 4.5vw, 76px);
-  bottom: 32px;
-  width: min(45vw, 590px);
+  top: 50%;
+  right: clamp(24px, 3.2vw, 52px);
+  bottom: auto;
+  width: min(40vw, 560px);
   height: auto;
-  /* Crop the large transparent/soft area built into the source artwork. */
-  background: transparent url('/_mock/v4-top-assets/mamoriya_hero.png') right center / auto 118% no-repeat;
+  aspect-ratio: 900 / 864;
+  transform: translateY(-50%);
+  /* Enlarge the subject by cropping only the source's empty left background. */
+  background: transparent url('/_mock/v4-top-assets/mamoriya_hero.png') right center / auto 100% no-repeat;
 }
 
 /* Approach B: centered editorial headline, art below the message. */
@@ -293,7 +311,7 @@
   text-align: center;
 }
 
-.client-review.review-b.brand-v4 .v2-hero-copy h1 strong { display: inline-block; }
+.client-review.review-b.brand-v4 .v2-hero-copy h1 strong { display: flex; }
 .client-review.review-b.brand-v4 .v2-hero-kicker { order: -2; margin: 18px 0 0; }
 .client-review.review-b.brand-v4 .v2-hero-copy > p { order: -1; max-width: 820px; text-align: center; }
 .client-review.review-b.brand-v4 .v2-hero-trust { justify-content: center; }
@@ -385,7 +403,7 @@
 .client-review.brand-v4 .v2-hero-copy h1 strong {
   display: flex;
   min-height: 1.42em;
-  padding: .08em .22em .13em;
+  padding: .18em .22em .03em;
   align-items: center;
   justify-content: center;
   line-height: 1;
@@ -436,6 +454,8 @@
   .client-review.review-a.brand-v4 .fv::before { content: none; }
   .client-review.review-a.brand-v4 .fv_content {
     display: flex;
+    width: 100%;
+    box-sizing: border-box;
     min-height: 0;
     padding: 24px 4vw 30px;
     flex-direction: column;
@@ -443,35 +463,71 @@
   .client-review.review-a.brand-v4 .fv_txt { width: 100%; order: 1; }
   .client-review.review-a.brand-v4 .v4-mobile-hero-art {
     position: static;
+    top: auto;
+    right: auto;
+    bottom: auto;
     order: 2;
     width: min(92vw, 430px);
-    height: 260px;
+    height: auto;
+    aspect-ratio: 16 / 9;
     margin: 8px auto -6px;
-    background-position: right center;
-    background-size: auto 138%;
+    transform: none;
+    background-position: center;
+    background-size: contain;
   }
   .client-review.review-a.brand-v4 .v2-hero-copy h1 { font-size: clamp(42px, 11.5vw, 54px); }
+  .client-review.review-a.brand-v4 .v2-hero-copy h1 strong {
+    width: fit-content;
+    max-width: calc(100% - 30px);
+    white-space: nowrap;
+    font-size: .88em;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: .22em;
+    padding-left: .22em;
+    align-self: center;
+  }
 
   .client-review.review-b.brand-v4 .fv_content {
+    width: 100%;
+    box-sizing: border-box;
     min-height: 0;
     padding: 24px 4vw 20px;
-    grid-template-rows: auto 230px;
+    grid-template-rows: auto auto;
+  }
+  .client-review.review-b.brand-v4 .fv_txt { width: 100%; justify-self: center; }
+  .client-review.review-b.brand-v4 .v2-hero-copy {
+    width: 100%;
+    align-items: center;
+    text-align: center;
   }
   .client-review.review-b.brand-v4 .v2-hero-copy h1 {
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     font-size: clamp(36px, 9.4vw, 44px);
     line-height: 1.2;
   }
-  .client-review.review-b.brand-v4 .v2-hero-copy h1 strong { display: flex; margin-right: auto; margin-left: auto; }
+  .client-review.review-b.brand-v4 .v2-hero-copy h1 strong {
+    display: flex;
+    width: fit-content;
+    max-width: calc(100% - 30px);
+    white-space: nowrap;
+    font-size: .9em;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+  }
   .client-review.review-b.brand-v4 .v4-hero-actions { width: 100%; align-self: stretch; }
   .client-review.review-b.brand-v4 .v4-hero-tel { min-width: 0; flex: 1 1 60%; }
   .client-review.review-b.brand-v4 .v4-hero-line { min-width: 0; flex: 1 1 40%; }
   .client-review.review-b.brand-v4 .v4-mobile-hero-art {
     width: min(92vw, 430px);
-    height: 240px;
+    height: auto;
+    aspect-ratio: 16 / 9;
     margin: 0 auto;
-    background-position: right center;
-    background-size: auto 138%;
+    background-position: center;
+    background-size: contain;
   }
 
   .client-review.review-c.brand-v4 .fv { padding-top: 14px; }
@@ -486,17 +542,41 @@
   .client-review.review-c.brand-v4 .v4-mobile-hero-art {
     order: 2;
     width: min(92vw, 430px);
-    height: 245px;
+    height: auto;
+    aspect-ratio: 16 / 9;
     margin-right: auto;
     margin-left: auto;
     background-color: #d9ebe7;
-    background-position: right center;
-    background-size: auto 138%;
+    background-position: center;
+    background-size: contain;
   }
   .client-review.review-c.brand-v4 .v2-hero-copy h1 { font-size: clamp(41px, 10.8vw, 51px); }
   .client-review.review-c.brand-v4 .v4-hero-actions { flex-direction: column; }
   .client-review.review-c.brand-v4 .v4-hero-tel,
   .client-review.review-c.brand-v4 .v4-hero-line { width: 100%; min-width: 0; }
+
+  /* Trim only the empty left background, then leave matching space on both
+     sides of the artwork (source content spans approximately x=690..1520). */
+  .client-review.review-a.brand-v4 .v4-mobile-hero-art,
+  .client-review.review-b.brand-v4 .v4-mobile-hero-art,
+  .client-review.review-c.brand-v4 .v4-mobile-hero-art {
+    width: 100%;
+    max-width: 430px;
+    height: auto;
+    aspect-ratio: 1189 / 864;
+    box-sizing: border-box;
+    background-color: #e6f1f6;
+    background-image: url('/_mock/v4-top-assets/mamoriya_hero.png'),
+      linear-gradient(#e3f0f4, #e6f1f6 12%, #e6f2f6 35%, #e6f1f6 80%, #e3eff4);
+    background-position: 150% center, center;
+    background-size: auto 100%, 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .client-review.brand-v4 .fv_txt,
+  .client-review.brand-v4 .v2-hero-kicker {
+    box-sizing: border-box;
+  }
 
   .client-review.brand-v4 .v4-hero-description {
     width: 100%;
