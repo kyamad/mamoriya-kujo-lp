@@ -264,7 +264,7 @@
     var heroMarkup = isImpactTheme
       ? '<span class="v2-hero-kicker">東京・神奈川・埼玉・千葉｜24時間365日受付</span>' +
         '<h1>害獣の侵入を、<strong>今日で止める。</strong></h1>' +
-        '<p>ネズミ・ハクビシン・コウモリなど、原因を調査し、駆除・清掃・消毒・侵入口の封鎖まで一貫して対応します。</p>' +
+        '<p class="v4-hero-description"><span>ネズミ・ハクビシン・コウモリなど、原因を調査し</span><span>駆除・清掃・消毒・侵入口の封鎖まで</span><span>一貫して対応します。</span></p>' +
         '<div class="v2-hero-trust"><span>現地調査0円</span><span>最短30分</span><span>再発防止保証</span></div>' +
         '<div class="v4-hero-actions"><a class="v4-hero-tel" href="tel:0120-000-000"><small>相談・見積り無料</small><strong>0120-000-000</strong></a><a class="v4-hero-line" href="https://lin.ee/" target="_blank" rel="noopener">LINEで相談</a></div>'
       : usesFocusedHero
@@ -343,7 +343,8 @@
         v3Examples.map(function (item) {
           var assetBase = animalIllustrationPreview ? '/_mock/v3-animal-illustrations/' : '/_mock/v3-assets/';
           var assetName = animalIllustrationPreview ? item[0].replace(/\.jpg$/, '.png') : item[0];
-          return '<figure class="v3-example-card"><img src="' + assetBase + assetName + '" alt="' + item[1] + '"><figcaption><strong>' + item[1] + '</strong><span>主な被害</span><p>' + item[2] + '</p></figcaption></figure>';
+          var assetRevision = animalIllustrationPreview ? '' : '?rev=20261125c';
+          return '<figure class="v3-example-card"><img src="' + assetBase + assetName + assetRevision + '" alt="' + item[1] + '"><figcaption><strong>' + item[1] + '</strong><span>主な被害</span><p>' + item[2] + '</p></figcaption></figure>';
         }).join(''));
     }
 

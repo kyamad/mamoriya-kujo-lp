@@ -218,15 +218,15 @@
 /* Approach A: copy-first split hero. */
 .client-review.review-a.brand-v4 .fv {
   background-color: #edf4f6;
-  background-position: 92% center;
-  background-size: auto 76%;
+  background-image: none;
 }
 
 .client-review.review-a.brand-v4 .fv::before {
-  background: linear-gradient(90deg, #edf4f6 0 51%, rgba(237, 244, 246, .94) 58%, rgba(237, 244, 246, .18) 76%);
+  content: none;
 }
 
 .client-review.review-a.brand-v4 .fv_content {
+  width: min(88vw, 1180px);
   min-height: 610px;
   padding-top: 34px;
   padding-bottom: 38px;
@@ -244,6 +244,18 @@
 .client-review.review-a.brand-v4 .v2-hero-copy h1 { order: -3; margin-top: 0; }
 .client-review.review-a.brand-v4 .v2-hero-kicker { order: -2; width: fit-content; margin: 18px 0 0; }
 .client-review.review-a.brand-v4 .v2-hero-copy > p { order: -1; }
+
+.client-review.review-a.brand-v4 .v4-mobile-hero-art {
+  display: block;
+  position: absolute;
+  top: 24px;
+  right: clamp(26px, 4.5vw, 76px);
+  bottom: 32px;
+  width: min(45vw, 590px);
+  height: auto;
+  /* Crop the large transparent/soft area built into the source artwork. */
+  background: transparent url('/_mock/v4-top-assets/mamoriya_hero.png') right center / auto 118% no-repeat;
+}
 
 /* Approach B: centered editorial headline, art below the message. */
 .client-review.review-b.brand-v4 .fv {
@@ -369,6 +381,26 @@
 
 .client-review.review-c.brand-v4 .v4-hero-tel { box-shadow: 0 8px 0 #8f2d10; }
 
+/* Keep the tilted headline label optically centred in every proposal. */
+.client-review.brand-v4 .v2-hero-copy h1 strong {
+  display: flex;
+  min-height: 1.42em;
+  padding: .08em .22em .13em;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-align: center;
+}
+
+.client-review.brand-v4 .v4-hero-description {
+  max-width: 720px;
+}
+
+.client-review.brand-v4 .v4-hero-description span {
+  display: block;
+  white-space: nowrap;
+}
+
 @media (max-width: 700px) {
   .client-review.brand-v4 .example_heading_txt {
     font-size: clamp(20px, 5.85vw, 27px);
@@ -410,12 +442,13 @@
   }
   .client-review.review-a.brand-v4 .fv_txt { width: 100%; order: 1; }
   .client-review.review-a.brand-v4 .v4-mobile-hero-art {
+    position: static;
     order: 2;
-    width: min(84vw, 430px);
+    width: min(92vw, 430px);
     height: 260px;
     margin: 8px auto -6px;
-    background-position: center 28%;
-    background-size: 100% auto;
+    background-position: right center;
+    background-size: auto 138%;
   }
   .client-review.review-a.brand-v4 .v2-hero-copy h1 { font-size: clamp(42px, 11.5vw, 54px); }
 
@@ -429,11 +462,17 @@
     font-size: clamp(36px, 9.4vw, 44px);
     line-height: 1.2;
   }
-  .client-review.review-b.brand-v4 .v2-hero-copy h1 strong { display: table; margin-right: auto; margin-left: auto; }
+  .client-review.review-b.brand-v4 .v2-hero-copy h1 strong { display: flex; margin-right: auto; margin-left: auto; }
   .client-review.review-b.brand-v4 .v4-hero-actions { width: 100%; align-self: stretch; }
   .client-review.review-b.brand-v4 .v4-hero-tel { min-width: 0; flex: 1 1 60%; }
   .client-review.review-b.brand-v4 .v4-hero-line { min-width: 0; flex: 1 1 40%; }
-  .client-review.review-b.brand-v4 .v4-mobile-hero-art { width: 92vw; height: 240px; margin-top: 0; }
+  .client-review.review-b.brand-v4 .v4-mobile-hero-art {
+    width: min(92vw, 430px);
+    height: 240px;
+    margin: 0 auto;
+    background-position: right center;
+    background-size: auto 138%;
+  }
 
   .client-review.review-c.brand-v4 .fv { padding-top: 14px; }
   .client-review.review-c.brand-v4 .fv_content {
@@ -446,13 +485,27 @@
   .client-review.review-c.brand-v4 .fv_txt { order: 1; padding: 30px 22px 28px; }
   .client-review.review-c.brand-v4 .v4-mobile-hero-art {
     order: 2;
-    width: 100%;
+    width: min(92vw, 430px);
     height: 245px;
-    background-position: center 27%;
-    background-size: 94% auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #d9ebe7;
+    background-position: right center;
+    background-size: auto 138%;
   }
   .client-review.review-c.brand-v4 .v2-hero-copy h1 { font-size: clamp(41px, 10.8vw, 51px); }
   .client-review.review-c.brand-v4 .v4-hero-actions { flex-direction: column; }
   .client-review.review-c.brand-v4 .v4-hero-tel,
   .client-review.review-c.brand-v4 .v4-hero-line { width: 100%; min-width: 0; }
+
+  .client-review.brand-v4 .v4-hero-description {
+    width: 100%;
+    max-width: none;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: clamp(11px, 3.25vw, 14px);
+    line-height: 1.75;
+    letter-spacing: 0;
+    text-align: center;
+  }
 }

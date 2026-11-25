@@ -16,7 +16,7 @@
       ['weasel.jpg', 'イタチ'],
       ['bedbug.jpg', 'トコジラミ']
     ].map(function (item) {
-      return '<span class="review-pest-item"><img src="/_mock/v3-assets/' + item[0] + '" alt=""><strong>' + item[1] + '</strong></span>';
+      return '<span class="review-pest-item"><img src="/_mock/v3-assets/' + item[0] + '?rev=20261125c" alt=""><strong>' + item[1] + '</strong></span>';
     }).join('');
   }
 
