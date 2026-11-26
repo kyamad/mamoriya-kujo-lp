@@ -72,9 +72,7 @@
   .review-d .d-estimate-phone span { font-size: 16px; }
 }
 /* Match section 2's outer edges on mobile only. */
-.review-d .d-estimate { padding-bottom: 16px; }
-.client-review.review-d.brand-v4 .d-estimate + .evaluation { padding-top: 24px; background-color: #000; }
 @media (max-width: 700px) {
   .review-d .d-estimate { padding-top: 8px; padding-left: 6px; padding-right: 6px; padding-bottom: 12px; }
-  .client-review.review-d.brand-v4 .d-estimate + .evaluation { padding-top: 16px; }
+  .client-review.review-d.brand-v4 .d-estimate + .evaluation { padding-top: 16px; background-color: #000; }
 }
