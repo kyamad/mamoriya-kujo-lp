@@ -13,7 +13,7 @@
 .d-return-reason > span:first-child { flex-shrink: 0; display: grid; place-items: center; width: 56px; height: 56px; border: 3px solid #23723b; border-radius: 50%; color: #23723b; font-size: 36px; }
 .d-return-reason b { color: #de421e; }
 .d-return-answer { position: relative; isolation: isolate; overflow: hidden; background: #eff3ee; padding: 34px; min-height: 280px; }
-.d-return-answer img { position: absolute; z-index: -1; right: 0; bottom: 0; width: 32%; height: 100%; object-fit: cover; object-position: center top; mask-image: linear-gradient(to right,transparent,#000 25%); }
+.d-return-answer img { position: absolute; z-index: -1; right: 0; bottom: 0; width: 44%; height: 100%; object-fit: cover; object-position: center bottom; mask-image: linear-gradient(to right,transparent,#000 25%); }
 .d-return-answer > div { max-width: 75%; }
 .d-return-answer p { font-size: 23px; line-height: 1.8; font-weight: 700; }
 .d-return-answer mark { background: linear-gradient(transparent 65%,#ffe779 65%); color: inherit; }
@@ -59,7 +59,7 @@
   .d-return-reason > span:first-child { width: 28px; height: 28px; font-size: 20px; border-width: 2px; }
   .d-desktop-break { display: none; }
   .d-return-answer { padding: 20px 12px; min-height: 190px; }
-  .d-return-answer img { width: 38%; opacity: .7; }
+  .d-return-answer img { width: 46%; opacity: 1; object-position: 48% bottom; }
   .d-return-answer > div { max-width: 85%; }
   .d-return-answer p { font-size: 15px; }
   .d-return-answer h4 { font-size: 23px; margin-top: 10px; }

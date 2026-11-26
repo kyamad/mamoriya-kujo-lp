@@ -21,10 +21,10 @@
         <div class="d-return-panel">
           <h3>駆除したのに、<strong>また戻ってくる？</strong></h3>
           <p class="d-return-reason"><span aria-hidden="true">✓</span><span>追い出しただけでは、残ったすき間から<br class="d-desktop-break"><b>再び侵入される可能性があります。</b><br>住み着いた原因まで調べることが大切です。</span></p>
-          <div class="d-return-answer"><img src="/_mock/adobe-stock/staff-495390612-preview.jpg" alt="専門スタッフ（イメージ）" loading="lazy"><div><p>再発を防ぐために、<br><mark>侵入経路を調査して封鎖。</mark></p><h4>専門家による<br><strong>対策が重要です。</strong></h4></div></div>
+          <div class="d-return-answer"><img src="/_mock/adobe-stock/staff-114098946-preview.jpg" alt="専門スタッフ（イメージ）" loading="lazy"><div><p>再発を防ぐために、<br><mark>侵入経路を調査して封鎖。</mark></p><h4>専門家による<br><strong>対策が重要です。</strong></h4></div></div>
         </div>
         <div class="d-damage-pests"><h3>対応害獣</h3><ul>${pests.map(function (p) { return '<li><img src="/_mock/v3-assets/' + p[0] + '.jpg" alt="" loading="lazy"><span>' + p[1] + '</span></li>'; }).join('')}</ul><p>ネズミ・コウモリ・イタチ・ハクビシン・アライグマなど<br><strong>さまざまな害獣に対応します。</strong></p></div>
-        <div class="d-damage-cases">${cases.map(function (c, i) { return '<article class="d-damage-case"><h3><span>0' + (i + 1) + '</span>' + c.title + '</h3><figure class="d-damage-photo"><img src="/_mock/adobe-stock/' + c.image + '-preview.jpg" alt="' + c.alt + '（イメージ）" loading="lazy"><div class="d-damage-tag"><b>' + c.warning + '</b><strong>' + c.risk + '</strong><span>どんな対策が必要？</span></div><figcaption><span>' + c.condition + '</span><strong>→ ' + c.action + '</strong></figcaption></figure></article>'; }).join('')}</div>
+        <div class="d-damage-cases">${cases.map(function (c, i) { return '<article class="d-damage-case"><h3><span>0' + (i + 1) + '</span>' + c.title + '</h3><figure class="d-damage-photo"><img src="/_mock/adobe-stock/' + c.image + '-preview.jpg" alt="' + c.alt + '（イメージ）" loading="lazy"><div class="d-damage-tag"><b>' + c.warning + '</b><strong>' + c.risk + '</strong><span>どんな対策が必要？</span></div><figcaption><span>' + c.condition + '</span><strong>' + c.action + '</strong></figcaption></figure></article>'; }).join('')}</div>
         <p class="d-damage-photo-note">※写真は被害や侵入箇所を説明するためのイメージです。</p>
         <div class="d-damage-closing"><p>少しでも気になることがあれば</p><span>害獣駆除・再発防止のご相談は</span><h3><strong>まもりや駆除</strong>に<br>お任せください。</h3></div>
       </div>`;

@@ -35,4 +35,4 @@
 | droppings-2254921801-preview.jpg | [Rodent feces and rat droppings scattered on wooden attic floor seen through rafters / eliyashevskiy / 2254921801](https://stock.adobe.com/jp/images/2254921801) |
 | wiring-543079019-preview.jpg | [Electrical extension cord wiring damage from mice / JJ Gouin / 543079019](https://stock.adobe.com/jp/images/543079019) |
 
-再侵入対策のスタッフ写真は既存495390612を再利用。透かし入り未購入プレビューです。
+再侵入対策のスタッフ写真は [指示する笑顔の作業員 / sunabesyou / 114098946](https://stock.adobe.com/jp/images/114098946) に差し替え（`staff-114098946-preview.jpg`）。2026-11-27に公式プレビューを取得。透かし入り未購入素材です。
