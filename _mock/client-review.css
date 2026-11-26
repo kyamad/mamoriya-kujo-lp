@@ -1,9 +1,62 @@
-/* Client feedback pass: shared fixes plus three clearly different first views. */
+/* Client feedback pass: three first views plus an existing-content D sequence. */
 .client-review {
   --review-deep: #123f3d;
   --review-teal: #2f6f67;
   --review-orange: #e95b2a;
   --review-paper: #f4faf8;
+}
+
+/* D: reuse approved content in the reference-inspired order. */
+.client-review.review-d .v4-top-features,
+.client-review.review-d .v4-symptom-band { display: none !important; }
+
+.client-review.review-d .review-d-guarantee {
+  padding: 44px 24px;
+  background: #123f3d;
+  color: #fff;
+}
+.client-review.review-d .review-d-guarantee-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.client-review.review-d .review-d-guarantee h2 {
+  margin: 0 0 12px;
+  font-size: clamp(24px, 3vw, 36px);
+  line-height: 1.5;
+  font-weight: 900;
+}
+.client-review.review-d .review-d-guarantee-note {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.client-review.review-d .review-d-contact {
+  width: min(100%, 720px);
+  margin: 28px auto 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+.client-review.review-d .review-d-contact > p {
+  margin: 0 0 14px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.client-review.review-d .review-d-contact .v4-hero-actions {
+  justify-content: center;
+  margin: 0;
+}
+.client-review.review-d .solution > .review-d-contact { padding: 0 24px 40px; }
+.client-review.review-d .review-d-growth { padding-top: 0; }
+
+@media (max-width: 700px) {
+  .client-review.review-d .review-d-guarantee { padding: 30px 20px; }
+  .client-review.review-d .review-d-contact .v4-hero-actions { flex-direction: column; }
+  .client-review.review-d .review-d-contact .v4-hero-tel,
+  .client-review.review-d .review-d-contact .v4-hero-line {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
 }
 
 /* Shared: real photographs throughout the animal cards. */

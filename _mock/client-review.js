@@ -4,8 +4,10 @@
 
   var params = new URLSearchParams(window.location.search);
   var requested = (params.get('approach') || 'a').toLowerCase();
-  var approach = ['a', 'b', 'c'].indexOf(requested) >= 0 ? requested : 'a';
+  var approach = ['a', 'b', 'c', 'd'].indexOf(requested) >= 0 ? requested : 'a';
   document.documentElement.classList.add('client-review', 'review-' + approach);
+  // D compares the content sequence while keeping the approved A hero.
+  if (approach === 'd') document.documentElement.classList.add('review-a');
 
   function pestItems() {
     return [
@@ -74,10 +76,75 @@
     });
   }
 
+  function arrangeExistingContent() {
+    if (approach !== 'd') return;
+    var main = document.querySelector('main');
+    if (!main || main.dataset.reviewDReady) return;
+    main.dataset.reviewDReady = 'true';
+
+    var actions = document.querySelector('.v4-hero-actions');
+    function addContact(target) {
+      if (!target || !actions) return;
+      var contact = document.createElement('div');
+      contact.className = 'review-d-contact';
+      var message = document.createElement('p');
+      message.textContent = 'まずは無料でご相談ください';
+      contact.appendChild(message);
+      contact.appendChild(actions.cloneNode(true));
+      target.appendChild(contact);
+    }
+
+    // The short opening guarantee reuses the existing promise and condition.
+    var guarantee = document.querySelector('.guarantee');
+    var brief = document.createElement('section');
+    brief.className = 'review-d-guarantee';
+    brief.setAttribute('aria-labelledby', 'review-d-guarantee-title');
+    var inner = document.createElement('div');
+    inner.className = 'review-d-guarantee-inner';
+    var heading = document.createElement('h2');
+    heading.id = 'review-d-guarantee-title';
+    heading.textContent = guarantee.querySelector('.guarantee_top').textContent;
+    inner.appendChild(heading);
+    var condition = document.createElement('p');
+    condition.className = 'review-d-guarantee-note';
+    condition.textContent = guarantee.querySelector('.guarantee_bottom').textContent.trim();
+    inner.appendChild(condition);
+    addContact(inner);
+    brief.appendChild(inner);
+
+    // Separate the symptoms from the later explanation of escalating damage.
+    var growth = document.createElement('section');
+    growth.className = 'trouble review-d-growth';
+    growth.setAttribute('aria-label', '害獣を放置した場合の繁殖リスク');
+    var growthWrap = document.createElement('div');
+    growthWrap.className = 'trouble_wrap';
+    var growthContent = document.querySelector('.trouble_bottom');
+    if (growthContent) growthWrap.appendChild(growthContent);
+    growth.appendChild(growthWrap);
+
+    var solution = document.querySelector('.solution');
+    addContact(solution);
+
+    // Missing source material (forms, case studies, comparisons) is omitted.
+    // Related existing content stays together instead of inventing new claims.
+    var order = [
+      document.querySelector('.fv'), brief,
+      document.querySelector('.evaluation'), document.querySelector('.trouble'),
+      solution, document.querySelector('.declare'), document.querySelector('.notice'),
+      growth, document.querySelector('.risk'), document.querySelector('.example:not(.v4-duplicate-section)'),
+      document.querySelector('.start'), document.querySelector('.voice'),
+      document.querySelector('.reasons'), guarantee,
+      document.querySelector('.flow'), document.querySelector('.qa'),
+      document.querySelector('.add'), document.querySelector('.campany')
+    ];
+    order.forEach(function (section) { if (section) main.appendChild(section); });
+  }
+
   function enhance() {
     addPestTicker();
     addAccordions();
     improveAccessibility();
+    arrangeExistingContent();
   }
 
   if (document.readyState === 'loading') {
