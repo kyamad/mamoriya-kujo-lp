@@ -101,15 +101,34 @@
     brief.setAttribute('aria-labelledby', 'review-d-guarantee-title');
     var inner = document.createElement('div');
     inner.className = 'review-d-guarantee-inner';
-    var heading = document.createElement('h2');
-    heading.id = 'review-d-guarantee-title';
-    heading.textContent = guarantee.querySelector('.guarantee_top').textContent;
-    inner.appendChild(heading);
+    inner.innerHTML = `
+      <div class="d-warranty-banner">
+        <img class="d-house-photo" src="/_mock/adobe-stock/house-80549115-preview.jpg" alt="青空の下の戸建て住宅（イメージ）" loading="lazy">
+        <div class="d-warranty-copy">
+          <p class="d-support-pill">相談から施工後まで、丁寧にサポート</p>
+          <h2 id="review-d-guarantee-title">対策工事後も安心の<span class="d-guarantee-main"><small>最長</small><b>10</b>年保証</span></h2>
+          <p class="d-warranty-message">まずは状況をお聞かせください。<br>施工後も、安心をサポートします。</p>
+        </div>
+        <div class="d-service-pills"><span>現地調査 <b>無料</b></span><span>見積もり <b>無料</b></span><span>施工後サポート</span></div>
+      </div>
+      <div class="d-call-banner">
+        <div class="d-operator-photo"><img src="/_mock/adobe-stock/operator-670251878-preview.jpg" alt="電話相談を受ける女性オペレーター（イメージ）" loading="lazy"><span class="d-consult-badge">相談だけでも<strong>OK!</strong></span></div>
+        <div class="d-call-copy"><p class="d-call-intro">少しでも不安を感じたら</p><h3><span>まずは</span><strong>お電話</strong>で<br>ご相談ください</h3><p class="d-call-free">現地調査・見積もり <strong>無料</strong></p><p class="d-call-area">東京・神奈川・埼玉・千葉に対応</p></div>
+        <a class="d-call-number"><span>通話<br>無料</span><strong></strong></a>
+        <p class="d-call-footer">24時間365日、ご相談を受け付けています</p>
+      </div>`;
     var condition = document.createElement('p');
     condition.className = 'review-d-guarantee-note';
     condition.textContent = guarantee.querySelector('.guarantee_bottom').textContent.trim();
-    inner.appendChild(condition);
-    addContact(inner);
+    inner.querySelector('.d-warranty-banner').appendChild(condition);
+    var sourcePhone = actions && actions.querySelector('a[href^="tel:"]');
+    var bannerPhone = inner.querySelector('.d-call-number');
+    if (sourcePhone) {
+      bannerPhone.href = sourcePhone.getAttribute('href');
+      var number = sourcePhone.textContent.match(/0[\d-]{9,}/);
+      bannerPhone.querySelector('strong').textContent = number ? number[0] : bannerPhone.href.replace('tel:', '');
+      bannerPhone.setAttribute('aria-label', '無料電話相談 ' + bannerPhone.querySelector('strong').textContent);
+    }
     brief.appendChild(inner);
 
     // Separate the symptoms from the later explanation of escalating damage.
