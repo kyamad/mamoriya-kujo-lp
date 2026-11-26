@@ -47,7 +47,7 @@
   .client-review.review-d.brand-v4 .fv_content { position: relative; isolation: isolate; overflow: hidden; }
   .client-review.review-d.brand-v4 .v4-mobile-hero-art {
     position: absolute;
-    top: 70px;
+    top: var(--d-hero-art-top, 70px);
     right: auto;
     bottom: auto;
     left: 50%;

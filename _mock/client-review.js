@@ -159,11 +159,44 @@
     order.forEach(function (section) { if (section) main.appendChild(section); });
   }
 
+  function alignMobileHeroArtwork() {
+    if (approach !== 'd') return;
+    var content = document.querySelector('.fv_content');
+    var artwork = content && content.querySelector('.v4-mobile-hero-art');
+    var circles = content && content.querySelector('.v2-hero-trust');
+    if (!artwork || !circles) return;
+    var pending = false;
+    function align() {
+      if (pending) return;
+      pending = true;
+      requestAnimationFrame(function () {
+        pending = false;
+        if (!window.matchMedia('(max-width: 700px)').matches) {
+          content.style.removeProperty('--d-hero-art-top');
+          return;
+        }
+        var bottom = Math.max.apply(null, Array.from(circles.children).map(function (circle) {
+          return circle.getBoundingClientRect().bottom;
+        }));
+        var top = bottom - content.getBoundingClientRect().top - artwork.getBoundingClientRect().height;
+        content.style.setProperty('--d-hero-art-top', top + 'px');
+      });
+    }
+    if ('ResizeObserver' in window) {
+      var observer = new ResizeObserver(align);
+      [content, artwork, circles].forEach(function (element) { observer.observe(element); });
+    }
+    window.addEventListener('resize', align);
+    if (document.fonts) document.fonts.ready.then(align);
+    align();
+  }
+
   function enhance() {
     addPestTicker();
     addAccordions();
     improveAccessibility();
     arrangeExistingContent();
+    alignMobileHeroArtwork();
   }
 
   if (document.readyState === 'loading') {
