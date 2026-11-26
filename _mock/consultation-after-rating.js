@@ -17,10 +17,10 @@
     section.firstElementChild.appendChild(original.cloneNode(true));
     service.insertAdjacentElement('afterend', section);
 
-    // Repeat only the proof-of-trust block and consultation after the four reasons.
-    var reasons = document.querySelector('.reasons');
+    // Repeat only the proof-of-trust block and consultation after the four reasons and recurrence warranty.
+    var warranty = document.querySelector('.guarantee');
     var proof = service.querySelector('.start_bottom');
-    if (reasons && proof && !document.getElementById('trust-after-reasons')) {
+    if (warranty && proof && !document.getElementById('trust-after-reasons')) {
       var repeatedProof = document.createElement('section');
       repeatedProof.id = 'trust-after-reasons';
       repeatedProof.className = 'start d-trust-repeat';
@@ -39,7 +39,7 @@
       repeatedContact.id = 'consultation-after-reasons';
       repeatedContact.setAttribute('aria-labelledby', 'd-reasons-consultation-title');
       repeatedContact.querySelector('h2').id = 'd-reasons-consultation-title';
-      reasons.insertAdjacentElement('afterend', repeatedProof);
+      warranty.insertAdjacentElement('afterend', repeatedProof);
       repeatedProof.insertAdjacentElement('afterend', repeatedContact);
     }
   }
