@@ -82,3 +82,12 @@
 .client-review.review-d.brand-v4 .review-d-reassurance { padding-top: 24px; }
 .client-review.review-d.brand-v4 .review-d-reassurance .risk_bottom { margin-top: 0; }
 .client-review.review-d .d-damage-guide { padding-bottom: 16px; }
+
+/* Tighten the consultation-to-animal-index transition, especially on phones. */
+.client-review.review-d.brand-v4 .review-d-reassurance { padding-bottom: 32px; }
+.client-review.review-d.brand-v4 .review-d-reassurance .risk_bottom_bubble { margin-bottom: 0; }
+.client-review.review-d.brand-v4 .review-d-reassurance + .example { padding-top: 32px; }
+@media (max-width: 700px) {
+  .client-review.review-d.brand-v4 .review-d-reassurance { padding-bottom: 12px; }
+  .client-review.review-d.brand-v4 .review-d-reassurance + .example { padding-top: 20px; }
+}
