@@ -1,7 +1,7 @@
 /* All rules are isolated to the D estimate section. */
 .review-d .d-estimate { padding: 48px 20px; background: #edf5f0; color: #183e2d; scroll-margin-top: 20px; font-family: "Noto Sans JP", sans-serif; }
 .review-d .d-estimate * { box-sizing: border-box; }
-.review-d .d-estimate-inner { max-width: 1000px; margin: auto; padding: 32px 40px; border: 3px solid #22553b; border-radius: 16px; background: #fff; box-shadow: 0 5px 0 #d5e3da; }
+.review-d .d-estimate-inner { max-width: 1000px; margin: auto; padding: 32px 40px; border: 0; border-radius: 16px; background: #fff; box-shadow: 0 5px 0 #d5e3da; }
 .review-d .d-estimate-header { text-align: center; }
 .review-d .d-estimate-header > p:first-child { display: inline-block; padding: 7px 28px; border-radius: 30px; background: #22553b; color: white; font-size: 16px; font-weight: 700; }
 .review-d .d-estimate h2 { margin: 12px 0 8px; padding: 0; background: none; font-size: 36px; line-height: 1.3; font-weight: 900; color: #22553b; }
@@ -44,7 +44,7 @@
 .review-d .d-estimate-phone small { font-size: 14px; }
 @media (max-width: 600px) {
   .review-d .d-estimate { padding: 28px 12px; }
-  .review-d .d-estimate-inner { padding: 22px 12px; border-width: 2px; border-radius: 10px; }
+  .review-d .d-estimate-inner { padding: 22px 12px; border-radius: 10px; }
   .review-d .d-estimate-header > p:first-child { padding: 6px 16px; font-size: 14px; }
   .review-d .d-estimate h2 { font-size: 27px; }
   .review-d .d-estimate h2 span { font-size: 46px; }
