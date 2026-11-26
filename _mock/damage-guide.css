@@ -12,13 +12,15 @@
 .d-return-reason { display: flex; align-items: center; gap: 24px; padding: 30px; font-size: 22px; font-weight: 700; line-height: 1.9; }
 .d-return-reason > span:first-child { flex-shrink: 0; display: grid; place-items: center; width: 56px; height: 56px; border: 3px solid #23723b; border-radius: 50%; color: #23723b; font-size: 36px; }
 .d-return-reason b { color: #de421e; }
-.d-return-answer { position: relative; isolation: isolate; overflow: hidden; background: #eff3ee; padding: 34px; min-height: 280px; }
-.d-return-answer img { position: absolute; z-index: -1; right: 0; bottom: 0; width: 44%; height: 100%; object-fit: cover; object-position: center bottom; mask-image: linear-gradient(to right,transparent,#000 25%); }
-.d-return-answer > div { max-width: 75%; }
-.d-return-answer p { font-size: 23px; line-height: 1.8; font-weight: 700; }
+/* Keep the portrait and copy on one proportional canvas at every width. */
+.d-return-answer { position: relative; isolation: isolate; overflow: hidden; container-type: inline-size; background: #eff3ee; padding: 32px; min-height: 320px; }
+.d-return-answer img { position: absolute; z-index: 0; right: -5%; bottom: 0; width: auto; max-width: none; height: 112%; aspect-ratio: 3 / 2; object-fit: contain; mix-blend-mode: multiply; -webkit-mask-image: linear-gradient(to right,transparent 0%,#000 35%); mask-image: linear-gradient(to right,transparent 0%,#000 35%); }
+.d-return-answer > div { position: relative; z-index: 1; max-width: none; }
+.d-return-answer p { font-size: clamp(21px,3cqw,28px); line-height: 1.7; font-weight: 700; }
 .d-return-answer mark { background: linear-gradient(transparent 65%,#ffe779 65%); color: inherit; }
-.d-return-answer h4 { margin-top: 14px; font-size: 36px; line-height: 1.5; }
-.d-return-answer h4 strong { border-bottom: 5px solid #de421e; }
+.d-return-answer h4 { margin-top: 24px; font-size: clamp(32px,5.6cqw,52px); line-height: 1.35; font-weight: 900; }
+.d-return-answer h4 strong { display: inline-block; white-space: nowrap; border-bottom: 6px solid #de421e; }
+.d-return-answer h4 span { display: inline-block; margin-left: 8px; font-size: .5em; white-space: nowrap; }
 .d-damage-pests { text-align: center; padding: 40px 0; }
 .d-damage-pests h3 { font-size: 28px; margin-bottom: 20px; }
 .d-damage-pests ul { display: grid; grid-template-columns: repeat(5,1fr); gap: 16px; max-width: 800px; margin: 0 auto 20px; padding: 0; list-style: none; }
@@ -58,11 +60,13 @@
   .d-return-reason { gap: 10px; padding: 18px 12px; font-size: 14px; }
   .d-return-reason > span:first-child { width: 28px; height: 28px; font-size: 20px; border-width: 2px; }
   .d-desktop-break { display: none; }
-  .d-return-answer { padding: 20px 12px; min-height: 190px; }
-  .d-return-answer img { width: 46%; opacity: 1; object-position: 48% bottom; }
-  .d-return-answer > div { max-width: 85%; }
-  .d-return-answer p { font-size: 15px; }
-  .d-return-answer h4 { font-size: 23px; margin-top: 10px; }
+  .d-return-answer { padding: 22px 12px; min-height: 0; aspect-ratio: 1.65; box-sizing: border-box; }
+  .d-return-answer img { width: 100%; height: auto; right: -26%; bottom: 0; -webkit-mask-image: linear-gradient(to right,transparent 0%,#000 38%); mask-image: linear-gradient(to right,transparent 0%,#000 38%); }
+  .d-return-answer > div { max-width: none; }
+  .d-return-answer p { font-size: clamp(13px,4.3cqw,23px); line-height: 1.7; white-space: nowrap; }
+  .d-return-answer h4 { font-size: clamp(21px,6.5cqw,36px); margin-top: 16px; line-height: 1.4; white-space: nowrap; }
+  .d-return-answer h4 strong { border-bottom-width: 4px; }
+  .d-return-answer h4 span { display: block; margin: 6px 0 0; font-size: .7em; }
   .d-damage-pests { padding: 28px 0; }
   .d-damage-pests h3 { font-size: 22px; margin-bottom: 14px; }
   .d-damage-pests ul { gap: 5px; margin-bottom: 14px; }
