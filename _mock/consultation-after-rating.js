@@ -1,11 +1,11 @@
-/* Repeat the approved consultation banner after the rating section in D. */
+/* Repeat the approved consultation banner after the service launch and media section in D. */
 (function () {
   'use strict';
   function mount() {
     if (!document.documentElement.classList.contains('review-d')) return;
-    var rating = document.querySelector('.evaluation');
+    var service = document.querySelector('.start');
     var original = document.querySelector('.review-d-guarantee .d-call-banner');
-    if (!rating || !original || document.getElementById('consultation-after-rating')) return;
+    if (!service || !original || document.getElementById('consultation-after-rating')) return;
     var section = document.createElement('section');
     section.id = 'consultation-after-rating';
     section.className = 'd-rating-consultation';
@@ -15,7 +15,7 @@
       <div class="d-consult-reception"><p><span aria-hidden="true">◷</span> <strong>24時間365日</strong>、お電話でのご相談を受付中</p><p>害獣の種類が分からなくても、<b>お気軽にご相談ください</b></p></div>
     </div>`;
     section.firstElementChild.appendChild(original.cloneNode(true));
-    rating.insertAdjacentElement('afterend', section);
+    service.insertAdjacentElement('afterend', section);
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mount);
   else mount();
