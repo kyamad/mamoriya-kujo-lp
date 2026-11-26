@@ -107,6 +107,8 @@
   justify-content: center;
   margin: 0;
 }
+/* D adds contact buttons here: extend the background through the entire section. */
+.client-review.review-d.brand-v4 .solution { background: #eaf5f2; }
 .client-review.review-d .solution > .review-d-contact { padding: 0 24px 40px; }
 .client-review.review-d .review-d-growth { padding-top: 0; }
 
