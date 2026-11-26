@@ -1,0 +1,25 @@
+.d-solution-mobile { display: none; }
+@media (max-width:700px) {
+  .client-review.review-d.brand-v4 .solution { padding: 0; }
+  .review-d .solution > .v4-solution-panel,
+  .review-d .solution > .review-d-contact { display: none; }
+  .review-d .d-solution-mobile { display:block; max-width:430px; margin:auto; padding:28px 20px; color:#173f3a; overflow:hidden; text-align:left; }
+  .d-solution-mobile * { box-sizing:border-box; }
+  .d-solution-head { position:relative; min-height:142px; padding-top:10px; }
+  .d-solution-portrait { position:absolute; width:190px; height:205px; right:-27px; top:-26px; object-fit:cover; object-position:55% top; opacity:.45; mask-image:linear-gradient(#000 85%,transparent); }
+  .d-solution-eyebrow { position:relative; z-index:1; font-size:12px; font-weight:800; letter-spacing:.06em; margin:0 0 10px; }
+  .review-d .d-solution-head h2 { position:relative; z-index:1; margin:0; padding:0; background:none; color:#173f3a; font-size:28px; font-weight:900; letter-spacing:-.06em; line-height:1.4; }
+  .review-d .d-solution-head h2 strong { color:#d84b1f; font-weight:900; }
+  .d-solution-intro { position:relative; font-size:14px; line-height:1.8; margin:11px 0 18px; }
+  .d-solution-steps { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:6px; margin:0; padding:0; list-style:none; }
+  .d-solution-steps li { padding:12px 3px; background:#fff; border:1px solid #d7e6e1; border-radius:9px; text-align:center; }
+  .d-solution-steps b { display:block; color:#d94f25; font-size:12px; margin-bottom:4px; }
+  .d-solution-steps span { font-size:12px; font-weight:800; }
+  .d-solution-actions { display:grid; gap:9px; margin-top:20px; }
+  .d-solution-phone { display:block; padding:11px 6px; background:#ef5a24; color:#fff; border-radius:12px; text-align:center; text-decoration:none; box-shadow:0 4px 0 #c94317; }
+  .d-solution-phone small { display:block; font-size:11px; font-weight:700; margin-bottom:1px; }
+  .d-solution-phone strong { font-family:Arial,sans-serif; font-size:30px; letter-spacing:.02em; }
+  .d-solution-line { display:block; padding:11px; color:#07803a; background:#fff; border:1.5px solid #16b65d; border-radius:10px; text-align:center; text-decoration:none; font-size:13px; font-weight:800; }
+  .d-solution-foot { margin:14px 0 0; font-size:11px; text-align:center; color:#56706a; }
+  .d-solution-mobile a:focus-visible { outline:3px solid #173f3a; outline-offset:4px; }
+}
