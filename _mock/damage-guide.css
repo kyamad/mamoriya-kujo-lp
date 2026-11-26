@@ -43,11 +43,6 @@
 .d-damage-photo figcaption span,.d-damage-photo figcaption strong { display: block; }
 .d-damage-photo figcaption strong { color: #d92317; font-size: 1.14em; }
 .d-damage-photo-note { padding: 10px 0; font-size: 13px; color: #52645a; }
-.d-damage-closing { margin-top: 24px; padding: 30px 20px; text-align: center; border-top: 4px solid #23723b; border-bottom: 4px solid #23723b; background: #f0f6e9; }
-.d-damage-closing p { font-size: 24px; font-weight: 900; margin-bottom: 10px; }
-.d-damage-closing > span { font-size: 19px; }
-.d-damage-closing h3 { font-size: 30px; line-height: 1.6; margin-top: 8px; }
-.d-damage-closing h3 strong { font-size: 1.4em; color: #23723b; }
 @media (max-width: 700px) {
   .client-review.review-d.brand-v4 .declare { padding-top: 10pt; }
   .client-review.review-d .d-damage-guide { padding: 30px 10px; }
@@ -81,8 +76,9 @@
   .d-damage-photo figcaption { bottom: 6px; padding: 6px 4px; font-size: clamp(12px,3.5vw,16px); border-width: 2px; }
   .d-damage-photo figcaption strong { font-size: 1em; }
   .d-damage-photo-note { font-size: 11px; }
-  .d-damage-closing { margin-top: 18px; padding: 22px 10px; }
-  .d-damage-closing p { font-size: 17px; }
-  .d-damage-closing > span { font-size: 14px; }
-  .d-damage-closing h3 { font-size: 23px; }
 }
+
+/* The retained consultation follows the last damage example without the old risk list. */
+.client-review.review-d.brand-v4 .review-d-reassurance { padding-top: 24px; }
+.client-review.review-d.brand-v4 .review-d-reassurance .risk_bottom { margin-top: 0; }
+.client-review.review-d .d-damage-guide { padding-bottom: 16px; }

@@ -131,15 +131,14 @@
     }
     brief.appendChild(inner);
 
-    // Separate the symptoms from the later explanation of escalating damage.
-    var growth = document.createElement('section');
-    growth.className = 'trouble review-d-growth';
-    growth.setAttribute('aria-label', '害獣を放置した場合の繁殖リスク');
-    var growthWrap = document.createElement('div');
-    growthWrap.className = 'trouble_wrap';
+    // D now explains damage in the photo guide; retain only the existing consultation.
     var growthContent = document.querySelector('.trouble_bottom');
-    if (growthContent) growthWrap.appendChild(growthContent);
-    growth.appendChild(growthWrap);
+    if (growthContent) growthContent.remove();
+    var risk = document.querySelector('.risk');
+    if (risk) {
+      risk.classList.add('review-d-reassurance');
+      risk.querySelectorAll('.risk_heading, .risk_title, .risk_list, .risk_effect_top, .risk_effect_bottom').forEach(function (element) { element.remove(); });
+    }
 
     var solution = document.querySelector('.solution');
     addContact(solution);
@@ -150,7 +149,7 @@
       document.querySelector('.fv'), brief,
       document.querySelector('.evaluation'), document.querySelector('.trouble'),
       solution, document.querySelector('.declare'), document.querySelector('.notice'),
-      growth, document.querySelector('.risk'), document.querySelector('.example:not(.v4-duplicate-section)'),
+      risk, document.querySelector('.example:not(.v4-duplicate-section)'),
       document.querySelector('.start'), document.querySelector('.voice'),
       document.querySelector('.reasons'), guarantee,
       document.querySelector('.flow'), document.querySelector('.qa'),
