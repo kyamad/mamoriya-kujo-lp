@@ -1,0 +1,77 @@
+/* All rules are isolated to the D estimate section. */
+.review-d .d-estimate { padding: 48px 20px; background: #edf5f0; color: #183e2d; scroll-margin-top: 20px; font-family: "Noto Sans JP", sans-serif; }
+.review-d .d-estimate * { box-sizing: border-box; }
+.review-d .d-estimate-inner { max-width: 1000px; margin: auto; padding: 32px 40px; border: 0; border-radius: 16px; background: #fff; box-shadow: 0 5px 0 #d5e3da; }
+.review-d .d-estimate-header { text-align: center; }
+.review-d .d-estimate-header > p:first-child { display: inline-block; padding: 7px 28px; border-radius: 30px; background: #22553b; color: white; font-size: 16px; font-weight: 700; }
+.review-d .d-estimate h2 { margin: 12px 0 8px; padding: 0; background: none; font-size: 36px; line-height: 1.3; font-weight: 900; color: #22553b; }
+.review-d .d-estimate h2 span { color: #e86a23; font-size: 62px; margin: 0 6px; }
+.review-d .d-estimate-sub { font-size: 16px; }
+.review-d .d-estimate-mobile { display: none; }
+.review-d .d-estimate-progress { display: flex; gap: 8px; padding: 0; margin: 24px 0; list-style: none; }
+.review-d .d-estimate-progress li { flex: 1; padding: 10px 4px; border-radius: 5px; background: #edf1ee; text-align: center; font-size: 14px; font-weight: 700; }
+.review-d .d-estimate-progress [aria-current] { color: white; background: #22553b; }
+.review-d .d-estimate-question { display: flex; align-items: center; gap: 20px; margin-bottom: 20px; }
+.review-d .d-estimate-question > img { flex-shrink: 0; width: 96px; height: 96px; border-radius: 50%; object-fit: cover; object-position: 60% 30%; border: 3px solid #dce8df; }
+.review-d .d-estimate h3 { flex: 1; padding: 20px; margin: 0; border: 1px solid #d7e4db; border-radius: 10px; font-size: 25px; line-height: 1.5; font-weight: 800; background: #f8fbf9; color: #183e2d; }
+.review-d .d-estimate-panel { text-align: center; }
+.review-d .d-estimate [hidden] { display: none !important; }
+.review-d .d-estimate-step { margin-bottom: 12px; font-size: 14px; color: #617367; }
+.review-d .d-estimate-animals { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.review-d .d-estimate button { cursor: pointer; font: inherit; color: inherit; }
+.review-d .d-estimate-animals button, .review-d .d-estimate-homes button { display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 12px 8px; border: 2px solid #d9b864; border-radius: 8px; background: #fff; font-size: 17px; font-weight: 700; box-shadow: 0 3px 0 #f1e8d3; }
+.review-d .d-estimate-animals button:hover, .review-d .d-estimate-homes button:hover { background: #fff6df; border-color: #bd8622; }
+.review-d .d-estimate :focus-visible { outline: 3px solid #e86a23; outline-offset: 4px; }
+.review-d .d-estimate-animals img { width: 100%; height: 94px; object-fit: contain; margin-bottom: 8px; }
+.review-d .d-estimate-unknown { height: 94px; margin-bottom: 8px; display: grid; place-items: center; font-size: 62px; color: #577563; }
+.review-d .d-estimate-homes { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 20px 0; }
+.review-d .d-estimate-homes button { min-height: 140px; gap: 10px; }
+.review-d .d-estimate-homes strong { font-size: 28px; }
+.review-d .d-estimate-homes span { font-size: 14px; font-weight: 400; }
+.review-d .d-estimate-selection { font-size: 16px; }
+.review-d .d-estimate-back { margin: 16px 12px 0; padding: 10px; border: 0; background: none; text-decoration: underline; font-size: 14px; }
+.review-d .d-estimate-campaign { display: inline-block; padding: 8px 24px; border-radius: 30px; color: #fff; background: #c74426; font-size: 20px; font-weight: 800; }
+.review-d .d-estimate-regular { margin-top: 14px; font-size: 18px; }
+.review-d .d-estimate-price { color: #c74426; font-size: 24px; font-weight: 800; line-height: 1.35; }
+.review-d .d-estimate-price strong { font-size: 70px; letter-spacing: -2px; }
+.review-d .d-estimate-note { margin-top: 12px; color: #526258; font-size: 13px; line-height: 1.7; }
+.review-d .d-estimate-talk { margin: 24px 0; padding: 20px; background: #fff7e2; border-radius: 10px; }
+.review-d .d-estimate-talk p { font-size: 16px; }
+.review-d .d-estimate blockquote { margin: 12px 0 0; font-size: 23px; line-height: 1.7; font-weight: 800; }
+.review-d .d-estimate-phone { display: flex; flex-direction: column; align-items: center; gap: 4px; max-width: 560px; padding: 18px 12px; margin: auto; border-radius: 10px; background: #c93a26; color: white; text-decoration: none; box-shadow: 0 4px 0 #9d2818; }
+.review-d .d-estimate-phone span { font-size: 18px; font-weight: 700; }
+.review-d .d-estimate-phone strong { font-size: 40px; line-height: 1.2; }
+.review-d .d-estimate-phone small { font-size: 14px; }
+@media (max-width: 600px) {
+  .review-d .d-estimate { padding: 28px 12px; }
+  .review-d .d-estimate-inner { padding: 22px 12px; border-radius: 10px; }
+  .review-d .d-estimate-header > p:first-child { padding: 6px 16px; font-size: 14px; }
+  .review-d .d-estimate h2 { font-size: 27px; }
+  .review-d .d-estimate h2 span { font-size: 46px; }
+  .review-d .d-estimate-mobile { display: block; }
+  .review-d .d-estimate-sub { font-size: 14px; }
+  .review-d .d-estimate-progress { gap: 4px; margin: 20px 0; }
+  .review-d .d-estimate-progress li { font-size: 12px; }
+  .review-d .d-estimate-question { gap: 10px; }
+  .review-d .d-estimate-question > img { width: 64px; height: 64px; }
+  .review-d .d-estimate h3 { padding: 12px; font-size: 18px; }
+  .review-d .d-estimate-animals { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .review-d .d-estimate-animals button { font-size: 14px; padding: 10px 3px; }
+  .review-d .d-estimate-animals img, .review-d .d-estimate-unknown { height: 66px; }
+  .review-d .d-estimate-unknown { font-size: 48px; }
+  .review-d .d-estimate-homes { gap: 8px; }
+  .review-d .d-estimate-homes strong { font-size: 24px; }
+  .review-d .d-estimate-homes span { font-size: 13px; }
+  .review-d .d-estimate-campaign { font-size: 18px; }
+  .review-d .d-estimate-price { font-size: 20px; }
+  .review-d .d-estimate-price strong { font-size: 58px; }
+  .review-d .d-estimate-talk { padding: 16px 12px; }
+  .review-d .d-estimate-talk p { font-size: 14px; }
+  .review-d .d-estimate blockquote { font-size: 19px; text-align: left; }
+  .review-d .d-estimate-phone strong { font-size: clamp(26px, 8vw, 36px); }
+  .review-d .d-estimate-phone span { font-size: 16px; }
+}
+/* Match section 2's outer edges on mobile only. */
+@media (max-width: 700px) {
+  .review-d .d-estimate { padding-top: 8px; padding-left: 6px; padding-right: 6px; }
+}
