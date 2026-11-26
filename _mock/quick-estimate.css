@@ -71,3 +71,7 @@
   .review-d .d-estimate-phone strong { font-size: clamp(26px, 8vw, 36px); }
   .review-d .d-estimate-phone span { font-size: 16px; }
 }
+/* Match section 2's outer edges on mobile only. */
+@media (max-width: 700px) {
+  .review-d .d-estimate { padding-left: 6px; padding-right: 6px; }
+}
