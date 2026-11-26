@@ -17,6 +17,22 @@
     section.firstElementChild.appendChild(original.cloneNode(true));
     service.insertAdjacentElement('afterend', section);
 
+    function repeatPhone(anchor, id, position) {
+      if (!anchor || document.getElementById(id)) return;
+      var contact = document.createElement('section');
+      contact.id = id;
+      contact.className = 'd-rating-consultation';
+      contact.setAttribute('aria-label', '24時間365日の電話相談');
+      var inner = document.createElement('div');
+      inner.className = 'd-rating-consultation-inner';
+      inner.appendChild(section.querySelector('.d-consult-reception').cloneNode(true));
+      inner.appendChild(original.cloneNode(true));
+      contact.appendChild(inner);
+      anchor.insertAdjacentElement(position, contact);
+    }
+    repeatPhone(document.querySelector('.flow'), 'consultation-after-flow', 'afterend');
+    repeatPhone(document.querySelector('.campany'), 'consultation-before-company', 'beforebegin');
+
     // Repeat only the proof-of-trust block and consultation after the four reasons and recurrence warranty.
     var warranty = document.querySelector('.guarantee');
     var proof = service.querySelector('.start_bottom');
