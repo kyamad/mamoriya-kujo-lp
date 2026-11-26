@@ -1,0 +1,21 @@
+/* Approved mobile consultation banner C. Desktop remains unchanged. */
+@media (max-width:700px) {
+
+.client-review.review-d .review-d-guarantee{padding:30px 6px}
+.review-d .d-call-banner{display:block;margin:18px 0 0;border-radius:20px;border:2px solid #29823a}
+.review-d .d-operator-photo{position:absolute;right:0;top:0;width:61%;height:350px;min-height:0;z-index:0}
+.review-d .d-operator-photo img{object-position:72% center;mask-image:linear-gradient(to right,transparent 0%,#000 48%);-webkit-mask-image:linear-gradient(to right,transparent 0%,#000 48%)}
+.review-d .d-call-copy{position:relative;z-index:1;padding:20px 14px 12px;height:350px;box-sizing:border-box;text-align:left}
+.review-d .d-call-intro{font-size:20px;margin:0 0 18px;line-height:1.35;font-weight:900;white-space:nowrap}
+.review-d .d-call-copy h3{width:82%;font-size:35px;line-height:1.12;letter-spacing:-1.6px;margin:0 0 20px;white-space:nowrap;text-shadow:0 1px 5px #fff,0 0 12px #fff}
+.review-d .d-call-copy h3 span{font-size:36px;line-height:1.12;display:block;margin-bottom:4px}
+.review-d .d-call-copy h3 strong{font-size:59px;letter-spacing:-2px;line-height:1.08}
+.review-d .d-call-free{font-size:17px;display:table;background:#ffffffc9;margin:0 0 9px;line-height:1.6}
+.review-d .d-call-area{font-size:12px;margin:0;padding:7px 10px;display:table}
+.review-d .d-consult-badge{text-align:center;bottom:10px;right:10px;width:78px;height:78px;z-index:2}
+.review-d .d-call-number{position:relative;margin:10px 8px;padding:10px 6px;gap:9px;background:#fff9ee}
+.review-d .d-call-number strong{font-size:clamp(27px,9.3vw,40px)}
+.review-d .d-call-number span{font-size:17px}
+.review-d .d-call-footer{position:relative;margin:0 8px 12px;font-size:13px}
+.review-d .d-call-copy{height:300px;padding:18px 14px 8px}.review-d .d-operator-photo{height:300px;width:56%}.review-d .d-call-intro{font-size:18px;margin-bottom:14px}.review-d .d-call-copy h3{font-size:34px;line-height:1.06;margin-bottom:17px}.review-d .d-call-copy h3 span{font-size:30px;line-height:1.05}.review-d .d-call-copy h3 strong{font-size:57px;line-height:1.05}.review-d .d-call-free{font-size:16px}.review-d .d-call-area{font-size:11px}.review-d .d-consult-badge{width:67px;height:67px;font-size:10px;right:6px;bottom:8px}.review-d .d-consult-badge strong{font-size:26px}
+}
