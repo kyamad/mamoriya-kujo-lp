@@ -163,8 +163,8 @@
     if (approach !== 'd') return;
     var content = document.querySelector('.fv_content');
     var artwork = content && content.querySelector('.v4-mobile-hero-art');
-    var circles = content && content.querySelector('.v2-hero-trust');
-    if (!artwork || !circles) return;
+    var phone = content && content.querySelector('.v4-hero-tel');
+    if (!artwork || !phone) return;
     var pending = false;
     function align() {
       if (pending) return;
@@ -175,16 +175,14 @@
           content.style.removeProperty('--d-hero-art-top');
           return;
         }
-        var bottom = Math.max.apply(null, Array.from(circles.children).map(function (circle) {
-          return circle.getBoundingClientRect().bottom;
-        }));
+        var bottom = phone.getBoundingClientRect().top;
         var top = bottom - content.getBoundingClientRect().top - artwork.getBoundingClientRect().height;
         content.style.setProperty('--d-hero-art-top', top + 'px');
       });
     }
     if ('ResizeObserver' in window) {
       var observer = new ResizeObserver(align);
-      [content, artwork, circles].forEach(function (element) { observer.observe(element); });
+      [content, artwork, phone].forEach(function (element) { observer.observe(element); });
     }
     window.addEventListener('resize', align);
     if (document.fonts) document.fonts.ready.then(align);
