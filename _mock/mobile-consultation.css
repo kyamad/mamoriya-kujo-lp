@@ -51,8 +51,9 @@
     right: auto;
     bottom: auto;
     left: 50%;
-    width: 112%;
-    max-width: 482px;
+    /* Keep the eyes above the description even on narrow phones. */
+    width: calc(50% + 310px);
+    max-width: 534px;
     height: auto;
     margin: 0;
     transform: translateX(-50%);
