@@ -17,3 +17,10 @@
   .d-consult-invitation h2 { font-size: clamp(19px,5.4vw,30px); line-height: 1.7; }
   .d-consult-reception { padding: 7px 5px; font-size: clamp(11px,3.1vw,16px); }
 }
+
+/* The repeat begins at the proof block, without the service-launch introduction. */
+.client-review.review-d .d-trust-repeat { padding-top: 32px; }
+.client-review.review-d .d-trust-repeat .start_bottom { margin-top: 0; }
+@media (max-width:700px) {
+  .client-review.review-d .d-trust-repeat { padding-top: 24px; }
+}

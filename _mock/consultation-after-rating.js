@@ -16,6 +16,32 @@
     </div>`;
     section.firstElementChild.appendChild(original.cloneNode(true));
     service.insertAdjacentElement('afterend', section);
+
+    // Repeat only the proof-of-trust block and consultation after the four reasons.
+    var reasons = document.querySelector('.reasons');
+    var proof = service.querySelector('.start_bottom');
+    if (reasons && proof && !document.getElementById('trust-after-reasons')) {
+      var repeatedProof = document.createElement('section');
+      repeatedProof.id = 'trust-after-reasons';
+      repeatedProof.className = 'start d-trust-repeat';
+      repeatedProof.setAttribute('aria-label', '信頼と実績の証');
+      var wrap = document.createElement('div');
+      wrap.className = 'start_wrap';
+      wrap.appendChild(proof.cloneNode(true));
+      repeatedProof.appendChild(wrap);
+      repeatedProof.querySelectorAll('img[data-src]').forEach(function (img) {
+        img.src = img.dataset.src;
+        img.removeAttribute('data-src');
+        img.classList.remove('lazyload');
+        img.loading = 'lazy';
+      });
+      var repeatedContact = section.cloneNode(true);
+      repeatedContact.id = 'consultation-after-reasons';
+      repeatedContact.setAttribute('aria-labelledby', 'd-reasons-consultation-title');
+      repeatedContact.querySelector('h2').id = 'd-reasons-consultation-title';
+      reasons.insertAdjacentElement('afterend', repeatedProof);
+      repeatedProof.insertAdjacentElement('afterend', repeatedContact);
+    }
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mount);
   else mount();
