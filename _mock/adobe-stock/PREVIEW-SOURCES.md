@@ -22,3 +22,17 @@
 
 - `staff-495390612-preview.jpg`: [男性 作業員 ポートレート 白背景 / siro46 / 495390612](https://stock.adobe.com/jp/images/495390612)
 - Adobe Stock公式プレビューから2026-11-27取得。透かし入り未購入素材。画像データは無加工、表示位置と透明度はCSSで指定。
+
+## キャンペーン直後・被害と再侵入対策
+
+2026-11-27、Adobe Stock公式「プレビューをダウンロード」から取得。
+画像原本は変更せず、`damage-guide.css`で写真上に注意点と対策のテキスト枠を配置。
+実際の施工事例と誤認しないよう、イメージ写真と明記しています。
+
+| ファイル | Adobe Stock素材・作者 |
+| --- | --- |
+| vent-1870492948-preview.jpg | [古い住宅基礎の通気口 / kelly marken / 1870492948](https://stock.adobe.com/jp/images/1870492948) |
+| droppings-2254921801-preview.jpg | [Rodent feces and rat droppings scattered on wooden attic floor seen through rafters / eliyashevskiy / 2254921801](https://stock.adobe.com/jp/images/2254921801) |
+| wiring-543079019-preview.jpg | [Electrical extension cord wiring damage from mice / JJ Gouin / 543079019](https://stock.adobe.com/jp/images/543079019) |
+
+再侵入対策のスタッフ写真は既存495390612を再利用。透かし入り未購入プレビューです。
