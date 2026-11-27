@@ -83,6 +83,12 @@
     if (!main || main.dataset.reviewDReady) return;
     main.dataset.reviewDReady = 'true';
 
+    // Preserve the blank first line while matching the approved survey wording.
+    var evaluationHeading = document.querySelector('.evaluation_heading > p');
+    if (evaluationHeading) evaluationHeading.innerHTML = '<br>インターネット調査に基づく<br class="pc_M_display">アンケート結果において';
+    var evaluationNote = document.querySelector('.evaluation_bottom');
+    if (evaluationNote) evaluationNote.innerHTML = '※インターネット調査機関の<br class="tab_display">インターネットアンケート結果による調査';
+
     var actions = document.querySelector('.v4-hero-actions');
     function addContact(target) {
       if (!target || !actions) return;
