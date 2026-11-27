@@ -4,10 +4,11 @@
 
   var params = new URLSearchParams(window.location.search);
   var requested = (params.get('approach') || 'a').toLowerCase();
-  var approach = ['a', 'b', 'c', 'd'].indexOf(requested) >= 0 ? requested : 'a';
+  var approach = ['a', 'b', 'c', 'd', 'e'].indexOf(requested) >= 0 ? requested : 'a';
   document.documentElement.classList.add('client-review', 'review-' + approach);
   // D compares the content sequence while keeping the approved A hero.
-  if (approach === 'd') document.documentElement.classList.add('review-a');
+  if (approach === 'd' || approach === 'e') document.documentElement.classList.add('review-a');
+  if (approach === 'e') document.documentElement.classList.add('review-d');
 
   function pestItems() {
     return [
@@ -77,7 +78,7 @@
   }
 
   function arrangeExistingContent() {
-    if (approach !== 'd') return;
+    if (approach !== 'd' && approach !== 'e') return;
     var main = document.querySelector('main');
     if (!main || main.dataset.reviewDReady) return;
     main.dataset.reviewDReady = 'true';
@@ -159,7 +160,7 @@
   }
 
   function alignMobileHeroArtwork() {
-    if (approach !== 'd') return;
+    if (approach !== 'd' && approach !== 'e') return;
     var content = document.querySelector('.fv_content');
     var artwork = content && content.querySelector('.v4-mobile-hero-art');
     var phone = content && content.querySelector('.v4-hero-tel');

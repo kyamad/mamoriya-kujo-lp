@@ -83,3 +83,15 @@ D案のお客様の声と選ばれる4つの理由の間に`#provider-comparison
 - `.campany`直前: 24時間受付帯＋電話相談 (`#consultation-before-company`) → 30秒見積もり相談 (`#quick-estimate-before-company`)
 
 見積もり相談は共通の生成関数から各インスタンスを作り、選択状態・イベント・見出しIDを独立させています。既存の冒頭見積もり相談も維持。
+
+### Approach E (feedback variant)
+
+Open `?approach=e`. D remains unchanged. E inherits D's approved visual components,
+then `_mock/approach-e.js` applies its own sequence and `_mock/approach-e.css` its scoped styles.
+
+- Hero with campaign basic fee → empathy checklist → solution.
+- Two phone banners (after service/rating proof and after the process) and one estimate guide (after FAQ).
+- One detailed warranty and one press/proof block; repeated versions removed.
+- Nine supported species match the existing full index across ticker, damage guide, estimate, and company information.
+- Four compact assurance icons; pricing explained as a pre-work estimate determined by damage and work scope.
+- No changes to approach D's sequence, copy, or styling.
