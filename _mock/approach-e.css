@@ -159,3 +159,13 @@
   .client-review.review-e.brand-v4 .reasons_title_num { width:42px; height:42px; display:grid; place-items:center; }
 }
 .client-review.review-e.brand-v4 .reasons_title_txt { background:transparent; border:0; }
+/* Reserve actual layout space for the proof bubble, including repeated panels. */
+.client-review.review-e.brand-v4 .start_bottom_bubble {
+  position:static;
+  display:block;
+  width:clamp(210px,23vw,300px);
+  max-width:85%;
+  height:auto;
+  margin:0 auto 26px;
+  transform:rotate(-8deg);
+}
