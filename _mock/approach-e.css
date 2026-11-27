@@ -7,19 +7,6 @@
 .review-e .e-hero-price strong { color:#e74e17; font-size:52px; font-weight:900; white-space:nowrap; }
 .review-e .e-hero-price small { font-size:25px; }
 .review-e .e-hero-price .e-price-note { font-size:12px; line-height:1.6; margin:0; font-weight:500; }
-.review-e .declare { padding:40px 20px; background:#eff6ed; }
-.review-e .e-assurance-inner { max-width:1100px; margin:auto; text-align:center; color:#19452e; }
-.review-e .e-assurance-inner h2 { margin:0 0 22px; font-size:32px; font-weight:800; }
-.review-e .e-assurance-inner h2 b { font-size:1.5em; color:#ee591f; }
-.review-e .e-assurance-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
-.review-e .e-assurance-grid > div { background:#fff; border:1px solid #b9d1bc; border-radius:12px; padding:18px 10px; }
-.review-e .e-assurance-grid svg { width:48px; height:48px; fill:none; stroke:#247738; stroke-width:2.5; stroke-linecap:round; stroke-linejoin:round; margin:auto auto 10px; }
-.review-e .e-assurance-grid h3 { font-size:18px; font-weight:800; margin:0 0 6px; }
-.review-e .e-assurance-grid p { font-size:14px; line-height:1.5; margin:0; }
-.review-e .e-assurance-note { font-size:12px; line-height:1.7; margin:16px 0 0; }
-.review-e .d-damage-pests ul { display:grid; grid-template-columns:repeat(9,minmax(0,1fr)); gap:12px; }
-.review-e .d-damage-pests li { width:auto; }
-.review-e .d-damage-pests li img { width:100%; }
 @media (max-width:700px) {
   .client-review.review-e.brand-v4 .solution + .evaluation { padding-top:16px; background-color:#000; }
   .review-e .d-solution-mobile { padding-bottom:16px; }
@@ -29,14 +16,4 @@
   .review-e .e-hero-price s { font-size:13px; }
   .review-e .e-hero-price strong { font-size:42px; }
   .review-e .e-hero-price small { font-size:22px; }
-  .review-e .declare { padding:24px 14px; }
-  .review-e .e-assurance-inner h2 { font-size:25px; margin-bottom:14px; }
-  .review-e .e-assurance-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
-  .review-e .e-assurance-grid > div { padding:14px 5px; }
-  .review-e .e-assurance-grid svg { width:38px; height:38px; margin-bottom:8px; }
-  .review-e .e-assurance-grid h3 { font-size:14px; }
-  .review-e .e-assurance-grid p { font-size:12px; }
-  .review-e .e-assurance-note { text-align:left; }
-  .review-e .d-damage-pests ul { grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; max-width:420px; margin:20px auto; }
-  .review-e .d-damage-pests li img { max-width:90px; }
 }

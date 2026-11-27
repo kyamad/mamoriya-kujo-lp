@@ -95,3 +95,7 @@ then `_mock/approach-e.js` applies its own sequence and `_mock/approach-e.css` i
 - Nine supported species match the existing full index across ticker, damage guide, estimate, and company information.
 - Four compact assurance icons; pricing explained as a pre-work estimate determined by damage and work scope.
 - No changes to approach D's sequence, copy, or styling.
+
+D now shares E's nine-species scope, clarified pricing, and compact assurance
+cards through `_mock/review-de-common.js` and `.css`. D's section order and
+repeated consultation blocks remain intact; E's rearrangement remains separate.
