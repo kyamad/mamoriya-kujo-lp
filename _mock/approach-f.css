@@ -1,0 +1,172 @@
+/* F preserves E at commit 2b219eb, including the proof-bubble spacing fix. */
+/* E advertising direction: deep green, vermilion, gold, dense framed compositions.
+   Section order, content, conditions, and interactions are inherited from D. */
+.client-review.review-f.brand-v4 { --e-green:#00553e; --e-orange:#ee4617; --e-gold:#e9b645; --e-ink:#102f28; }
+.client-review.review-f.brand-v4 body { background:#f2ead5; color:var(--e-ink); }
+.client-review.review-f.brand-v4 main > section { border-bottom:6px solid var(--e-green); }
+.client-review.review-f.brand-v4 .fv { background:radial-gradient(ellipse at 80% 35%,#fff 0%,#fff8dc 40%,#f8e7b4 100%); border-top:6px solid var(--e-gold); }
+.client-review.review-f.brand-v4 .fv h1 { text-shadow:3px 3px 0 #fff, -2px -2px 0 #fff; }
+.client-review.review-f.brand-v4 .fv h1 strong { background:linear-gradient(#ff6b13,#da3113); border:3px solid white; box-shadow:0 6px 0 #9e2915,0 10px 24px #6b340b33; }
+.client-review.review-f.brand-v4 .v2-hero-kicker { background:var(--e-green); color:white; border-color:#e2b748; box-shadow:0 3px 0 #ad8a2e; }
+.client-review.review-f.brand-v4 .v2-hero-trust > span { background:linear-gradient(135deg,#fff,#fff4ce); border-color:#c89527; box-shadow:0 5px 0 #b18636; color:var(--e-green); font-weight:900; }
+.client-review.review-f.brand-v4 .v4-hero-tel { background:linear-gradient(#ff641f,#e53e11); border:2px solid #fff; box-shadow:0 5px 0 #a82e12; }
+.client-review.review-f.brand-v4 .v4-hero-line { border:3px solid #029939; box-shadow:0 4px 0 #087a35; }
+.client-review.review-f.brand-v4 .review-pest-ticker { border-top:3px solid #d6ad41; border-bottom:3px solid #d6ad41; background:white; }
+.client-review.review-f.brand-v4 .review-d-guarantee,
+.client-review.review-f.brand-v4 .d-rating-consultation { background:repeating-linear-gradient(135deg,#fff8e0 0 12px,#fff2cd 12px 24px); padding:28px 24px; }
+.client-review.review-f.brand-v4 .d-warranty-banner { border:3px solid var(--e-gold); border-radius:12px; box-shadow:0 7px 0 #bd9339; background:#fffdf3; }
+.client-review.review-f.brand-v4 .d-support-pill { background:var(--e-green); color:white; border:2px solid #dbb441; }
+.client-review.review-f.brand-v4 .d-warranty-copy h2 { color:var(--e-green); font-weight:900; text-shadow:2px 2px 0 white; }
+.client-review.review-f.brand-v4 .d-guarantee-main { color:#ed4c0b; text-shadow:2px 3px 0 #ffe9b6; }
+.client-review.review-f.brand-v4 .d-service-pills > span { border:2px solid #cd9e35; border-radius:5px; background:#fff; }
+.client-review.review-f.brand-v4 .review-d-guarantee-note { background:#ffe481; color:#293428; }
+.client-review.review-f.brand-v4 .d-call-banner { border:4px solid var(--e-green); border-radius:12px; box-shadow:0 7px 0 #bd9339; background:#fff; }
+.client-review.review-f.brand-v4 .d-call-intro { display:table; border-bottom:4px dotted var(--e-green); padding-bottom:6px; font-weight:900; }
+.client-review.review-f.brand-v4 .d-call-copy h3 { font-weight:900; letter-spacing:-.055em; text-shadow:2px 2px 0 white,-2px -2px 0 white,0 0 12px white; }
+.client-review.review-f.brand-v4 .d-call-copy h3 strong { color:#f04410; }
+.client-review.review-f.brand-v4 .d-call-number { background:linear-gradient(#fff9e8,#ffefcc); border:2px solid #f05a21; box-shadow:0 3px 0 #e2a64c; }
+.client-review.review-f.brand-v4 .d-call-footer { background:var(--e-green); color:#fff; border-radius:4px; padding:8px; }
+.client-review.review-f.brand-v4 .d-consult-badge { background:#fffdd5; border:3px dashed #087742; }
+.client-review.review-f.brand-v4 .d-consult-invitation { border:3px solid var(--e-gold); border-radius:4px; box-shadow:0 5px 0 #d8b860; margin:0 0 18px; }
+.client-review.review-f.brand-v4 .d-consult-invitation h2 { line-height:1.45; }
+.client-review.review-f.brand-v4 .d-consult-reception { border:3px solid #ed5a1c; border-radius:4px; background:#fff; }
+.client-review.review-f.brand-v4 .d-estimate { background:#00553e; padding:32px 24px; }
+.client-review.review-f.brand-v4 .d-estimate-inner { border:4px solid #dcb24a; border-radius:8px; box-shadow:0 0 0 4px #fff,0 10px 0 #003b2b; background:linear-gradient(135deg,#fff,#fff8e2); padding:28px; }
+.client-review.review-f.brand-v4 .d-estimate-header > p:first-child { border-radius:4px; background:#00553e; color:#fff; }
+.client-review.review-f.brand-v4 .d-estimate h2 { font-size:42px; font-weight:900; text-shadow:2px 2px 0 #fff; }
+.client-review.review-f.brand-v4 .d-estimate h2 span { color:#ee4617; font-size:1.8em; }
+.client-review.review-f.brand-v4 .d-estimate-animals button { border:2px solid #ceaa49; border-radius:5px; box-shadow:0 4px 0 #e9d69c; }
+.client-review.review-f.brand-v4 .evaluation { background-color:#000; border-bottom-color:var(--e-gold); }
+.client-review.review-f.brand-v4 .trouble { background:repeating-linear-gradient(135deg,#fffbe9 0 14px,#fff5d5 14px 28px); padding-top:32px; padding-bottom:32px; }
+.client-review.review-f.brand-v4 .v2-simple-heading > span { background:var(--e-green); color:#fff; border-radius:3px; border:2px solid #d5ad43; padding:5px 15px; }
+.client-review.review-f.brand-v4 .v2-simple-heading h2 { color:var(--e-green); font-size:clamp(28px,3.7vw,50px); font-weight:900; line-height:1.3; text-shadow:2px 2px 0 #fff; }
+.client-review.review-f.brand-v4 .trouble_top_list { background:#fff; border:3px solid #cf9d35; border-radius:6px; padding:20px; box-shadow:0 7px 0 #debd6e; }
+.client-review.review-f.brand-v4 .trouble_top_item { border-bottom:2px dashed #d3b566; }
+.client-review.review-f.brand-v4 .solution { background:linear-gradient(120deg,#fff6c8,#fff); border-top:5px solid var(--e-gold); }
+.client-review.review-f.brand-v4 .v4-solution-panel { border:3px solid var(--e-green); border-radius:8px; background:#fffbed; box-shadow:7px 7px 0 #d9b046; }
+.client-review.review-f.brand-v4 .v4-solution-copy h2 { font-weight:900; text-shadow:2px 2px 0 white; }
+.client-review.review-f.brand-v4 .v4-solution-copy h2 strong { color:#ed4213; background:linear-gradient(transparent 75%,#ffe173 75%); }
+.client-review.review-f.brand-v4 .declare { background:linear-gradient(#fff6d6,#fbe6a8); padding:32px 20px; }
+.client-review.review-f.brand-v4 .e-assurance-inner h2 { font-weight:900; color:#00553e; text-shadow:2px 2px 0 white; }
+.client-review.review-f.brand-v4 .e-assurance-grid > div { border:3px solid #00553e; border-radius:5px; box-shadow:0 5px 0 #d2a840; }
+.client-review.review-f.brand-v4 .e-assurance-grid h3 { background:#00553e; color:white; padding:5px 2px; }
+.client-review.review-f.brand-v4 .notice { background:radial-gradient(ellipse,#fff3b0,#f9d864); padding-top:28px; padding-bottom:28px; }
+.client-review.review-f.brand-v4 .d-damage-guide { background:#fff7e4; padding-top:32px; padding-bottom:24px; }
+.client-review.review-f.brand-v4 .d-damage-intro { border:3px solid #00553e; border-radius:5px; background:white; padding:20px 10px; box-shadow:0 6px 0 #d7b45b; }
+.client-review.review-f.brand-v4 .d-damage-intro h2 { font-weight:900; line-height:1.35; }
+.client-review.review-f.brand-v4 .d-damage-intro em { color:#ec4016; background:linear-gradient(transparent 70%,#ffe174 70%); }
+.client-review.review-f.brand-v4 .d-return-panel { border:3px solid #00553e; border-radius:5px; box-shadow:0 5px 0 #c4a14a; }
+.client-review.review-f.brand-v4 .d-return-panel > h3 { background:#00553e; color:white; text-shadow:1px 2px 0 #002c20; }
+.client-review.review-f.brand-v4 .d-return-answer { background:linear-gradient(110deg,#fff0b6,#fff); }
+.client-review.review-f.brand-v4 .d-damage-case { border:3px solid #00553e; border-radius:5px; overflow:hidden; box-shadow:0 5px 0 #d4b151; background:#fff; }
+.client-review.review-f.brand-v4 .d-damage-case > h3 { margin:0; padding:12px; background:#00553e; color:white; font-weight:900; }
+.client-review.review-f.brand-v4 .d-damage-pests h3 { font-weight:900; color:#00553e; }
+.client-review.review-f.brand-v4 .risk { background:#fff1c9; }
+.client-review.review-f.brand-v4 .v2-risk-reassurance { border:3px solid var(--e-green); box-shadow:0 5px 0 #d4b151; background:#fff; border-radius:6px; }
+.client-review.review-f.brand-v4 .example { background:#fffdf5; padding-top:32px; padding-bottom:32px; }
+.client-review.review-f.brand-v4 .v3-example-card { border:2px solid #b18c34; border-radius:5px; box-shadow:0 4px 0 #e2ca8d; }
+.client-review.review-f.brand-v4 .v3-example-card figcaption strong { color:#00553e; }
+.client-review.review-f.brand-v4 .start { background:linear-gradient(135deg,#fff9df,#fff); padding-top:32px; padding-bottom:32px; }
+.client-review.review-f.brand-v4 .start_bottom { border:3px solid #c59b35; padding:24px 16px; background:#fffdf3; box-shadow:0 6px 0 #dbc173; }
+.client-review.review-f.brand-v4 .start_bottom_heading_txt { font-weight:900; }
+.client-review.review-f.brand-v4 .voice { background:#e5f0df; padding-top:32px; padding-bottom:32px; }
+.client-review.review-f.brand-v4 .voice_heading_main { font-weight:900; color:#00553e; text-shadow:2px 2px 0 #fff; }
+.client-review.review-f.brand-v4 .voice_item { border:3px solid #00553e; border-radius:5px; box-shadow:0 6px 0 #b6c59d; background:#fff; }
+.client-review.review-f.brand-v4 .voice_item_top p { font-weight:900; }
+.client-review.review-f.brand-v4 .d-comparison { background:#fff0bd; padding-top:32px; padding-bottom:32px; }
+.client-review.review-f.brand-v4 .d-comparison-heading h2 { color:#00553e; text-shadow:2px 2px 0 white; }
+.client-review.review-f.brand-v4 .d-comparison-track { border:3px solid #00553e; border-radius:5px; box-shadow:0 6px 0 #d0a842; }
+.client-review.review-f.brand-v4 .d-comparison-own { border-radius:4px; }
+.client-review.review-f.brand-v4 .d-comparison-tabs button { border:2px solid #00553e; border-radius:3px; }
+.client-review.review-f.brand-v4 .reasons { background:#fffdf1; padding-top:32px; padding-bottom:32px; }
+.client-review.review-f.brand-v4 .reasons_item { border:3px solid #00553e; border-radius:6px; background:white; box-shadow:0 6px 0 #d7b458; padding:20px; }
+.client-review.review-f.brand-v4 .reasons_title_txt { font-weight:900; color:#00553e; }
+.client-review.review-f.brand-v4 .guarantee { background:radial-gradient(ellipse at 65% 40%,#fffef1,#f5dd8e); border-top:5px solid #d4aa40; }
+.client-review.review-f.brand-v4 .guarantee_bottom { background:#fffbe7; border:2px solid #b99a43; }
+.client-review.review-f.brand-v4 .flow { background:#e7efdf; padding-top:32px; padding-bottom:32px; }
+.client-review.review-f.brand-v4 .flow_item { border:3px solid #00553e; border-radius:5px; box-shadow:0 5px 0 #bccb9e; background:white; }
+.client-review.review-f.brand-v4 .flow_item_txt > span { color:#00553e; font-weight:900; }
+.client-review.review-f.brand-v4 .qa { background:#fff5d5; padding-top:32px; padding-bottom:32px; }
+.client-review.review-f.brand-v4 .qa_item { border:2px solid #00553e; border-radius:5px; background:#fff; box-shadow:0 4px 0 #d8c07c; }
+.client-review.review-f.brand-v4 .add { background:#fffdf5; }
+.client-review.review-f.brand-v4 .add_content { border:2px solid #bda34e; padding:20px; background:#fff; border-radius:5px; }
+.client-review.review-f.brand-v4 .campany { background:#e8efdf; }
+.client-review.review-f.brand-v4 .review-details-toggle { border:2px solid #00553e; background:#fff5cd; color:#00553e; font-weight:900; }
+@media(max-width:700px) {
+  .client-review.review-f.brand-v4 main > section { border-bottom-width:4px; }
+  .client-review.review-f.brand-v4 .review-d-guarantee,
+  .client-review.review-f.brand-v4 .d-rating-consultation { padding:20px 8px 24px; }
+  .client-review.review-f.brand-v4 .d-warranty-banner { border-width:2px; }
+  .client-review.review-f.brand-v4 .d-call-banner { border-width:3px; margin-top:20px; }
+  .client-review.review-f.brand-v4 .d-call-copy { padding-left:10px; }
+  .client-review.review-f.brand-v4 .d-call-intro { font-size:17px; margin-bottom:12px; }
+  .client-review.review-f.brand-v4 .d-call-copy h3 { font-size:32px; }
+  .client-review.review-f.brand-v4 .d-call-copy h3 strong { font-size:56px; }
+  .client-review.review-f.brand-v4 .d-call-footer { font-size:12px; }
+  .client-review.review-f.brand-v4 .d-estimate { padding:26px 10px; }
+  .client-review.review-f.brand-v4 .d-estimate-inner { padding:20px 10px; border-width:3px; box-shadow:0 0 0 2px white,0 6px 0 #003b2b; }
+  .client-review.review-f.brand-v4 .d-estimate h2 { font-size:27px; }
+  .client-review.review-f.brand-v4 .d-estimate-animals { gap:7px; }
+  .client-review.review-f.brand-v4 .d-estimate-animals button { font-size:13px; padding:8px 2px; }
+  .client-review.review-f.brand-v4 .d-estimate-animals img { height:62px; }
+  .client-review.review-f.brand-v4 .d-estimate-unknown { height:62px; }
+  .client-review.review-f.brand-v4 .solution { padding:0; }
+  .client-review.review-f.brand-v4 .d-solution-mobile { padding:22px 12px; }
+  .client-review.review-f.brand-v4 .d-solution-head { min-height:145px; }
+  .client-review.review-f.brand-v4 .d-solution-head h2 { font-size:34px; line-height:1.25; text-shadow:2px 2px 0 #fff; }
+  .client-review.review-f.brand-v4 .d-solution-head h2 strong { background:linear-gradient(transparent 75%,#ffe27a 75%); }
+  .client-review.review-f.brand-v4 .d-solution-portrait { opacity:.7; right:-20px; }
+  .client-review.review-f.brand-v4 .d-solution-eyebrow { display:table; background:#00553e; color:white; padding:4px 7px; font-size:11px; }
+  .client-review.review-f.brand-v4 .d-solution-steps li { border:2px solid #c5a345; border-radius:4px; box-shadow:0 4px 0 #dfcb92; }
+  .client-review.review-f.brand-v4 .declare { padding:24px 12px; }
+  .client-review.review-f.brand-v4 .e-assurance-grid > div { padding:12px 4px; border-width:2px; }
+  .client-review.review-f.brand-v4 .e-assurance-grid h3 { font-size:13px; }
+  .client-review.review-f.brand-v4 .trouble { padding:24px 0; }
+  .client-review.review-f.brand-v4 .trouble_top_list { padding:12px; }
+  .client-review.review-f.brand-v4 .d-damage-intro { padding:16px 6px; }
+  .client-review.review-f.brand-v4 .d-damage-intro h2 { font-size:26px; }
+  .client-review.review-f.brand-v4 .start_bottom { padding:18px 8px; }
+  .client-review.review-f.brand-v4 .reasons_item { padding:14px 10px; }
+  .client-review.review-f.brand-v4 .add_content { padding:14px 8px; }
+}
+/* Static, fully visible panels make each message readable in one glance. */
+.client-review.review-f.brand-v4 .fadein,
+.client-review.review-f.brand-v4 .anime,
+.client-review.review-f.brand-v4 .trouble_top_item { opacity:1; transform:none; animation:none; transition:none; }
+.client-review.review-f.brand-v4 .trouble_top { padding:28px 0 80px; }
+.client-review.review-f.brand-v4 .trouble_top_heading { width:94%; max-width:1100px; margin:0 auto 24px; }
+.client-review.review-f.brand-v4 .e-trouble-head { background:#00553e; border:3px solid #e0b848; padding:18px 12px; text-align:center; box-shadow:0 5px 0 #003d2c; }
+.client-review.review-f.brand-v4 .e-trouble-head > span { display:inline-block; color:#00553e; background:#ffeb9b; padding:4px 12px; font-size:16px; font-weight:900; }
+.client-review.review-f.brand-v4 .e-trouble-head h2 { font-size:clamp(27px,4.5vw,54px); line-height:1.35; color:white; font-weight:900; margin:12px 0 0; }
+.client-review.review-f.brand-v4 .e-trouble-head strong { color:#ffec8b; }
+.client-review.review-f.brand-v4 .reasons_heading_wrap { background:#00553e; border:3px solid #e0b848; padding:15px 8px; }
+.client-review.review-f.brand-v4 .reasons_heading_txt { color:white; font-weight:900; text-shadow:1px 2px 0 #003726; }
+.client-review.review-f.brand-v4 .reasons_heading_txt > span { color:#ffe27c; }
+.client-review.review-f.brand-v4 .reasons_title { display:flex; gap:12px; align-items:center; background:#00553e; margin:-20px -20px 14px; padding:14px; }
+.client-review.review-f.brand-v4 .reasons_title_txt { width:auto; flex:1; padding:0; }
+.client-review.review-f.brand-v4 .reasons_title_txt > span { color:white; font-size:clamp(20px,2.5vw,30px); line-height:1.4; font-weight:900; }
+.client-review.review-f.brand-v4 .reasons_title_num { flex:none; background:#f2bd38; color:#00553e; border-radius:50%; }
+.client-review.review-f.brand-v4 .qa_title { background:#00553e; border:2px solid #d8b246; border-radius:4px; }
+.client-review.review-f.brand-v4 .qa_title_inner { color:white; }
+.client-review.review-f.brand-v4 .qa_heading { color:#00553e; }
+.client-review.review-f.brand-v4 .flow_heading { margin-bottom:35px; }
+@media(max-width:700px) {
+  .client-review.review-f.brand-v4 .e-trouble-head { padding:14px 5px; }
+  .client-review.review-f.brand-v4 .e-trouble-head > span { font-size:12px; }
+  .client-review.review-f.brand-v4 .e-trouble-head h2 { font-size:25px; }
+  .client-review.review-f.brand-v4 .trouble_top { padding-top:18px; padding-bottom:85px; }
+  .client-review.review-f.brand-v4 .reasons_title { margin:-14px -10px 12px; padding:10px 8px; gap:8px; }
+  .client-review.review-f.brand-v4 .reasons_title_txt > span { font-size:18px; }
+  .client-review.review-f.brand-v4 .reasons_title_num { width:42px; height:42px; display:grid; place-items:center; }
+}
+.client-review.review-f.brand-v4 .reasons_title_txt { background:transparent; border:0; }
+/* Reserve actual layout space for the proof bubble, including repeated panels. */
+.client-review.review-f.brand-v4 .start_bottom_bubble {
+  position:static;
+  display:block;
+  width:clamp(210px,23vw,300px);
+  max-width:85%;
+  height:auto;
+  margin:0 auto 26px;
+  transform:rotate(-8deg);
+}

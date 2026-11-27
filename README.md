@@ -95,3 +95,9 @@ its existing presentation. `_mock/approach-e.js` adjusts the empathy heading onl
 D and E share nine-species scope, clarified pricing, and compact assurance cards
 through `_mock/review-de-common.js` and `.css`. Both include the approved slim B
 campaign banner below the hero contact actions.
+
+### Approach F
+
+`?approach=f` preserves E at commit `2b219eb`, before the vivid independent
+section palettes were added. Includes the proof-bubble spacing fix.
+Its CSS is isolated in `_mock/approach-f.css`; current E remains unchanged.
