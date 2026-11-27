@@ -3,7 +3,7 @@
   'use strict';
   function mount() {
     var root = document.documentElement;
-    if (!root.classList.contains('review-d') || root.classList.contains('review-e')) return;
+    if (!root.classList.contains('review-d')) return;
     var actions = document.querySelector('.fv .v4-hero-actions');
     if (!actions) return;
     var offer = document.createElement('div');

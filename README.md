@@ -84,18 +84,14 @@ D案のお客様の声と選ばれる4つの理由の間に`#provider-comparison
 
 見積もり相談は共通の生成関数から各インスタンスを作り、選択状態・イベント・見出しIDを独立させています。既存の冒頭見積もり相談も維持。
 
-### Approach E (feedback variant)
+### Approach E — advertising-panel redesign
 
-Open `?approach=e`. D remains unchanged. E inherits D's approved visual components,
-then `_mock/approach-e.js` applies its own sequence and `_mock/approach-e.css` its scoped styles.
+`?approach=e` now follows the current D section sequence exactly, including its
+five phone banners and three independent estimate guides. The previous E sequence
+has been retired. `_mock/approach-e.css` provides the green/vermilion/gold advertising
+panels, bold heading bands, photo/text compositions, and framed cards. D retains
+its existing presentation. `_mock/approach-e.js` adjusts the empathy heading only.
 
-- Hero with campaign basic fee → empathy checklist → solution.
-- Two phone banners (after service/rating proof and after the process) and one estimate guide (after FAQ).
-- One detailed warranty and one press/proof block; repeated versions removed.
-- Nine supported species match the existing full index across ticker, damage guide, estimate, and company information.
-- Four compact assurance icons; pricing explained as a pre-work estimate determined by damage and work scope.
-- No changes to approach D's sequence, copy, or styling.
-
-D now shares E's nine-species scope, clarified pricing, and compact assurance
-cards through `_mock/review-de-common.js` and `.css`. D's section order and
-repeated consultation blocks remain intact; E's rearrangement remains separate.
+D and E share nine-species scope, clarified pricing, and compact assurance cards
+through `_mock/review-de-common.js` and `.css`. Both include the approved slim B
+campaign banner below the hero contact actions.
