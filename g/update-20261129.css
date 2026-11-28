@@ -24,7 +24,7 @@ img[src="../wp-content/themes/magokoroLP/img/start_logo.webp"]{height:auto;objec
 .hg-fv .hg-fv__photo{width:750px;right:-130px;mix-blend-mode:normal}
 .hg-fv .hg-fv__photo-img{clip-path:none;aspect-ratio:3/2;object-fit:contain;object-position:center;mask-image:linear-gradient(to bottom,#000 87%,transparent);-webkit-mask-image:linear-gradient(to bottom,#000 87%,transparent)}
 @media(max-width:767px){
- .hg-fv .hg-fv__photo{width:450px;right:-110px;top:-24px;bottom:auto}
+ .hg-fv .hg-fv__photo{width:450px;right:-130px;top:-24px;bottom:auto}
  .g-estimate .hg-sf__tile{font-size:13px}
  .g-estimate-unknown{font-size:42px}
  .g-estimate-talk blockquote{font-size:15px}
