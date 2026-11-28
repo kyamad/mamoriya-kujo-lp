@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen",
+  "outputs": [
+    {
+      "output": "g/assets/mamoriya/cmp-05-area-1to3.png",
+      "prompt": "Change own-company service area headline from 関東7県＋山梨県・静岡県 to 「1都3県」. Replace its three checklist lines with 「東京都・神奈川県」「埼玉県・千葉県」「地域のご相談に対応」. Replace bottom conclusion with 「東京・神奈川・埼玉・千葉で、お気軽にご相談ください。」. Keep company brand and competitor columns. No other served regions."
+    },
+    {
+      "output": "g/assets/mamoriya/cmp-04-speed-1to3.png",
+      "prompt": "Change only 関東広域で迅速対応 to 「1都3県で迅速対応」. Preserve all other text and values."
+    },
+    {
+      "output": "g/assets/mamoriya/area-map-1to3.png",
+      "prompt": "Change the highlighted service area to ONLY 東京都,神奈川県,埼玉県,千葉県 colored orange. Recolor 群馬県,栃木県,茨城県,山梨県,静岡県 to the same gray as 長野県. Preserve exact geographic outlines, prefectural borders, labels and layout. Tokyo Saitama Kanagawa Chiba must remain orange; every other prefecture gray. No additions."
+    }
+  ]
+}

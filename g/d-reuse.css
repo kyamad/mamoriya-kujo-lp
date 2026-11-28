@@ -1,0 +1,102 @@
+.g-d-reuse .d-call-banner { display:grid; grid-template-columns:32% 1fr; grid-template-rows:auto auto auto; position:relative; margin-top:18px; overflow:hidden; border:2px solid #3e874e; border-radius:20px; background:#fff; }
+.g-d-reuse .d-operator-photo { grid-column:1; grid-row:1 / 4; position:relative; min-height:380px; }
+.g-d-reuse .d-operator-photo img { width:100%; height:100%; position:absolute; inset:0; object-fit:cover; object-position:72% center; }
+.g-d-reuse .d-consult-badge { position:absolute; left:16px; bottom:24px; width:112px; height:112px; border:2px dashed #438c4f; border-radius:50%; background:#fffffff0; display:flex; flex-direction:column; justify-content:center; color:#267536; font-size:17px; font-weight:800; }
+.g-d-reuse .d-consult-badge strong { font-size:40px; line-height:1.1; }
+.g-d-reuse .d-call-copy { padding:24px 20px 0; }
+.g-d-reuse .d-call-intro { font-size:25px; font-weight:800; margin:0 0 8px; }
+.g-d-reuse .d-call-copy h3 { font-size:35px; line-height:1.4; margin:0 0 12px; font-weight:900; color:#18271f; }
+.g-d-reuse .d-call-copy h3 strong { font-size:48px; color:#eb501d; }
+.g-d-reuse .d-call-copy h3 br { display:none; }
+.g-d-reuse .d-call-free { margin:0; font-size:24px; font-weight:800; text-decoration:underline; text-decoration-color:#ffed99; text-decoration-thickness:9px; text-underline-offset:-3px; }
+.g-d-reuse .d-call-free strong { color:#e95020; }
+.g-d-reuse .d-call-area { display:inline-block; background:#277d38; color:#fff; font-size:16px; font-weight:700; border-radius:25px; padding:6px 18px; margin:12px 0 0; }
+.g-d-reuse .d-call-number { display:flex; align-items:center; justify-content:center; gap:14px; margin:16px 20px; color:#ed501d; text-decoration:none; border-radius:16px; background:#fff9ee; border:1px solid #f4ad8e; padding:12px 10px; }
+.g-d-reuse .d-call-number span { font-size:22px; line-height:1.3; padding:8px 12px; background:#ed501d; border-radius:10px; color:white; font-weight:900; }
+.g-d-reuse .d-call-number strong { font-family:Arial,sans-serif; font-size:clamp(36px,5vw,70px); white-space:nowrap; letter-spacing:-1px; }
+.g-d-reuse .d-call-number:focus-visible { outline:4px solid #247b36; outline-offset:3px; }
+.g-d-reuse .d-call-footer { margin:0 20px 20px; padding:8px; border:1px solid #75a67b; border-radius:30px; font-size:18px; font-weight:800; color:#277d38; }
+
+@media (max-width:700px) {
+ .g-d-reuse .g-d-reuse-guarantee { padding:24px 10px; }
+ .g-d-reuse .d-warranty-copy { padding:16px 12px; width:76%; }
+ .g-d-reuse .d-support-pill { font-size:10px; padding:5px 8px; margin-bottom:9px; }
+ .g-d-reuse .d-warranty-copy h2 { font-size:21px; }
+ .g-d-reuse .d-guarantee-main { font-size:37px; }
+ .g-d-reuse .d-guarantee-main small { font-size:15px; margin-right:3px; }
+ .g-d-reuse .d-guarantee-main b { font-size:65px; letter-spacing:-3px; }
+ .g-d-reuse .d-house-photo { width:42%; height:67%; border-bottom-left-radius:40px; }
+ .g-d-reuse .d-warranty-message { font-size:12px; margin-top:8px; }
+ .g-d-reuse .d-service-pills { gap:5px; margin:0 10px 10px; }
+ .g-d-reuse .d-service-pills span { font-size:12px; padding:8px 2px; border-radius:8px; }
+ .g-d-reuse .d-warranty-banner .g-d-reuse-guarantee-note { font-size:11px; padding:7px 10px; }
+ .g-d-reuse .d-call-banner { grid-template-columns:60% 40%; }
+ .g-d-reuse .d-operator-photo { grid-column:2; grid-row:1; min-height:280px; }
+ .g-d-reuse .d-operator-photo img { object-position:72% center; }
+ .g-d-reuse .d-call-copy { grid-column:1; grid-row:1; padding:18px 0 12px 12px; position:relative; }
+ .g-d-reuse .d-call-intro { font-size:14px; white-space:nowrap; margin-bottom:14px; }
+ .g-d-reuse .d-call-copy h3 { font-size:25px; line-height:1.45; }
+ .g-d-reuse .d-call-copy h3 span { display:block; }
+ .g-d-reuse .d-call-copy h3 strong { font-size:39px; white-space:nowrap; }
+ .g-d-reuse .d-call-copy h3 br { display:block; }
+ .g-d-reuse .d-call-free { font-size:13px; }
+ .g-d-reuse .d-call-area { font-size:10px; padding:6px 7px; }
+ .g-d-reuse .d-consult-badge { width:80px; height:80px; left:auto; right:8px; bottom:12px; font-size:12px; }
+ .g-d-reuse .d-consult-badge strong { font-size:30px; }
+ .g-d-reuse .d-call-number { grid-column:1 / -1; margin:10px; gap:8px; padding:10px 6px; }
+ .g-d-reuse .d-call-number span { font-size:15px; padding:7px; }
+ .g-d-reuse .d-call-number strong { font-size:clamp(27px,8.2vw,49px); }
+ .g-d-reuse .d-call-footer { grid-column:1 / -1; font-size:12px; margin:0 10px 12px; }
+}
+/* Consultation badge: keep both lines centered with room inside the circle. */
+.g-d-reuse .d-consult-badge {
+  box-sizing: border-box;
+  width: 128px;
+  height: 128px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+.g-d-reuse .d-consult-badge strong { display: block; line-height: 1.1; }
+/* Approved mobile consultation banner C. */
+@media (max-width:700px) {
+
+.g-d-reuse .g-d-reuse-guarantee{padding:30px 6px}
+.g-d-reuse .d-call-banner{display:block;margin:18px 0 0;border-radius:20px;border:2px solid #29823a}
+.g-d-reuse .d-operator-photo{position:absolute;right:0;top:0;width:61%;height:350px;min-height:0;z-index:0}
+.g-d-reuse .d-operator-photo img{object-position:72% center;mask-image:linear-gradient(to right,transparent 0%,#000 48%);-webkit-mask-image:linear-gradient(to right,transparent 0%,#000 48%)}
+.g-d-reuse .d-call-copy{position:relative;z-index:1;padding:20px 14px 12px;height:350px;box-sizing:border-box;text-align:left}
+.g-d-reuse .d-call-intro{font-size:20px;margin:0 0 18px;line-height:1.35;font-weight:900;white-space:nowrap}
+.g-d-reuse .d-call-copy h3{width:82%;font-size:35px;line-height:1.12;letter-spacing:-1.6px;margin:0 0 20px;white-space:nowrap;text-shadow:0 1px 5px #fff,0 0 12px #fff}
+.g-d-reuse .d-call-copy h3 span{font-size:36px;line-height:1.12;display:block;margin-bottom:4px}
+.g-d-reuse .d-call-copy h3 strong{font-size:59px;letter-spacing:-2px;line-height:1.08}
+.g-d-reuse .d-call-free{font-size:17px;display:table;background:#ffffffc9;margin:0 0 9px;line-height:1.6}
+.g-d-reuse .d-call-area{font-size:12px;margin:0;padding:7px 10px;display:table}
+.g-d-reuse .d-consult-badge{text-align:center;bottom:10px;right:10px;width:78px;height:78px;z-index:2}
+.g-d-reuse .d-call-number{position:relative;margin:10px 8px;padding:10px 6px;gap:9px;background:#fff9ee}
+.g-d-reuse .d-call-number strong{font-size:clamp(27px,9.3vw,40px)}
+.g-d-reuse .d-call-number span{font-size:17px}
+.g-d-reuse .d-call-footer{position:relative;margin:0 8px 12px;font-size:13px}
+.g-d-reuse .d-call-copy{height:300px;padding:18px 14px 8px}.g-d-reuse .d-operator-photo{height:300px;width:56%}.g-d-reuse .d-call-intro{font-size:18px;margin-bottom:14px}.g-d-reuse .d-call-copy h3{font-size:34px;line-height:1.06;margin-bottom:17px}.g-d-reuse .d-call-copy h3 span{font-size:30px;line-height:1.05}.g-d-reuse .d-call-copy h3 strong{font-size:57px;line-height:1.05}.g-d-reuse .d-call-free{font-size:16px}.g-d-reuse .d-call-area{font-size:11px}.g-d-reuse .d-consult-badge{width:67px;height:67px;font-size:10px;right:6px;bottom:8px}.g-d-reuse .d-consult-badge strong{font-size:26px}
+}
+@media (max-width:700px) {
+  .g-d-reuse .d-consult-badge {
+    width: 88px;
+    height: 88px;
+    padding: 6px;
+    font-size: 10px;
+  }
+  .g-d-reuse .d-consult-badge strong { font-size: 29px; }
+
+}
+
+.g-d-reuse{width:100%;line-height:normal;text-align:center;color:#18271f}.g-d-reuse *{box-sizing:border-box}.g-d-reuse .d-call-copy{text-align:left}.g-d-reuse .d-call-copy h3 span{display:inline}.g-d-reuse .d-call-copy h3{border:0;padding:0;background:none}.g-d-reuse .d-call-banner{margin-top:8px}.d-return-panel{margin:28px auto;max-width:1000px}.damage-sec .d-damage-photo{margin:0}.damage-sec .d-damage-tag span{font-size:.8em}.hg-supported__list img,.hg-fv__animals img{object-fit:cover}.hg-area9__catch{max-width:850px}
+@media(max-width:700px){.g-d-reuse .d-call-copy h3 span{display:block}.g-d-reuse .d-consult-badge{left:auto}.g-d-reuse .d-call-intro{white-space:normal}.g-d-reuse .d-call-number strong{font-size:clamp(26px,8.7vw,40px)}.g-d-reuse .d-call-copy h3{width:90%;font-size:31px}.g-d-reuse .d-call-copy h3 strong{font-size:54px}}
+
+.hg-sf__tile .g-animal-label{display:block;text-align:center;font-size:14px;font-weight:700;line-height:1.4;padding:3px 1px;color:#183d27}.hg-sf__tile:has(.g-animal-label){display:flex;flex-direction:column;align-items:center;justify-content:center}.hg-sf__tile:has(.g-animal-label) img{object-fit:cover;max-height:85px;width:100%}
