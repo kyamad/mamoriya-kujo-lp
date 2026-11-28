@@ -1,0 +1,197 @@
+[
+  {
+    "asset": "assets/update-20261129/warranty-c-SP.png",
+    "prompt": "Edit the attached Japanese LP banner text only. Preserve exact original aspect ratio and all photos, decorative elements, layout, palette, hierarchy and whitespace. Fit natural readable Japanese into the existing text regions. No new claims, captions or extra text. Replace the text as follows, preserving other short factual labels such as 現地調査無料 where no replacement is specified:\n「相談から施工後まで、丁寧にサポート」→「お問い合わせから工事後まで、しっかり対応」。「対策工事後は」→「施工した箇所に」。「10年保証制度付き」→「10年保証で安心」。PCにある「まずは状況をお聞かせください。安心して相談できる体制を整えています。」→「お困りのことからご相談を。施工後の心配にも対応します。」",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-0e699328-a4b6-4e9c-a11b-caf80c3d18ee.png"
+  },
+  {
+    "asset": "assets/update-20261129/warranty-a-SP.png",
+    "prompt": "Edit the attached Japanese LP banner text only. Preserve exact original aspect ratio and all photos, decorative elements, layout, palette, hierarchy and whitespace. Fit natural readable Japanese into the existing text regions. No new claims, captions or extra text. Replace the text as follows, preserving other short factual labels such as 現地調査無料 where no replacement is specified:\n「施工後も、不安を残さないサポートを」→「暮らしの安心を、工事のあとも支えます」。「対策工事後は」→「施工した箇所に」。「10年保証制度付き」→「10年保証で安心」。「安心した生活を少しでも早く取り戻せるよう、施工後まで見守ります。」→「対策が終わってからも、ご自宅で安心して過ごせるようお手伝いします。」",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-99e88646-60f5-40d8-bb5d-fc66dfc7788a.png"
+  },
+  {
+    "asset": "assets/photo-refresh/PC_img_hosho_banner_b-10year-photos.png",
+    "prompt": "Edit the attached Japanese LP banner text only. Preserve exact original aspect ratio and all photos, decorative elements, layout, palette, hierarchy and whitespace. Fit natural readable Japanese into the existing text regions. No new claims, captions or extra text. Replace the text as follows, preserving other short factual labels such as 現地調査無料 where no replacement is specified:\n「安心して暮らせる毎日へ」→「住まいの安心が続くように」。「対策工事後は10年保証制度付き」→「施工した箇所に10年保証で安心」。「再発への不安にも、施工後までしっかり備えます。」→「工事後の再侵入に備えて、保証でサポート。」",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-7f1b11bb-f520-4de3-aa01-67660b04258e.png"
+  },
+  {
+    "asset": "assets/photo-refresh/img_measures_02_sp-10year.png",
+    "prompt": "Edit the attached Japanese LP banner text only. Preserve exact original aspect ratio and all photos, decorative elements, layout, palette, hierarchy and whitespace. Fit natural readable Japanese into the existing text regions. No new claims, captions or extra text. Replace the text as follows, preserving other short factual labels such as 現地調査無料 where no replacement is specified:\n全文章を次に変更: 上部「専門スタッフが解説」「再発を防ぐ対策」「とは？」。白枠「追い出したあとも点検が大切」「戻ってくる原因には」「侵入口の塞ぎ残し」「工事後の対応不足」赤楕円「侵入口対策と継続サポートで備える」。中段「まもりや駆除は、工事後の安心まで見据えて対応します。」下段見出し「まもりや駆除の施工後サポート」「再侵入への備え」。下段本文「対策を行った施工箇所には10年保証。そこから再侵入した場合は、費用をいただかず修繕します。」",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-7d1d620a-aac5-4584-8f14-bcf4dad1af0d.png"
+  },
+  {
+    "asset": "assets/photo-refresh/img_measures_02_add_sp.png",
+    "prompt": "Edit the attached Japanese LP banner text only. Preserve exact original aspect ratio and all photos, decorative elements, layout, palette, hierarchy and whitespace. Fit natural readable Japanese into the existing text regions. No new claims, captions or extra text. Replace the text as follows, preserving other short factual labels such as 現地調査無料 where no replacement is specified:\n上部「住まいの被害に向き合う専門スタッフから」。見出し「侵入口への対策で、」「害獣が戻りにくい住まいへ。」。下部「対応で大切にすること」チェック4つ「写真で状況を共有」「工事と料金を先に説明」「承諾をいただいて作業」「工事後のご相談も受付」。末尾「落ち着いて暮らせる住まいを目指し、対策からその後までお手伝いします。」。中央の白い空白は空白のまま残す。",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-3b0bea84-96ce-4416-a026-e4ba5d1bdcec.png"
+  },
+  {
+    "asset": "assets/photo-refresh/ranking_bnr_01_sp.png",
+    "prompt": "Edit the attached Japanese LP banner text only. Preserve exact original aspect ratio and all photos, decorative elements, layout, palette, hierarchy and whitespace. Fit natural readable Japanese into the existing text regions. No new claims, captions or extra text. Replace the text as follows, preserving other short factual labels such as 現地調査無料 where no replacement is specified:\n写真の下の段落全体を「当社が対策工事を行った箇所には、10年間の保証をお付けしています。保証対象の箇所から再び害獣が入った場合は、追加の修繕費用をいただかずに対応します。工事後も落ち着いて暮らせるよう、長期にわたってサポートいたします。」に変更。",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-4d44c199-7097-465b-98bb-e2e9878282c0.png"
+  },
+  {
+    "asset": "assets/photo-refresh/img_exp_01.png",
+    "prompt": "Edit the attached Japanese LP banner text only. Preserve exact original aspect ratio and all photos, decorative elements, layout, palette, hierarchy and whitespace. Fit natural readable Japanese into the existing text regions. No new claims, captions or extra text. Replace the text as follows, preserving other short factual labels such as 現地調査無料 where no replacement is specified:\n上部「作業の理由を、写真とともにご案内」。見出し「現地の確認から工事のご説明まで、」「お客様と一つずつ共有します。」。本文「住まいの被害と侵入口を調べ、撮影した写真で状況をお伝えします。必要な対策・費用をご確認いただき、ご了承をいただいてから着手します。」。中見出し「疑問を解消してから、施工へ。」。4カード「被害と侵入口を調査」「撮影した写真で共有」「対策と費用をご案内」「了承を得て作業開始」。",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-f79b86b8-9166-4855-add7-1f0e5d0e6b73.png"
+  },
+  {
+    "asset": "assets/photo-refresh/img_philosophy_01.png",
+    "prompt": "Edit the attached Japanese LP banner text only. Preserve exact original aspect ratio and all photos, decorative elements, layout, palette, hierarchy and whitespace. Fit natural readable Japanese into the existing text regions. No new claims, captions or extra text. Replace the text as follows, preserving other short factual labels such as 現地調査無料 where no replacement is specified:\n上部「住まいを守るための考え方」。見出し「駆除のその先まで考え、」「害獣が戻りにくい環境をつくります。」。本文「小さな開口部から入った害獣は、天井裏や床下に被害を及ぼします。外へ出しても侵入口が残っていれば、戻る可能性があります。」「そのため、屋根裏・床下・建物の外側を調べ、入り込む原因を確認します。調査に基づく対策をご案内し、再発に備えた住まいづくりをお手伝いします。」。下段「対応で大切にすること」「屋根裏・床下・外周の点検」「被害と侵入経路の確認」「作業の理由を丁寧に説明」「工事後の再侵入にも備える」。末尾「駆除後の安心も見据えて。原因の確認から対策まで取り組みます。」",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-0dc85470-7cba-4230-bd20-493b6cc55e4f.png"
+  },
+  {
+    "asset": "assets/photo-refresh/img_cost_01.png",
+    "prompt": "Edit the attached Japanese LP banner text only. Preserve exact original aspect ratio and all photos, decorative elements, layout, palette, hierarchy and whitespace. Fit natural readable Japanese into the existing text regions. No new claims, captions or extra text. Replace the text as follows, preserving other short factual labels such as 現地調査無料 where no replacement is specified:\n上部「工事の内容と金額を先にお伝えします」。大見出し「作業は、」「ご了承をいただいたあとで」。白い空白は空白のまま。",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-92979cc7-cd3c-43e9-9788-86aad0202f6e.png"
+  },
+  {
+    "asset": "assets/mamoriya/ttl_search.jpg",
+    "prompt": "Edit the attached Japanese LP banner text only. Preserve exact original aspect ratio and all photos, decorative elements, layout, palette, hierarchy and whitespace. Fit natural readable Japanese into the existing text regions. No new claims, captions or extra text. Replace the text as follows, preserving other short factual labels such as 現地調査無料 where no replacement is specified:\n上部「依頼先を決める前に、まずは状況の確認を」。見出し「まもりや駆除が」「現地調査を無料で承ります」。強調色と字の大小のバランスを保持。",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-29537dae-aa92-4c8f-81f0-deef814cd4a0.png"
+  },
+  {
+    "asset": "assets/photo-refresh/SP_img_hosho_banner_b_2x-10year-photos.png",
+    "prompt": "Edit the attached Japanese LP banner text only. Preserve exact original aspect ratio and all photos, decorative elements, layout, palette, hierarchy and whitespace. Fit natural readable Japanese into the existing text regions. No new claims, captions or extra text. Replace the text as follows, preserving other short factual labels such as 現地調査無料 where no replacement is specified:\n「安心して暮らせる毎日へ」→「住まいの安心が続くように」。「対策工事後は10年保証制度付き」→「施工した箇所に10年保証で安心」。「再発への不安にも、施工後までしっかり備えます。」→「工事後の再侵入に備えて、保証でサポート。」",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-9d7cb510-2124-4046-8657-186188bf1060.png"
+  },
+  {
+    "asset": "assets/update-20261129/warranty-c-PC.png",
+    "reusedFrom": "assets/update-20261129/warranty-c-SP.png",
+    "note": "Same 3:1 geometry; shared revised warranty wording on desktop and mobile."
+  },
+  {
+    "asset": "assets/photo-refresh/PC_img_hosho_banner_a-10year-photos.png",
+    "reusedFrom": "assets/update-20261129/warranty-a-SP.png",
+    "note": "Same 3:1 geometry; shared revised warranty wording on desktop and mobile."
+  },
+  {
+    "asset": "assets/photo-refresh/voice-03_sp.png",
+    "prompt": "Use case: text-localization. Edit this existing draft testimonial card for a website mockup. Change ONLY the top headline quote to 「ネズミの侵入口を、写真で丁寧に説明してもらえました。」 in the same orange, green and black font style. Preserve exact pixel dimensions/aspect ratio, all photos, borders, side column, all other existing small print, blank central area, and layout. Do not fill the blank body area; website HTML overlays that area. Do not add facts, badges, reviews, ratings or decorations. Keep new headline within its existing region above the horizontal rule; reduce font as needed.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-c15ad153-3c34-4f14-8b89-a3af103e5be5.png"
+  },
+  {
+    "asset": "assets/photo-refresh/voice-03.png",
+    "prompt": "Use case: text-localization. Edit this existing draft testimonial card for a website mockup. Change ONLY the top headline quote to 「ネズミの侵入口を、写真で丁寧に説明してもらえました。」 in the same orange, green and black font style. Preserve exact pixel dimensions/aspect ratio, all photos, borders, side column, all other existing small print, blank central area, and layout. Do not fill the blank body area; website HTML overlays that area. Do not add facts, badges, reviews, ratings or decorations. Keep new headline within its existing region above the horizontal rule; reduce font as needed.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-3ad2e00c-834d-4532-b0b2-4b6d958354d7.png"
+  },
+  {
+    "asset": "assets/houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-04-kanagawa-family60_sp.webp",
+    "prompt": "Use case: text-localization. Edit this existing draft testimonial card for a website mockup. Change ONLY the top headline quote to 「コウモリの被害が落ち着き、普段どおり過ごせるようになりました。」 in the same orange, green and black font style. Preserve exact pixel dimensions/aspect ratio, all photos, borders, side column, all other existing small print, blank central area, and layout. Do not fill the blank body area; website HTML overlays that area. Do not add facts, badges, reviews, ratings or decorations. Keep new headline within its existing region above the horizontal rule; reduce font as needed.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-7f9ebe71-7fd9-477e-826c-4636547ec95f.png"
+  },
+  {
+    "asset": "assets/houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-04-kanagawa-family60.webp",
+    "prompt": "Use case: text-localization. Edit this existing draft testimonial card for a website mockup. Change ONLY the top headline quote to 「コウモリの被害が落ち着き、普段どおり過ごせるようになりました。」 in the same orange, green and black font style. Preserve exact pixel dimensions/aspect ratio, all photos, borders, side column, all other existing small print, blank central area, and layout. Do not fill the blank body area; website HTML overlays that area. Do not add facts, badges, reviews, ratings or decorations. Keep new headline within its existing region above the horizontal rule; reduce font as needed.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-4a7b9edd-efa6-4a66-a75f-f70a1501884e.png"
+  },
+  {
+    "asset": "assets/mamoriya/voice-05-tokyo-m40_sp.jpg",
+    "prompt": "Use case: text-localization. Edit this existing draft testimonial card for a website mockup. Change ONLY the top headline quote to 「予算と工事内容に納得して、ネズミ対策をお願いできました。」 in the same orange, green and black font style. Preserve exact pixel dimensions/aspect ratio, all photos, borders, side column, all other existing small print, blank central area, and layout. Do not fill the blank body area; website HTML overlays that area. Do not add facts, badges, reviews, ratings or decorations. Keep new headline within its existing region above the horizontal rule; reduce font as needed.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-6b1c7fce-0f2d-46d4-a2d5-3f5527f2bf15.png"
+  },
+  {
+    "asset": "assets/mamoriya/voice-05-tokyo-m40.jpg",
+    "prompt": "Use case: text-localization. Edit this existing draft testimonial card for a website mockup. Change ONLY the top headline quote to 「予算と工事内容に納得して、ネズミ対策をお願いできました。」 in the same orange, green and black font style. Preserve exact pixel dimensions/aspect ratio, all photos, borders, side column, all other existing small print, blank central area, and layout. Do not fill the blank body area; website HTML overlays that area. Do not add facts, badges, reviews, ratings or decorations. Keep new headline within its existing region above the horizontal rule; reduce font as needed.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-88178e9e-04a1-4b86-aaf6-6f99edac6560.png"
+  },
+  {
+    "asset": "assets/houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-07-tokyo-f80_sp.webp",
+    "prompt": "Use case: text-localization. Edit this existing draft testimonial card for a website mockup. Change ONLY the top headline quote to 「初めての依頼でも不安が和らぎ、もっと早く相談すればと思いました。」 in the same orange, green and black font style. Preserve exact pixel dimensions/aspect ratio, all photos, borders, side column, all other existing small print, blank central area, and layout. Do not fill the blank body area; website HTML overlays that area. Do not add facts, badges, reviews, ratings or decorations. Keep new headline within its existing region above the horizontal rule; reduce font as needed.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-f10d265b-c14e-450f-8120-abbf61b11a13.png"
+  },
+  {
+    "asset": "assets/houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-07-tokyo-f80.webp",
+    "prompt": "Use case: text-localization. Edit this existing draft testimonial card for a website mockup. Change ONLY the top headline quote to 「初めての依頼でも不安が和らぎ、もっと早く相談すればと思いました。」 in the same orange, green and black font style. Preserve exact pixel dimensions/aspect ratio, all photos, borders, side column, all other existing small print, blank central area, and layout. Do not fill the blank body area; website HTML overlays that area. Do not add facts, badges, reviews, ratings or decorations. Keep new headline within its existing region above the horizontal rule; reduce font as needed.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-abda29f3-2bee-42eb-994d-2fc9a092ccae.png"
+  },
+  {
+    "asset": "assets/mamoriya/voice-08-chiba-m50_sp.jpg",
+    "prompt": "Use case: text-localization. Edit this existing draft testimonial card for a website mockup. Change ONLY the top headline quote to 「夜中のネズミ被害にも、すぐに対応してもらえました。」 in the same orange, green and black font style. Preserve exact pixel dimensions/aspect ratio, all photos, borders, side column, all other existing small print, blank central area, and layout. Do not fill the blank body area; website HTML overlays that area. Do not add facts, badges, reviews, ratings or decorations. Keep new headline within its existing region above the horizontal rule; reduce font as needed.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-a475ef86-1807-4f95-b72d-3fa3c318b4aa.png"
+  },
+  {
+    "asset": "assets/mamoriya/voice-08-chiba-m50.jpg",
+    "prompt": "Use case: text-localization. Edit this existing draft testimonial card for a website mockup. Change ONLY the top headline quote to 「夜中のネズミ被害にも、すぐに対応してもらえました。」 in the same orange, green and black font style. Preserve exact pixel dimensions/aspect ratio, all photos, borders, side column, all other existing small print, blank central area, and layout. Do not fill the blank body area; website HTML overlays that area. Do not add facts, badges, reviews, ratings or decorations. Keep new headline within its existing region above the horizontal rule; reduce font as needed.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-51a2e1bf-a120-42a4-ae87-aecad2111b0f.png"
+  },
+  {
+    "asset": "assets/mamoriya/voice-09-kanagawa-f50_sp.jpg",
+    "prompt": "Use case: text-localization. Edit this existing draft testimonial card for a website mockup. Change ONLY the top headline quote to 「繰り返していたネズミ被害も、侵入口から調べてもらえました。」 in the same orange, green and black font style. Preserve exact pixel dimensions/aspect ratio, all photos, borders, side column, all other existing small print, blank central area, and layout. Do not fill the blank body area; website HTML overlays that area. Do not add facts, badges, reviews, ratings or decorations. Keep new headline within its existing region above the horizontal rule; reduce font as needed.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-57ccadbb-cc38-4f7b-a084-2aa437c04bf2.png"
+  },
+  {
+    "asset": "assets/mamoriya/voice-09-kanagawa-f50.jpg",
+    "prompt": "Use case: text-localization. Edit this existing draft testimonial card for a website mockup. Change ONLY the top headline quote to 「繰り返していたネズミ被害も、侵入口から調べてもらえました。」 in the same orange, green and black font style. Preserve exact pixel dimensions/aspect ratio, all photos, borders, side column, all other existing small print, blank central area, and layout. Do not fill the blank body area; website HTML overlays that area. Do not add facts, badges, reviews, ratings or decorations. Keep new headline within its existing region above the horizontal rule; reduce font as needed.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-d3cb6935-5de8-4384-a2f9-bf08d9b881af.png"
+  },
+  {
+    "asset": "assets/mamoriya/voice-10-saitama-f30_sp.jpg",
+    "prompt": "Use case: text-localization. Edit this existing draft testimonial card for a website mockup. Change ONLY the top headline quote to 「コウモリの調査から工事まで、丁寧に進めてもらえました。」 in the same orange, green and black font style. Preserve exact pixel dimensions/aspect ratio, all photos, borders, side column, all other existing small print, blank central area, and layout. Do not fill the blank body area; website HTML overlays that area. Do not add facts, badges, reviews, ratings or decorations. Keep new headline within its existing region above the horizontal rule; reduce font as needed.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-09ee8af9-017e-426e-9d77-467d6498d42d.png"
+  },
+  {
+    "asset": "assets/mamoriya/voice-10-saitama-f30.jpg",
+    "prompt": "Use case: text-localization. Edit this existing draft testimonial card for a website mockup. Change ONLY the top headline quote to 「コウモリの調査から工事まで、丁寧に進めてもらえました。」 in the same orange, green and black font style. Preserve exact pixel dimensions/aspect ratio, all photos, borders, side column, all other existing small print, blank central area, and layout. Do not fill the blank body area; website HTML overlays that area. Do not add facts, badges, reviews, ratings or decorations. Keep new headline within its existing region above the horizontal rule; reduce font as needed.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-d52f2440-306e-4bb0-bd8a-e291fd7dd2bd.png"
+  },
+  {
+    "asset": "assets/mamoriya/ttl_voice.png",
+    "prompt": "Use case text-localization. Edit only text in this existing banner; preserve exact aspect ratio 2010:665, original decorations, layout, cream background and typography colors. Top small text: 「調査から施工後まで、いただいたご感想」. Orange large quote: 「頼んで安心できました」. Main line keep exactly 「まもりや駆除 お客様の声」. Bottom small line: 「対応の様子や暮らしの変化について、お客様のお声をご紹介します。」. Do not change any other content. Wide horizontal banner.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-7734c323-e8f6-428d-ad9c-a795d0389a33.png"
+  },
+  {
+    "asset": "assets/houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/renewal/ttl_list.webp",
+    "prompt": "Use case text-localization. Edit text only in this extra-wide horizontal Japanese banner. Output exact 4:1 aspect ratio, dimensions 2508x627 if possible. Do NOT change aspect ratio. Preserve layout, white background, decorative elements and palette. Replace title with 「害獣対策の依頼先を比べてみましょう」. Orange ribbon: 「金額だけで決める前に」. Bottom line: 「駆除費用に加え、侵入口への工事や施工後の保証も確認しておくと安心です。」. All other elements unchanged, no added margin or frame.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-6ef83fff-ae74-4256-a188-9d6fd2d2d97b.png"
+  },
+  {
+    "asset": "assets/mamoriya/ttl_voice.png",
+    "prompt": "Remove ONLY the solid black exterior background around the cream rounded banner card. Make those exterior pixels truly transparent. Keep every cream-card pixel, all Japanese text, decorative border, original dimensions/aspect ratio and layout unchanged. Do not rewrite any text. This is a transparent-background extraction edit.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-b91b4707-5ec5-4cfa-942e-f2829742afc8.png"
+  },
+  {
+    "asset": "assets/mamoriya/hikaku-pc-01-ryokin.jpg",
+    "prompt": "Use case text-localization. Edit ONLY the text specified in this existing Japanese comparison banner. Preserve EXACT image aspect ratio and all design, colors, table numbers, fees, dates, warranty periods, photos, table rows and borders. Replace the small company descriptor above まもりや駆除 (currently 日本害獣駆除センター or 関東害獣駆除センター) with 「迅速対応」. Replace the subtitle directly below the big heading with 「価格だけでなく、再侵入への備えまで見比べましょう。」. Replace the concluding sentence in the bottom box with 「見積もりの総額と、そこに含まれる対策を一緒に確認しましょう。」. Keep まもりや駆除, 7,000円 and all other short factual labels exactly as they are. Fit the new sentences inside the same text regions; no cropping or new elements.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-0081c814-de94-41eb-a317-c9e502f5c081.png"
+  },
+  {
+    "asset": "assets/mamoriya/hikaku-pc-02-chousa-mitsumori.jpg",
+    "prompt": "Use case text-localization. Edit ONLY the text specified in this existing Japanese comparison banner. Preserve EXACT image aspect ratio and all design, colors, table numbers, fees, dates, warranty periods, photos, table rows and borders. Replace the small company descriptor above まもりや駆除 (currently 日本害獣駆除センター or 関東害獣駆除センター) with 「迅速対応」. Replace the subtitle directly below the big heading with 「調査する範囲や、見積もりの説明方法も確認しましょう。」. Replace the concluding sentence in the bottom box with 「調査内容が分かりやすく示され、質問に答えてもらえるかが大切です。」. Keep まもりや駆除, 7,000円 and all other short factual labels exactly as they are. Fit the new sentences inside the same text regions; no cropping or new elements.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-a9f5ad23-c0e0-4f46-a9bf-0f9477ab7ff1.png"
+  },
+  {
+    "asset": "assets/mamoriya/hikaku-pc-03-saihatsu-hosho-10year.png",
+    "prompt": "Use case text-localization. Edit ONLY the text specified in this existing Japanese comparison banner. Preserve EXACT image aspect ratio and all design, colors, table numbers, fees, dates, warranty periods, photos, table rows and borders. Replace the small company descriptor above まもりや駆除 (currently 日本害獣駆除センター or 関東害獣駆除センター) with 「迅速対応」. Replace the subtitle directly below the big heading with 「工事が終わった後の対応にも目を向けましょう。」. Replace the concluding sentence in the bottom box with 「保証の対象と条件、再発時の対応を確認しておくと安心です。」. Keep まもりや駆除, 7,000円 and all other short factual labels exactly as they are. Fit the new sentences inside the same text regions; no cropping or new elements.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-9091450c-22ef-4d51-b91e-079435483e34.png"
+  },
+  {
+    "asset": "assets/mamoriya/hikaku-pc-04-taiou-speed.jpg",
+    "prompt": "Use case text-localization. Edit ONLY the text specified in this existing Japanese comparison banner. Preserve EXACT image aspect ratio and all design, colors, table numbers, fees, dates, warranty periods, photos, table rows and borders. Replace the small company descriptor above まもりや駆除 (currently 日本害獣駆除センター or 関東害獣駆除センター) with 「迅速対応」. Replace the subtitle directly below the big heading with 「連絡してから訪問まで、どのくらいかかるか確認しましょう。」. Replace the concluding sentence in the bottom box with 「相談を受け付ける時間と、現地へ来られる日程を比べましょう。」. Keep まもりや駆除, 7,000円 and all other short factual labels exactly as they are. Fit the new sentences inside the same text regions; no cropping or new elements.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-411b0847-97a4-4f1a-b737-0825bceed6a4.png"
+  },
+  {
+    "asset": "assets/mamoriya/cmp-01-price-10year.png",
+    "prompt": "Use case text-localization. Edit ONLY the text specified in this existing Japanese comparison banner. Preserve EXACT image aspect ratio and all design, colors, table numbers, fees, dates, warranty periods, photos, table rows and borders. Replace the small company descriptor above まもりや駆除 (currently 日本害獣駆除センター or 関東害獣駆除センター) with 「迅速対応」. Replace the subtitle directly below the big heading with 「見積もりの金額と、含まれる対策を確認しましょう。」. Replace the concluding sentence in the bottom box with 「費用を検討するときは、調査結果と作業内容も合わせてご確認ください。」. Keep まもりや駆除, 7,000円 and all other short factual labels exactly as they are. Fit the new sentences inside the same text regions; no cropping or new elements.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-f85b3c26-863d-4e7f-ac21-c96fdbb33798.png"
+  },
+  {
+    "asset": "assets/mamoriya/cmp-02-survey.jpg",
+    "prompt": "Use case text-localization. Edit ONLY the text specified in this existing Japanese comparison banner. Preserve EXACT image aspect ratio and all design, colors, table numbers, fees, dates, warranty periods, photos, table rows and borders. Replace the small company descriptor above まもりや駆除 (currently 日本害獣駆除センター or 関東害獣駆除センター) with 「迅速対応」. Replace the subtitle directly below the big heading with 「現地調査や見積もりの費用も事前に確認しましょう。」. Replace the concluding sentence in the bottom box with 「調査が無料でも、工事の内容や保証の条件まで確かめましょう。」. Keep まもりや駆除, 7,000円 and all other short factual labels exactly as they are. Fit the new sentences inside the same text regions; no cropping or new elements.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-47be3112-7c67-4b28-85e3-e2da3f103acf.png"
+  },
+  {
+    "asset": "assets/mamoriya/cmp-03-warranty-10year.png",
+    "prompt": "Use case text-localization. Edit ONLY the text specified in this existing Japanese comparison banner. Preserve EXACT image aspect ratio and all design, colors, table numbers, fees, dates, warranty periods, photos, table rows and borders. Replace the small company descriptor above まもりや駆除 (currently 日本害獣駆除センター or 関東害獣駆除センター) with 「迅速対応」. Replace the subtitle directly below the big heading with 「工事後にどのような保証が付くか確認しましょう。」. Replace the concluding sentence in the bottom box with 「保証の期間だけでなく、対象となる箇所と条件も確認しましょう。」. Keep まもりや駆除, 7,000円 and all other short factual labels exactly as they are. Fit the new sentences inside the same text regions; no cropping or new elements.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-d5081f32-084d-4766-99c5-be60ddc0fd29.png"
+  },
+  {
+    "asset": "assets/mamoriya/cmp-04-speed-1to3.png",
+    "prompt": "Use case text-localization. Edit ONLY the text specified in this existing Japanese comparison banner. Preserve EXACT image aspect ratio and all design, colors, table numbers, fees, dates, warranty periods, photos, table rows and borders. Replace the small company descriptor above まもりや駆除 (currently 日本害獣駆除センター or 関東害獣駆除センター) with 「迅速対応」. Replace the subtitle directly below the big heading with 「相談の受付時間と訪問できる時期を確認しましょう。」. Replace the concluding sentence in the bottom box with 「お急ぎの場合は、連絡時に状況とご希望の日程をお伝えください。」. Keep まもりや駆除, 7,000円 and all other short factual labels exactly as they are. Fit the new sentences inside the same text regions; no cropping or new elements.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-249c8de0-f7f1-4589-b62a-76b4b44e5db7.png"
+  },
+  {
+    "asset": "assets/mamoriya/cmp-05-area-1to3.png",
+    "prompt": "Use case text-localization. Edit ONLY the text specified in this existing Japanese comparison banner. Preserve EXACT image aspect ratio and all design, colors, table numbers, fees, dates, warranty periods, photos, table rows and borders. Replace the small company descriptor above まもりや駆除 (currently 日本害獣駆除センター or 関東害獣駆除センター) with 「迅速対応」. Replace the subtitle directly below the big heading with 「ご自宅の所在地が対応範囲に入るか確認しましょう。」. Replace the concluding sentence in the bottom box with 「東京・神奈川・埼玉・千葉で、住まいのお困りごとを承ります。」. Keep まもりや駆除, 7,000円 and all other short factual labels exactly as they are. Fit the new sentences inside the same text regions; no cropping or new elements.",
+    "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-bb75e74a-df64-4929-959c-206cb09b463d.png"
+  }
+]

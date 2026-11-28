@@ -70,3 +70,11 @@ img[src*="update-20261129/warranty-"]{aspect-ratio:3;object-fit:contain;height:a
  .g-symptoms-close{font-size:4cqw}
 }
 @media(max-width:359px){.g-estimate .hg-sf__heading{font-size:17.5px}.g-estimate .hg-sf__kicker-label{font-size:13px;padding-inline:12px}}
+/* Footer LINE action replaces the old raster form label. */
+.hg-telbn .g-footer-line{display:flex;align-items:center;justify-content:center;gap:12px;background:linear-gradient(#43be32,#168b28);border:2px solid #fff;border-radius:12px;box-shadow:inset 0 0 0 2px #a9e79c,0 2px 3px #0005;color:white;text-decoration:none;font-size:clamp(18px,2.5vw,32px);font-weight:900;text-shadow:0 1px 1px #176320;z-index:5}
+.g-footer-line .g-line-mark{display:grid;place-items:center;width:48px;height:40px;border-radius:50%;background:white;color:#18a644;font:bold 14px Arial;text-shadow:none}
+@media(max-width:767px){.hg-telbn .g-footer-line{gap:7px;border-radius:7px;font-size:clamp(15px,4.5vw,25px)}.g-footer-line .g-line-mark{width:30px;height:25px;font-size:9px}}
+html body .hg-voice__body p{font-size:inherit;line-height:inherit}
+@media(max-width:767px){html body .hg-voice__body{font-size:3.45cqw;line-height:1.65}html body .hg-voice__body p{font-size:inherit;line-height:inherit}}
+/* Preserve the original wide banner frame; trim only generated white margins. */
+img[src$="/ttl_list.webp"]{width:100%;height:auto;aspect-ratio:4;object-fit:cover;object-position:center}
