@@ -101,3 +101,19 @@ campaign banner below the hero contact actions.
 `?approach=f` preserves E at commit `2b219eb`, before the vivid independent
 section palettes were added. Includes the proof-bubble spacing fix.
 Its CSS is isolated in `_mock/approach-f.css`; current E remains unchanged.
+
+### Approach G — reference capture
+
+`?approach=g` redirects to `g/`, a standalone capture of
+https://houseguard24.saki-x.jp/ taken on 2026-11-28. A–F remain independent.
+285 presentation assets are stored locally; source URLs are recorded in
+`g/source-manifest.json`. Original branding, text and imagery remain for the
+requested reference stage. No own-company substitutions have been applied.
+
+Tracking, abandoned-form capture, and nonce refresh are omitted. The capture is
+noindex/nofollow; `g/preview-guard.js` blocks telephone/external-link actions,
+form submission and outbound requests. On-page navigation and form steps remain
+interactive. This is a static design preview, not a copy of the source backend.
+
+`python3 scripts/import-reference-g.py` regenerates from the fetched HTML at
+`/private/tmp/houseguard-source.html`; review changes before re-importing.
