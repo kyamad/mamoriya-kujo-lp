@@ -1,0 +1,83 @@
+{
+  "auditedImages": 117,
+  "removedNote": "※写真はイメージです",
+  "editedImages": [
+    {
+      "asset": "assets/photo-refresh/voice-03_sp.png",
+      "prompt": "Use case: precise-object-edit. Remove ONLY the tiny footer note reading 「※写真はイメージです」 (or 「写真はイメージです」) from the bottom-right of this existing website mockup card, and blend the erased letters into the same cream background. Do not delete the nearby warranty-condition note or the source attribution. Preserve exactly the original dimensions/aspect ratio, all other text, photos, logos, rating numerals, stars, blank center, borders, fonts, and their positions. Do not add or rewrite any other content. This is a small deletion, not a redesign.",
+      "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-6b211b0c-9519-4a2b-a81d-343e55aedabc.png"
+    },
+    {
+      "asset": "assets/photo-refresh/voice-03.png",
+      "prompt": "Use case: precise-object-edit. Remove ONLY the tiny footer note reading 「※写真はイメージです」 (or 「写真はイメージです」) from the bottom-right of this existing website mockup card, and blend the erased letters into the same cream background. Do not delete the nearby warranty-condition note or the source attribution. Preserve exactly the original dimensions/aspect ratio, all other text, photos, logos, rating numerals, stars, blank center, borders, fonts, and their positions. Do not add or rewrite any other content. This is a small deletion, not a redesign.",
+      "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-46a15a08-ac2d-4b80-85d1-80ede0ceb180.png"
+    },
+    {
+      "asset": "assets/houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-04-kanagawa-family60_sp.webp",
+      "prompt": "Use case: precise-object-edit. Remove ONLY the tiny footer note reading 「※写真はイメージです」 (or 「写真はイメージです」) from the bottom-right of this existing website mockup card, and blend the erased letters into the same cream background. Do not delete the nearby warranty-condition note or the source attribution. Preserve exactly the original dimensions/aspect ratio, all other text, photos, logos, rating numerals, stars, blank center, borders, fonts, and their positions. Do not add or rewrite any other content. This is a small deletion, not a redesign.",
+      "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-80944815-65a3-470d-ab8e-c61b85ee7bfd.png"
+    },
+    {
+      "asset": "assets/houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-04-kanagawa-family60.webp",
+      "prompt": "Use case: precise-object-edit. Remove ONLY the tiny footer note reading 「※写真はイメージです」 (or 「写真はイメージです」) from the bottom-right of this existing website mockup card, and blend the erased letters into the same cream background. Do not delete the nearby warranty-condition note or the source attribution. Preserve exactly the original dimensions/aspect ratio, all other text, photos, logos, rating numerals, stars, blank center, borders, fonts, and their positions. Do not add or rewrite any other content. This is a small deletion, not a redesign.",
+      "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-cca393e7-f6a4-4bb5-92db-a1d089773c89.png"
+    },
+    {
+      "asset": "assets/mamoriya/voice-05-tokyo-m40_sp.jpg",
+      "prompt": "Use case: precise-object-edit. Remove ONLY the tiny footer note reading 「※写真はイメージです」 (or 「写真はイメージです」) from the bottom-right of this existing website mockup card, and blend the erased letters into the same cream background. Do not delete the nearby warranty-condition note or the source attribution. Preserve exactly the original dimensions/aspect ratio, all other text, photos, logos, rating numerals, stars, blank center, borders, fonts, and their positions. Do not add or rewrite any other content. This is a small deletion, not a redesign.",
+      "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-b1bd6a95-0751-42f0-b327-7735e04aa47c.png"
+    },
+    {
+      "asset": "assets/mamoriya/voice-05-tokyo-m40.jpg",
+      "prompt": "Use case: precise-object-edit. Remove ONLY the tiny footer note reading 「※写真はイメージです」 (or 「写真はイメージです」) from the bottom-right of this existing website mockup card, and blend the erased letters into the same cream background. Do not delete the nearby warranty-condition note or the source attribution. Preserve exactly the original dimensions/aspect ratio, all other text, photos, logos, rating numerals, stars, blank center, borders, fonts, and their positions. Do not add or rewrite any other content. This is a small deletion, not a redesign.",
+      "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-b0211b39-427a-49e7-9c55-6ed36d92d83b.png"
+    },
+    {
+      "asset": "assets/houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-07-tokyo-f80_sp.webp",
+      "prompt": "Use case: precise-object-edit. Remove ONLY the tiny footer note reading 「※写真はイメージです」 (or 「写真はイメージです」) from the bottom-right of this existing website mockup card, and blend the erased letters into the same cream background. Do not delete the nearby warranty-condition note or the source attribution. Preserve exactly the original dimensions/aspect ratio, all other text, photos, logos, rating numerals, stars, blank center, borders, fonts, and their positions. Do not add or rewrite any other content. This is a small deletion, not a redesign.",
+      "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-98cad72e-ecb2-472b-81c1-4b85c9acaab0.png"
+    },
+    {
+      "asset": "assets/houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-07-tokyo-f80.webp",
+      "prompt": "Use case: precise-object-edit. Remove ONLY the tiny footer note reading 「※写真はイメージです」 (or 「写真はイメージです」) from the bottom-right of this existing website mockup card, and blend the erased letters into the same cream background. Do not delete the nearby warranty-condition note or the source attribution. Preserve exactly the original dimensions/aspect ratio, all other text, photos, logos, rating numerals, stars, blank center, borders, fonts, and their positions. Do not add or rewrite any other content. This is a small deletion, not a redesign.",
+      "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-c4633761-2136-4a69-b9c9-f1a7409937ee.png"
+    },
+    {
+      "asset": "assets/mamoriya/voice-08-chiba-m50_sp.jpg",
+      "prompt": "Use case: precise-object-edit. Remove ONLY the tiny footer note reading 「※写真はイメージです」 (or 「写真はイメージです」) from the bottom-right of this existing website mockup card, and blend the erased letters into the same cream background. Do not delete the nearby warranty-condition note or the source attribution. Preserve exactly the original dimensions/aspect ratio, all other text, photos, logos, rating numerals, stars, blank center, borders, fonts, and their positions. Do not add or rewrite any other content. This is a small deletion, not a redesign.",
+      "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-21fa28df-20f4-471d-ae42-a3049fa023d0.png"
+    },
+    {
+      "asset": "assets/mamoriya/voice-08-chiba-m50.jpg",
+      "prompt": "Use case: precise-object-edit. Remove ONLY the tiny footer note reading 「※写真はイメージです」 (or 「写真はイメージです」) from the bottom-right of this existing website mockup card, and blend the erased letters into the same cream background. Do not delete the nearby warranty-condition note or the source attribution. Preserve exactly the original dimensions/aspect ratio, all other text, photos, logos, rating numerals, stars, blank center, borders, fonts, and their positions. Do not add or rewrite any other content. This is a small deletion, not a redesign.",
+      "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-79563fe9-de10-4533-93ab-7aa5ba16e39b.png"
+    },
+    {
+      "asset": "assets/mamoriya/voice-09-kanagawa-f50_sp.jpg",
+      "prompt": "Use case: precise-object-edit. Remove ONLY the tiny footer note reading 「※写真はイメージです」 (or 「写真はイメージです」) from the bottom-right of this existing website mockup card, and blend the erased letters into the same cream background. Do not delete the nearby warranty-condition note or the source attribution. Preserve exactly the original dimensions/aspect ratio, all other text, photos, logos, rating numerals, stars, blank center, borders, fonts, and their positions. Do not add or rewrite any other content. This is a small deletion, not a redesign.",
+      "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-d113c7ce-11c9-4ce3-bb5a-be825263e244.png"
+    },
+    {
+      "asset": "assets/mamoriya/voice-09-kanagawa-f50.jpg",
+      "prompt": "Use case: precise-object-edit. Remove ONLY the tiny footer note reading 「※写真はイメージです」 (or 「写真はイメージです」) from the bottom-right of this existing website mockup card, and blend the erased letters into the same cream background. Do not delete the nearby warranty-condition note or the source attribution. Preserve exactly the original dimensions/aspect ratio, all other text, photos, logos, rating numerals, stars, blank center, borders, fonts, and their positions. Do not add or rewrite any other content. This is a small deletion, not a redesign.",
+      "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-726115b9-ea22-4463-a501-bc3428c617f1.png"
+    },
+    {
+      "asset": "assets/mamoriya/voice-10-saitama-f30_sp.jpg",
+      "prompt": "Use case: precise-object-edit. Remove ONLY the tiny footer note reading 「※写真はイメージです」 (or 「写真はイメージです」) from the bottom-right of this existing website mockup card, and blend the erased letters into the same cream background. Do not delete the nearby warranty-condition note or the source attribution. Preserve exactly the original dimensions/aspect ratio, all other text, photos, logos, rating numerals, stars, blank center, borders, fonts, and their positions. Do not add or rewrite any other content. This is a small deletion, not a redesign.",
+      "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-db3bb850-8001-4c8a-bf4e-97bff39351ff.png"
+    },
+    {
+      "asset": "assets/mamoriya/voice-10-saitama-f30.jpg",
+      "prompt": "Use case: precise-object-edit. Remove ONLY the tiny footer note reading 「※写真はイメージです」 (or 「写真はイメージです」) from the bottom-right of this existing website mockup card, and blend the erased letters into the same cream background. Do not delete the nearby warranty-condition note or the source attribution. Preserve exactly the original dimensions/aspect ratio, all other text, photos, logos, rating numerals, stars, blank center, borders, fonts, and their positions. Do not add or rewrite any other content. This is a small deletion, not a redesign.",
+      "generated": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-8bfd8ecd-5a6a-4bae-b76a-e9c1a271a08d.png"
+    }
+  ],
+  "headline": "住まいの害獣に お困りなら 害獣対策 の専門家へ",
+  "layout": "Original hero photo positions, font sizes and line breaks preserved.",
+  "points": [
+    "費用を先にご案内",
+    "自社スタッフが対応",
+    "施工箇所に10年保証"
+  ]
+}

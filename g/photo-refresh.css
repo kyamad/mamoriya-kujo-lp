@@ -6,8 +6,8 @@ img[src="assets/photo-refresh/img_philosophy_01.png"]{aspect-ratio:941/1672;obje
 img[src="assets/photo-refresh/img_prevention.png"]{aspect-ratio:1086/1448;object-fit:contain;height:auto}
 img[src="assets/photo-refresh/img_exp_01.png"]{aspect-ratio:1055/1491;object-fit:contain;height:auto}
 img[src="assets/photo-refresh/img_reason_01.png"]{aspect-ratio:1494/789;object-fit:contain;height:auto}
-img[src="assets/photo-refresh/voice-03.png"]{aspect-ratio:1536/1024;object-fit:contain;height:auto}
-img[src="assets/photo-refresh/voice-03_sp.png"]{aspect-ratio:1536/1850;object-fit:contain;height:auto}
+img[src^="assets/photo-refresh/voice-03.png"]{aspect-ratio:1536/1024;object-fit:contain;height:auto}
+img[src^="assets/photo-refresh/voice-03_sp.png"]{aspect-ratio:1536/1850;object-fit:contain;height:auto}
 img[src="assets/photo-refresh/ex_01.png"]{aspect-ratio:941/1672;object-fit:contain;height:auto}
 
 /* Preserve source-banner geometry, including the original mobile crop of padded warranty banners. */
@@ -33,6 +33,6 @@ img[src*="photo-refresh/SP_img_hosho_banner"]{aspect-ratio:4.4!important;object-
  .g-case-illustration>img{top:38%;height:59%}
  .hg-fv__photo-img{mask-image:linear-gradient(to bottom,#000 80%,transparent 99%);-webkit-mask-image:linear-gradient(to bottom,#000 80%,transparent 99%)}
 }
-@media(max-width:767px){img[src="assets/photo-refresh/voice-03.png"]{aspect-ratio:1536/1850}}
+@media(max-width:767px){img[src^="assets/photo-refresh/voice-03.png"]{aspect-ratio:1536/1850}}
 
 @media(max-width:767px){.g-case-illustration[data-photo-section="case-07"]{aspect-ratio:682/444}}
