@@ -1,0 +1,54 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Replace 永年保証 with 10年保証 and 永年無料 with 10年無料. Preserve other text, photos and layout. Remove sprayer-gift checkbox and installation-free text from img_measures_02_sp. Change 保証期間を設けず to 保証期間を10年とし in ranking banner.",
+  "outputs": [
+    {
+      "sourceName": "SP_img_hosho_banner_c_2x",
+      "output": "g/assets/mamoriya/SP_img_hosho_banner_c_2x-10year.png"
+    },
+    {
+      "sourceName": "SP_img_hosho_banner_a_2x",
+      "output": "g/assets/mamoriya/SP_img_hosho_banner_a_2x-10year.png"
+    },
+    {
+      "sourceName": "SP_img_hosho_banner_b_2x",
+      "output": "g/assets/mamoriya/SP_img_hosho_banner_b_2x-10year.png"
+    },
+    {
+      "sourceName": "PC_img_hosho_banner_a",
+      "output": "g/assets/mamoriya/PC_img_hosho_banner_a-10year.png"
+    },
+    {
+      "sourceName": "PC_img_hosho_banner_b",
+      "output": "g/assets/mamoriya/PC_img_hosho_banner_b-10year.png"
+    },
+    {
+      "sourceName": "PC_img_hosho_banner_c",
+      "output": "g/assets/mamoriya/PC_img_hosho_banner_c-10year.png"
+    },
+    {
+      "sourceName": "img_measures_02_sp",
+      "output": "g/assets/mamoriya/img_measures_02_sp-10year.png"
+    },
+    {
+      "sourceName": "ranking_bnr_01_sp",
+      "output": "g/assets/mamoriya/ranking_bnr_01_sp-10year.png"
+    },
+    {
+      "sourceName": "img_prevention",
+      "output": "g/assets/mamoriya/img_prevention-10year.png"
+    },
+    {
+      "sourceName": "hikaku-pc-03-saihatsu-hosho",
+      "output": "g/assets/mamoriya/hikaku-pc-03-saihatsu-hosho-10year.png"
+    },
+    {
+      "sourceName": "cmp-03-warranty",
+      "output": "g/assets/mamoriya/cmp-03-warranty-10year.png"
+    },
+    {
+      "sourceName": "cmp-01-price",
+      "output": "g/assets/mamoriya/cmp-01-price-10year.png"
+    }
+  ]
+}
