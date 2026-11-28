@@ -117,3 +117,9 @@ interactive. This is a static design preview, not a copy of the source backend.
 
 `python3 scripts/import-reference-g.py` regenerates from the fetched HTML at
 `/private/tmp/houseguard-source.html`; review changes before re-importing.
+
+G company/policy customization (2026-11-28): company and representative/address
+come from the existing own-company LP. Unknown branches are omitted; the company telephone row retains the
+requested placeholder 0120-000-000. G uses its own `g/privacy/` policy and plain-text K-TEC copyright.
+Other reference content remains pending replacement. Re-importing the source
+will overwrite these edits; do not re-run the importer over the customized G.
