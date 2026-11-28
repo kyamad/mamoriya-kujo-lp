@@ -1,0 +1,149 @@
+[
+  {
+    "name": "hero",
+    "args": {
+      "prompt": "Use case: background-extraction. Precisely extract the man from this photo, retaining his exact face, hair, clothes, pose, placement and original 1000:667 canvas. Remove all white background outside his silhouette, with clean detailed hair edges and no white halo. True transparent alpha background. Keep any existing preview watermark on the subject. Do not add shadows or white matte.",
+      "referenced_image_paths": [
+        "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/_mock/adobe-stock/staff-495390612-preview.jpg"
+      ],
+      "transparent_background": true
+    }
+  },
+  {
+    "name": "ex_01",
+    "args": {
+      "prompt": "Edit this Japanese banner. Keep the exact aspect ratio, all pictures, layout, other text, colors and dimensions unchanged. Remove only the single black notice sentence just below the orange heading: ※AI生成による施工イメージです。実際の施工事例ではありません。 Fill that line with the surrounding cream background; preserve the space and all other content.",
+      "referenced_image_paths": [
+        "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/photo-refresh/ex_01.png"
+      ],
+      "transparent_background": false
+    }
+  },
+  {
+    "name": "nz-disinfect",
+    "args": {
+      "prompt": "Use case: precise-object-edit. Create a slightly different realistic illustrative pest-control site photo based on this reference. Preserve the same task, objects, camera angle, framing and exact aspect ratio. Subtly change surface wear, wall/concrete/wood grain and small background details; slightly adjust natural lighting. If a worker is visible, change the clothing color slightly while keeping protective gear and action. Do not change the construction method. No text, no captions, no border. A plausible fresh variation, not a dramatic redesign.",
+      "referenced_image_paths": [
+        "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/houseguard24.saki-x.jp/wp-content/uploads/hg24-guide/nz-disinfect-640.webp"
+      ],
+      "transparent_background": false
+    }
+  },
+  {
+    "name": "hg-bat-net-vent",
+    "args": {
+      "prompt": "Use case: precise-object-edit. Create a slightly different realistic illustrative pest-control site photo based on this reference. Preserve the same task, objects, camera angle, framing and exact aspect ratio. Subtly change surface wear, wall/concrete/wood grain and small background details; slightly adjust natural lighting. If a worker is visible, change the clothing color slightly while keeping protective gear and action. Do not change the construction method. No text, no captions, no border. A plausible fresh variation, not a dramatic redesign.",
+      "referenced_image_paths": [
+        "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/houseguard24.saki-x.jp/wp-content/uploads/hg24-guide/hg-bat-net-vent-640.webp"
+      ],
+      "transparent_background": false
+    }
+  },
+  {
+    "name": "nz-survey-underfloor",
+    "args": {
+      "prompt": "Use case: precise-object-edit. Create a slightly different realistic illustrative pest-control site photo based on this reference. Preserve the same task, objects, camera angle, framing and exact aspect ratio. Subtly change surface wear, wall/concrete/wood grain and small background details; slightly adjust natural lighting. If a worker is visible, change the clothing color slightly while keeping protective gear and action. Do not change the construction method. No text, no captions, no border. A plausible fresh variation, not a dramatic redesign.",
+      "referenced_image_paths": [
+        "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/houseguard24.saki-x.jp/wp-content/uploads/hg24-guide/nz-survey-underfloor-640.webp"
+      ],
+      "transparent_background": false
+    }
+  },
+  {
+    "name": "nz-survey-mirror",
+    "args": {
+      "prompt": "Use case: precise-object-edit. Create a slightly different realistic illustrative pest-control site photo based on this reference. Preserve the same task, objects, camera angle, framing and exact aspect ratio. Subtly change surface wear, wall/concrete/wood grain and small background details; slightly adjust natural lighting. If a worker is visible, change the clothing color slightly while keeping protective gear and action. Do not change the construction method. No text, no captions, no border. A plausible fresh variation, not a dramatic redesign.",
+      "referenced_image_paths": [
+        "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/houseguard24.saki-x.jp/wp-content/uploads/hg24-guide/nz-survey-mirror-640.webp"
+      ],
+      "transparent_background": false
+    }
+  },
+  {
+    "name": "hg-bat-repel-roof",
+    "args": {
+      "prompt": "Use case: precise-object-edit. Create a slightly different realistic illustrative pest-control site photo based on this reference. Preserve the same task, objects, camera angle, framing and exact aspect ratio. Subtly change surface wear, wall/concrete/wood grain and small background details; slightly adjust natural lighting. If a worker is visible, change the clothing color slightly while keeping protective gear and action. Do not change the construction method. No text, no captions, no border. A plausible fresh variation, not a dramatic redesign.",
+      "referenced_image_paths": [
+        "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/houseguard24.saki-x.jp/wp-content/uploads/hg24-guide/hg-bat-repel-roof-640.webp"
+      ],
+      "transparent_background": false
+    }
+  },
+  {
+    "name": "hg-hk-gap-tile",
+    "args": {
+      "prompt": "Use case: precise-object-edit. Create a slightly different realistic illustrative pest-control site photo based on this reference. Preserve the same task, objects, camera angle, framing and exact aspect ratio. Subtly change surface wear, wall/concrete/wood grain and small background details; slightly adjust natural lighting. If a worker is visible, change the clothing color slightly while keeping protective gear and action. Do not change the construction method. No text, no captions, no border. A plausible fresh variation, not a dramatic redesign.",
+      "referenced_image_paths": [
+        "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/houseguard24.saki-x.jp/wp-content/uploads/hg24-guide/hg-hk-gap-tile-640.webp"
+      ],
+      "transparent_background": false
+    }
+  },
+  {
+    "name": "hg-bat-repel-gap",
+    "args": {
+      "prompt": "Use case: precise-object-edit. Create a slightly different realistic illustrative pest-control site photo based on this reference. Preserve the same task, objects, camera angle, framing and exact aspect ratio. Subtly change surface wear, wall/concrete/wood grain and small background details; slightly adjust natural lighting. If a worker is visible, change the clothing color slightly while keeping protective gear and action. Do not change the construction method. No text, no captions, no border. A plausible fresh variation, not a dramatic redesign.",
+      "referenced_image_paths": [
+        "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/houseguard24.saki-x.jp/wp-content/uploads/hg24-guide/hg-bat-repel-gap-640.webp"
+      ],
+      "transparent_background": false
+    }
+  },
+  {
+    "name": "nz-vent-before",
+    "args": {
+      "prompt": "Use case: precise-object-edit. Create a slightly different realistic illustrative pest-control site photo based on this reference. Preserve the same task, objects, camera angle, framing and exact aspect ratio. Subtly change surface wear, wall/concrete/wood grain and small background details; slightly adjust natural lighting. If a worker is visible, change the clothing color slightly while keeping protective gear and action. Do not change the construction method. No text, no captions, no border. A plausible fresh variation, not a dramatic redesign.",
+      "referenced_image_paths": [
+        "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/houseguard24.saki-x.jp/wp-content/uploads/hg24-guide/nz-vent-before-640.webp"
+      ],
+      "transparent_background": false
+    }
+  },
+  {
+    "name": "nz-seal-roof",
+    "args": {
+      "prompt": "Use case: precise-object-edit. Create a slightly different realistic illustrative pest-control site photo based on this reference. Preserve the same task, objects, camera angle, framing and exact aspect ratio. Subtly change surface wear, wall/concrete/wood grain and small background details; slightly adjust natural lighting. If a worker is visible, change the clothing color slightly while keeping protective gear and action. Do not change the construction method. No text, no captions, no border. A plausible fresh variation, not a dramatic redesign.",
+      "referenced_image_paths": [
+        "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/houseguard24.saki-x.jp/wp-content/uploads/hg24-guide/nz-seal-roof-640.webp"
+      ],
+      "transparent_background": false
+    }
+  },
+  {
+    "name": "nz-vent-after",
+    "args": {
+      "prompt": "Use case: precise-object-edit. Create a slightly different realistic illustrative pest-control site photo based on this reference. Preserve the same task, objects, camera angle, framing and exact aspect ratio. Subtly change surface wear, wall/concrete/wood grain and small background details; slightly adjust natural lighting. If a worker is visible, change the clothing color slightly while keeping protective gear and action. Do not change the construction method. No text, no captions, no border. A plausible fresh variation, not a dramatic redesign.",
+      "referenced_image_paths": [
+        "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/houseguard24.saki-x.jp/wp-content/uploads/hg24-guide/nz-vent-after-640.webp"
+      ],
+      "transparent_background": false
+    }
+  },
+  {
+    "name": "hg-hk-tile-shift",
+    "args": {
+      "prompt": "Use case: precise-object-edit. Create a slightly different realistic illustrative pest-control site photo based on this reference. Preserve the same task, objects, camera angle, framing and exact aspect ratio. Subtly change surface wear, wall/concrete/wood grain and small background details; slightly adjust natural lighting. If a worker is visible, change the clothing color slightly while keeping protective gear and action. Do not change the construction method. No text, no captions, no border. A plausible fresh variation, not a dramatic redesign.",
+      "referenced_image_paths": [
+        "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/houseguard24.saki-x.jp/wp-content/uploads/hg24-guide/hg-hk-tile-shift-640.webp"
+      ],
+      "transparent_background": false
+    }
+  },
+  {
+    "name": "hg-hk-nest-eaves",
+    "args": {
+      "prompt": "Use case: precise-object-edit. Create a slightly different realistic illustrative pest-control site photo based on this reference. Preserve the same task, objects, camera angle, framing and exact aspect ratio. Subtly change surface wear, wall/concrete/wood grain and small background details; slightly adjust natural lighting. If a worker is visible, change the clothing color slightly while keeping protective gear and action. Do not change the construction method. No text, no captions, no border. A plausible fresh variation, not a dramatic redesign.",
+      "referenced_image_paths": [
+        "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/houseguard24.saki-x.jp/wp-content/uploads/hg24-guide/hg-hk-nest-eaves-640.webp"
+      ],
+      "transparent_background": false
+    }
+  },
+  {
+    "name": "operator",
+    "args": {
+      "prompt": "Photorealistic professional portrait for a Japanese home services consultation form: a friendly Japanese female telephone operator in her thirties with shoulder-length dark hair, wearing a pale blue blouse and a black headset microphone. Looking directly at camera with a welcoming natural smile. Head and shoulders centered, generous crop suitable for a circular thumbnail. Bright softly blurred office background. Square image. No text or logos.",
+      "transparent_background": false
+    }
+  }
+]

@@ -4,11 +4,23 @@
   document.querySelectorAll('.g-estimate').forEach(function (root) {
     var animal = '', home = '';
     var titles = {animal: 'どのような害獣でお困りですか？', home: 'お住まいの住宅はどちらですか？', result: '無料調査で、まずは状況を確認しましょう'};
+    function fitBubble() {
+      var heading = root.querySelector('.hg-sf__bubble-text');
+      var bubble = heading.parentElement;
+      var style = getComputedStyle(bubble);
+      var available = bubble.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
+      var size = window.innerWidth < 768 ? 16 : 32;
+      heading.style.fontSize = size + 'px';
+      while (heading.scrollWidth > available && size > 9) { size -= .25; heading.style.fontSize = size + 'px'; }
+    }
+    new ResizeObserver(fitBubble).observe(root.querySelector('.hg-sf__bubble'));
+    document.fonts.ready.then(fitBubble);
     function show(step) {
       root.querySelectorAll('.g-estimate-step').forEach(function (panel) { panel.hidden = panel.dataset.step !== step; });
       root.querySelector('.hg-sf__progress').textContent = step === 'result' ? '料金・相談案内' : (step === 'animal' ? '1' : '2') + ' / 2 問目';
       var heading = root.querySelector('.hg-sf__bubble-text');
       heading.textContent = titles[step];
+      fitBubble();
       heading.focus({preventScroll: true});
       if (root.getBoundingClientRect().top < 0) root.scrollIntoView({block: 'start', behavior: 'auto'});
     }
