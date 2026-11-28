@@ -1,0 +1,148 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-11-29",
+  "prompt": "Use case: text-localization. Edit target is the supplied Japanese website banner. Replace EVERY occurrence of 「ハウスガード24」「ハウスガード 24」「ハウスガード」 with exact 「まもりや駆除」 (keep surrounding particles, さん etc). Replace any HOUSE GUARD 24 with MAMORIYA KUJO. Replace any telephone number with 0120-000-000. Keep ALL other Japanese text, numbers, photos, colors, typography, layout, borders and full aspect ratio unchanged. Only local text replacement, no redesign, no crop, accurate Japanese lettering.",
+  "additionalInstructions": {
+    "logo": "Replace upper title with 迅速対応 and English brand with MAMORIYA KUJO; preserve transparency.",
+    "price": "Replace own-brand 8,000円〜 with 7,000円〜. Keep competitor prices unchanged.",
+    "warranty": "Replace company details with 合同会社K-TEC / 代表社員 古川 卓 and seal with 見本."
+  },
+  "outputs": [
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/uploads/2026/10/og-image-houseguard24-1200x630-1.jpg",
+      "output": "g/assets/mamoriya/og-image-houseguard24-1200x630-1.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/uploads/hg24-cmp/hikaku-pc-03-saihatsu-hosho.webp",
+      "output": "g/assets/mamoriya/hikaku-pc-03-saihatsu-hosho.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/uploads/hg24-cmp/cmp-02-survey.webp",
+      "output": "g/assets/mamoriya/cmp-02-survey.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/uploads/hg24-cmp/cmp-01-price.webp",
+      "output": "g/assets/mamoriya/cmp-01-price.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/uploads/hg24-cmp/cmp-05-area.webp",
+      "output": "g/assets/mamoriya/cmp-05-area.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/uploads/hg24-cmp/cmp-03-warranty.webp",
+      "output": "g/assets/mamoriya/cmp-03-warranty.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/uploads/hg24-cmp/hikaku-pc-01-ryokin.webp",
+      "output": "g/assets/mamoriya/hikaku-pc-01-ryokin.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/uploads/hg24-cmp/hikaku-pc-04-taiou-speed.webp",
+      "output": "g/assets/mamoriya/hikaku-pc-04-taiou-speed.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/uploads/hg24-cmp/hikaku-pc-02-chousa-mitsumori.webp",
+      "output": "g/assets/mamoriya/hikaku-pc-02-chousa-mitsumori.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/uploads/hg24-cmp/cmp-04-speed.webp",
+      "output": "g/assets/mamoriya/cmp-04-speed.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/uploads/hg24-jcb/bnr_gift_jcb_20261231.webp",
+      "output": "g/assets/mamoriya/bnr_gift_jcb_20261231.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/present/img_present_01_btn_sp.png.webp",
+      "output": "g/assets/mamoriya/img_present_01_btn_sp.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/present/img_measures_02_sp.png.webp",
+      "output": "g/assets/mamoriya/img_measures_02_sp.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/renewal/img_reason_01.webp",
+      "output": "g/assets/mamoriya/img_reason_01.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/renewal/ranking_bnr_01_sp.png.webp",
+      "output": "g/assets/mamoriya/ranking_bnr_01_sp.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/renewal/img_prevention.webp",
+      "output": "g/assets/mamoriya/img_prevention.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/renewal/warranty_sample.webp",
+      "output": "g/assets/mamoriya/warranty_sample.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/renewal/img_exp_01.webp",
+      "output": "g/assets/mamoriya/img_exp_01.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/renewal/ttl_search.webp",
+      "output": "g/assets/mamoriya/ttl_search.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/renewal/ttl_voice.webp",
+      "output": "g/assets/mamoriya/ttl_voice.png"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/common/logo-kodate-trim-alpha.webp",
+      "output": "g/assets/mamoriya/logo-kodate-trim-alpha.png"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/ex_01.png.webp",
+      "output": "g/assets/mamoriya/ex_01.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-03-kanagawa-f30.webp",
+      "output": "g/assets/mamoriya/voice-03-kanagawa-f30.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-08-chiba-m50.webp",
+      "output": "g/assets/mamoriya/voice-08-chiba-m50.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-05-tokyo-m40.webp",
+      "output": "g/assets/mamoriya/voice-05-tokyo-m40.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-08-chiba-m50_sp.webp",
+      "output": "g/assets/mamoriya/voice-08-chiba-m50_sp.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-10-saitama-f30.webp",
+      "output": "g/assets/mamoriya/voice-10-saitama-f30.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-10-saitama-f30_sp.webp",
+      "output": "g/assets/mamoriya/voice-10-saitama-f30_sp.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-09-kanagawa-f50_sp.webp",
+      "output": "g/assets/mamoriya/voice-09-kanagawa-f50_sp.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-09-kanagawa-f50.webp",
+      "output": "g/assets/mamoriya/voice-09-kanagawa-f50.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-03-kanagawa-f30_sp.webp",
+      "output": "g/assets/mamoriya/voice-03-kanagawa-f30_sp.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-06-ibaraki-m50_sp.webp",
+      "output": "g/assets/mamoriya/voice-06-ibaraki-m50_sp.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-05-tokyo-m40_sp.webp",
+      "output": "g/assets/mamoriya/voice-05-tokyo-m40_sp.jpg"
+    },
+    {
+      "source": "houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/voice/voice-06-ibaraki-m50.webp",
+      "output": "g/assets/mamoriya/voice-06-ibaraki-m50.jpg"
+    }
+  ]
+}
