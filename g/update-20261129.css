@@ -1,0 +1,39 @@
+/* G frame retained; only D's questions and result content are inserted. */
+.g-estimate [hidden]{display:none!important}
+.g-estimate .g-estimate-sub{text-align:center;font-size:15px;color:#185231;margin:0 0 14px}
+.g-estimate .hg-sf__bubble-text{white-space:normal;font-size:clamp(17px,3vw,32px);line-height:1.4;margin:0}
+.g-estimate .hg-sf__tile{color:#174f30;font-weight:800;line-height:1.4;font-size:15px;padding:7px 4px}
+.g-estimate .hg-sf__tile img{aspect-ratio:1.3;object-fit:contain;max-height:150px}
+.g-estimate-unknown{display:flex;align-items:center;justify-content:center;aspect-ratio:1.3;max-height:150px;font-size:50px;color:#176039;background:#f2f6ec}
+.g-estimate .hg-sf__choice strong,.g-estimate .hg-sf__choice span{display:block}
+.g-estimate .hg-sf__choice strong{font-size:1.25em;color:#174f30;margin-bottom:8px}
+.g-estimate .hg-sf__choice span{font-size:.8em}
+.g-estimate-result{text-align:center}
+.g-estimate-result p{margin:10px 0}
+.g-estimate-campaign{font-weight:800;color:#e95d0f;font-size:22px}
+.g-estimate-price{color:#e95d0f;font-weight:800;font-size:20px}
+.g-estimate-price strong{font-size:clamp(44px,8vw,74px);line-height:1.2}
+.g-estimate-note{font-size:13px;line-height:1.7;color:#47574b}
+.g-estimate-talk{background:#f5f8ef;border:1px solid #d5e3ce;border-radius:8px;padding:12px;margin:18px 0;color:#174f30}
+.g-estimate-talk blockquote{margin:8px 0;font-weight:700;font-size:17px;line-height:1.8}
+.g-estimate-phone{display:flex;flex-direction:column;background:#f15a17;border-radius:9px;color:white!important;padding:16px 8px;line-height:1.5;text-decoration:none;max-width:620px;margin:0 auto;font-weight:800}
+.g-estimate-phone strong{font-size:clamp(28px,6vw,44px)}
+.g-estimate-phone small{font-size:13px}
+img[src="../wp-content/themes/magokoroLP/img/start_logo.webp"]{height:auto;object-fit:contain;max-width:700px;display:block;margin-inline:auto}
+/* Explicitly override earlier inline FV positioning, retaining transparent pixels. */
+.hg-fv .hg-fv__photo{width:700px;right:-120px;mix-blend-mode:normal}
+.hg-fv .hg-fv__photo-img{clip-path:url(#g-worker-cutout);aspect-ratio:1000/667;object-fit:contain;object-position:center;mask-image:linear-gradient(to bottom,#000 87%,transparent);-webkit-mask-image:linear-gradient(to bottom,#000 87%,transparent)}
+@media(max-width:767px){
+ .hg-fv .hg-fv__photo{width:410px;right:-100px;top:-17px;bottom:auto}
+ .g-estimate .hg-sf__tile{font-size:13px}
+ .g-estimate-unknown{font-size:42px}
+ .g-estimate-talk blockquote{font-size:15px}
+ .g-estimate .hg-sf__nav{flex-wrap:wrap}
+}
+
+img[src*="update-20261129/warranty-"]{aspect-ratio:3;object-fit:contain;height:auto;width:100%}
+@media(max-width:767px){img[src*="update-20261129/warranty-"][src*="-SP.png"]{aspect-ratio:4.4;object-fit:cover}}
+
+.g-warranty-a-composite{display:block;position:relative;line-height:0}
+.g-warranty-a-composite>.g-warranty-a-photo{position:absolute;right:1%;top:3.5%;width:39%;height:92%;object-fit:cover;border-radius:7%;object-position:55% center}
+@media(max-width:767px){.g-warranty-a-composite>.g-warranty-a-photo{display:none}}

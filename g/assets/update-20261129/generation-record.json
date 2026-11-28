@@ -1,0 +1,32 @@
+[
+  {
+    "file": "warranty-c-PC.png",
+    "refs": [
+      "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/photo-refresh/PC_img_hosho_banner_c-10year-photos.png",
+      "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/update-20261129/operator-779908192-preview.jpeg"
+    ],
+    "transparent": false,
+    "prompt": "Edit IMAGE 1 banner only: replace the right-hand operator woman photo with the central short-haired female headset operator from IMAGE 2. Keep the Adobe Stock preview watermarks on her. Keep EVERY Japanese text, house photo on left, typography, colors, icons, borders and exact aspect ratio 3:1 and original layout untouched. Preserve the full canvas. No additional text. Only change that right photograph, tightly frame faces within existing photo area.",
+    "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-104c8d47-d003-4fd1-a529-dc90b623dac9.png"
+  },
+  {
+    "file": "warranty-c-SP.png",
+    "refs": [
+      "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/photo-refresh/SP_img_hosho_banner_c_2x-10year-photos.png",
+      "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/update-20261129/operator-779908192-preview.jpeg"
+    ],
+    "transparent": false,
+    "prompt": "Edit IMAGE 1 banner only: replace the right-hand operator woman photo with the central short-haired female headset operator from IMAGE 2. Keep the Adobe Stock preview watermarks on her. Keep EVERY Japanese text, house photo on left, typography, colors, icons, borders and exact aspect ratio 3:1 and original layout untouched. Preserve the large white padding above and below exactly, and preserve the narrow centered horizontal banner strip. No additional text. Only change that right photograph, tightly frame faces within existing photo area.",
+    "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-094511a6-0945-461e-a800-8b2776413c59.png"
+  },
+  {
+    "file": "warranty-a-SP.png",
+    "refs": [
+      "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/g/assets/photo-refresh/SP_img_hosho_banner_a_2x-10year-photos.png",
+      "/Users/yamadakousei/Desktop/害獣駆除/magokoro-reference/delivery/mamoriya-kujo/wp-content/themes/magokoroLP/img/voice_img1.webp"
+    ],
+    "transparent": false,
+    "prompt": "Edit IMAGE 1 banner only: replace the right-hand worker and customer room photo with the elderly Japanese couple enjoying tea at home from IMAGE 2. Keep EVERY Japanese text, house photo on left, typography, colors, icons, borders and exact aspect ratio 3:1 and original layout untouched. Preserve the large white padding above and below exactly, and preserve the narrow centered horizontal banner strip. No additional text. Only change that right photograph, tightly frame faces within existing photo area.",
+    "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-152c08c1-a77c-4e03-995b-49a8b701203d.png"
+  }
+]
