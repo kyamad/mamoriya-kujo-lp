@@ -1,0 +1,177 @@
+{
+  "mode": "built-in image_gen",
+  "date": "2026-11-29",
+  "assets": [
+    {
+      "name": "PC_img_hosho_banner_c-10year-photos.png",
+      "refs": [
+        "g/assets/mamoriya/PC_img_hosho_banner_c-10year.png",
+        "_mock/adobe-stock/house-80549115-preview.jpg",
+        "_mock/adobe-stock/operator-670251878-preview.jpg"
+      ],
+      "prompt": "Use case: compositing. Image 1 is edit target Japanese warranty advertisement. Replace ONLY all photographic areas. Replace house with house from image 2 and right woman with headset operator from image 3. Preserve ALL Japanese text exactly, colors, typography, icons, layout and aspect ratio of image 1. Preserve existing white padding if present. Do not add words or alter 10年保証. Supporting insert photos must retain their watermark if present. Crop photos attractively within their original bounds. No remnants of original photos.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-2e95e725-5023-4b61-9eee-9812f763a8df.png"
+    },
+    {
+      "name": "roof-before-after.png",
+      "refs": [
+        "wp-content/themes/magokoroLP/img/flow_img4.webp"
+      ],
+      "prompt": "Use case: scientific-educational. Using this existing roof photograph as scene reference, create a horizontal two-photo comparison, exact 2:1 overall aspect ratio. Same Japanese house gable vent, roof tiles, wood frame, camera and daylight on both halves. Crop in to the gable vent so no people or ladders are visible. LEFT half: vent is open without mesh, showing dark opening. RIGHT half: the identical opening is fully covered by professionally secured fine stainless steel mesh. Photorealistic. No arrows, no labels, no typography, no frame. This is a clearly labeled generated construction illustration. Do not reproduce any person.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-2bfa6798-4bcf-46eb-b5cc-71ea6535a9a4.png"
+    },
+    {
+      "name": "foundation-before-after.png",
+      "prompt": "Create a photorealistic educational before-and-after pair, overall aspect ratio 2:1. Japanese detached home concrete foundation ventilation opening under beige siding, exterior daylight. Left square shows a rectangular ventilation opening with widely spaced vertical bars. Right square shows EXACT same scene, camera, angle, textures and daylight, now with fine stainless steel mesh securely mounted over the opening with a slim screwed frame. No people, no text, no arrows. This is a hypothetical construction illustration, not an actual project.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-a639704f-3116-4fa1-8811-32ffdcdb5403.png"
+    },
+    {
+      "name": "img_cost_01.png",
+      "refs": [
+        "g/assets/houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/img_cost_01.png.webp",
+        "_mock/adobe-stock/staff-495390612-preview.jpg"
+      ],
+      "prompt": "Use case: compositing. Image 1 is edit target, image 2 is supporting insert photograph. Replace only the man on the left with the male worker from image 2. Keep him on the left with clean white background blending and leave lower middle/right blank for HTML text. Preserve exactly ALL other text, illustrations, borders, colors, blank spaces, layout and exact aspect ratio of image 1. DO NOT add or remove text. Do not change 10年保証 or まもりや駆除. Preserve watermark on supporting stock photos where present. No other edits.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-0e0dbf93-307a-49e6-9575-9a5c0dd68fa2.png"
+    },
+    {
+      "name": "img_measures_02_sp-10year.png",
+      "refs": [
+        "g/assets/mamoriya/img_measures_02_sp-10year.png",
+        "_mock/adobe-stock/staff-495390612-preview.jpg"
+      ],
+      "prompt": "Use case: compositing. Image 1 is edit target, image 2 is supporting insert photograph. Replace only the upper-left man with the man from image 2. Keep his small upper-left footprint; background orange stays orange. Preserve exactly ALL other text, illustrations, borders, colors, blank spaces, layout and exact aspect ratio of image 1. DO NOT add or remove text. Do not change 10年保証 or まもりや駆除. Preserve watermark on supporting stock photos where present. No other edits.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-46a5173b-5680-495f-8f18-d0b9dbb5bf98.png"
+    },
+    {
+      "name": "ranking_bnr_01_sp.png",
+      "refs": [
+        "g/assets/mamoriya/ranking_bnr_01_sp-10year.png",
+        "_mock/adobe-stock/consultation-2150844450.jpg"
+      ],
+      "prompt": "Use case: compositing. Image 1 is edit target, image 2 is supporting insert photograph. Replace only the large worker portrait with image 2 showing a consultation with the customer. Preserve exactly ALL other text, illustrations, borders, colors, blank spaces, layout and exact aspect ratio of image 1. DO NOT add or remove text. Do not change 10年保証 or まもりや駆除. Preserve watermark on supporting stock photos where present. No other edits.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-d70fe02e-b594-477d-95e3-3aa1d0f2abe8.png"
+    },
+    {
+      "name": "img_measures_02_add_sp.png",
+      "refs": [
+        "g/assets/houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/renewal/img_measures_02_add_sp.png.webp",
+        "wp-content/themes/magokoroLP/img/flow_img2.webp"
+      ],
+      "prompt": "Use case: compositing. Image 1 is edit target, image 2 is supporting insert photograph. Replace only the rectangular worker photo near the top with image 2, cropped to fill the existing rectangular photo frame. Preserve exactly ALL other text, illustrations, borders, colors, blank spaces, layout and exact aspect ratio of image 1. DO NOT add or remove text. Do not change 10年保証 or まもりや駆除. Preserve watermark on supporting stock photos where present. No other edits.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-a0a66cf5-c06f-44e0-bb53-5980e719021b.png"
+    },
+    {
+      "name": "img_philosophy_01.png",
+      "refs": [
+        "g/assets/houseguard24.saki-x.jp/wp-content/themes/house-guard/assets/img/img_philosophy_01.png.webp",
+        "_mock/adobe-stock/inspection-628511626.jpg"
+      ],
+      "prompt": "Use case: compositing. Image 1 is edit target, image 2 is supporting insert photograph. Replace only rectangular worker photo with the inspection photo from image 2. Preserve exactly ALL other text, illustrations, borders, colors, blank spaces, layout and exact aspect ratio of image 1. DO NOT add or remove text. Do not change 10年保証 or まもりや駆除. Preserve watermark on supporting stock photos where present. No other edits.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-11da13a6-4930-43ec-a527-42ecccb922f9.png"
+    },
+    {
+      "name": "img_prevention.png",
+      "refs": [
+        "g/assets/mamoriya/img_prevention-10year.png",
+        "_mock/adobe-stock/staff-495390612-preview.jpg"
+      ],
+      "prompt": "Use case: compositing. Image 1 is edit target, image 2 is supporting insert photograph. Replace only man on left with the male worker from image 2, preserving upper-left position. Keep the middle-right blank area empty for HTML text. Preserve exactly ALL other text, illustrations, borders, colors, blank spaces, layout and exact aspect ratio of image 1. DO NOT add or remove text. Do not change 10年保証 or まもりや駆除. Preserve watermark on supporting stock photos where present. No other edits.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-2a6a57b3-7dc0-4510-875a-525e3136da65.png"
+    },
+    {
+      "name": "img_exp_01.png",
+      "refs": [
+        "g/assets/mamoriya/img_exp_01.jpg",
+        "_mock/adobe-stock/consultation-2150844450.jpg"
+      ],
+      "prompt": "Use case: compositing. Image 1 is edit target, image 2 is supporting insert photograph. Replace only the rectangular worker photo with the site consultation photo from image 2. Preserve exactly ALL other text, illustrations, borders, colors, blank spaces, layout and exact aspect ratio of image 1. DO NOT add or remove text. Do not change 10年保証 or まもりや駆除. Preserve watermark on supporting stock photos where present. No other edits.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-51680c1c-34b0-4e53-b6c9-7a06ce4ec90d.png"
+    },
+    {
+      "name": "PC_img_hosho_banner_b-10year-photos.png",
+      "refs": [
+        "g/assets/mamoriya/PC_img_hosho_banner_b-10year.png",
+        "_mock/adobe-stock/house-80549115-preview.jpg"
+      ],
+      "prompt": "Use case: compositing. Image 1 is edit target Japanese warranty advertisement. Replace ONLY all photographic areas. Replace right room photograph with exterior house photograph image 2. Preserve ALL Japanese text exactly, colors, typography, icons, layout and aspect ratio of image 1. Preserve existing white padding if present. Do not add words or alter 10年保証. Supporting insert photos must retain their watermark if present. Crop photos attractively within their original bounds. No remnants of original photos.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-20a175ea-b7f3-417e-b0aa-f2f14ae7962a.png"
+    },
+    {
+      "name": "PC_img_hosho_banner_a-10year-photos.png",
+      "refs": [
+        "g/assets/mamoriya/PC_img_hosho_banner_a-10year.png",
+        "_mock/adobe-stock/consultation-2150844450.jpg",
+        "_mock/adobe-stock/house-80549115-preview.jpg"
+      ],
+      "prompt": "Use case: compositing. Image 1 is edit target Japanese warranty advertisement. Replace ONLY all photographic areas. Replace right two men with worker consulting with the customer in image 2; replace small left house/interior photo with house image 3. Preserve ALL Japanese text exactly, colors, typography, icons, layout and aspect ratio of image 1. Preserve existing white padding if present. Do not add words or alter 10年保証. Supporting insert photos must retain their watermark if present. Crop photos attractively within their original bounds. No remnants of original photos.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-90c861b1-4731-4e6c-9580-5b10b4465ec5.png"
+    },
+    {
+      "name": "SP_img_hosho_banner_c_2x-10year-photos.png",
+      "refs": [
+        "g/assets/mamoriya/SP_img_hosho_banner_c_2x-10year.png",
+        "_mock/adobe-stock/house-80549115-preview.jpg",
+        "_mock/adobe-stock/operator-670251878-preview.jpg"
+      ],
+      "prompt": "Use case: compositing. Image 1 is edit target Japanese warranty advertisement. Replace ONLY all photographic areas. Replace house with house from image 2 and right woman with headset operator from image 3. Preserve ALL Japanese text exactly, colors, typography, icons, layout and aspect ratio of image 1. Preserve existing white padding if present. Do not add words or alter 10年保証. Supporting insert photos must retain their watermark if present. Crop photos attractively within their original bounds. No remnants of original photos.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-9b52e8bb-1f05-44d3-9a54-0d65042b1d48.png"
+    },
+    {
+      "name": "SP_img_hosho_banner_a_2x-10year-photos.png",
+      "refs": [
+        "g/assets/mamoriya/SP_img_hosho_banner_a_2x-10year.png",
+        "_mock/adobe-stock/consultation-2150844450.jpg",
+        "_mock/adobe-stock/house-80549115-preview.jpg"
+      ],
+      "prompt": "Use case: compositing. Image 1 is edit target Japanese warranty advertisement. Replace ONLY all photographic areas. Replace right two men with worker consulting with the customer in image 2; replace small left house/interior photo with house image 3. Preserve ALL Japanese text exactly, colors, typography, icons, layout and aspect ratio of image 1. Preserve existing white padding if present. Do not add words or alter 10年保証. Supporting insert photos must retain their watermark if present. Crop photos attractively within their original bounds. No remnants of original photos.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-c7bd5e6b-c020-481e-ba96-181b599db1a7.png"
+    },
+    {
+      "name": "SP_img_hosho_banner_b_2x-10year-photos.png",
+      "refs": [
+        "g/assets/mamoriya/SP_img_hosho_banner_b_2x-10year.png",
+        "_mock/adobe-stock/house-80549115-preview.jpg"
+      ],
+      "prompt": "Use case: compositing. Image 1 is edit target Japanese warranty advertisement. Replace ONLY all photographic areas. Replace right room photograph with exterior house photograph image 2. Preserve ALL Japanese text exactly, colors, typography, icons, layout and aspect ratio of image 1. Preserve existing white padding if present. Do not add words or alter 10年保証. Supporting insert photos must retain their watermark if present. Crop photos attractively within their original bounds. No remnants of original photos.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-59e24889-f892-4c26-8ec1-15a8bebcd21d.png"
+    },
+    {
+      "name": "img_reason_01.png",
+      "refs": [
+        "g/assets/mamoriya/img_reason_01.jpg",
+        "_mock/adobe-stock/operator-670251878-preview.jpg"
+      ],
+      "prompt": "Use case: compositing. Image 1 is edit target, image 2 is supporting insert photograph. Replace only the woman on the left with the headset operator from image 2; blend the background to white. Keep all typography unchanged. Preserve exactly ALL other text, illustrations, borders, colors, blank spaces, layout and exact aspect ratio of image 1. DO NOT add or remove text. Do not change 10年保証 or まもりや駆除. Preserve watermark on supporting stock photos where present. No other edits.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-695c1cc5-a97f-4c96-961c-983e9c919339.png"
+    },
+    {
+      "name": "voice-03.png",
+      "refs": [
+        "g/assets/mamoriya/voice-03-kanagawa-f30.jpg",
+        "_mock/adobe-stock/customer-547072089.jpg"
+      ],
+      "prompt": "Use case: compositing. Image 1 edit target testimonial frame; image 2 replacement portrait. Replace ONLY the circular small woman's portrait in upper left with close-up of woman in image 2. Preserve all other pixels/layout typography Japanese text, blank body area, and exact aspect ratio. Do not add any text. Do not change demographic text or rating or logo.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-3b60d0b7-c0d0-445b-858e-def239022c58.png"
+    },
+    {
+      "name": "voice-03_sp.png",
+      "refs": [
+        "g/assets/mamoriya/voice-03-kanagawa-f30_sp.jpg",
+        "_mock/adobe-stock/customer-547072089.jpg"
+      ],
+      "prompt": "Use case: compositing. Image 1 edit target testimonial frame; image 2 replacement portrait. Replace ONLY the circular small woman's portrait in upper left with close-up of woman in image 2. Preserve all other pixels/layout typography Japanese text, blank body area, and exact aspect ratio. Do not add any text. Do not change demographic text or rating or logo.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-ed01dff5-d702-4bb4-ac66-1251f5fe027f.png"
+    },
+    {
+      "name": "ex_01.png",
+      "refs": [
+        "g/assets/mamoriya/ex_01.jpg",
+        "g/assets/photo-refresh/roof-before-after.png",
+        "g/assets/photo-refresh/foundation-before-after.png"
+      ],
+      "prompt": "Use case: compositing. Image 1 is original tall Japanese banner, images 2 and 3 are illustrative before-after photo pairs. Preserve EXACT original 941:1672 aspect ratio, overall layout, photo box sizes, colors, icons, typography. Replace top left and top right photos with respective left/right halves of image 2. Replace bottom left and right photos with respective halves of image 3. Main heading change to 再侵入を防ぐための封鎖イメージ. Second card heading change to 通気口まわりのすき間を封鎖. First card body: 侵入口となる開口部を確認し、金属メッシュなどを使って封鎖します。見えにくい箇所も対策することで再侵入を防ぎます。 Second card body: 通気口のすき間は、害獣の侵入口になることがあります。通気を確保しながら金属メッシュで覆い、再び入り込みにくい状態へ整えます。 Add readable small note under main heading: ※AI生成による施工イメージです。実際の施工事例ではありません。 Keep rest text unchanged, no extra content. All original photographic material must be fully replaced.",
+      "path": "/Users/yamadakousei/.codex/generated_images/01a21223-b513-7291-a2ef-d5d22eb975d3/exec-97c7cdf1-cbda-4c2b-89aa-89b072d27015.png"
+    }
+  ]
+}

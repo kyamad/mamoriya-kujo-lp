@@ -1,0 +1,38 @@
+img[src="assets/photo-refresh/img_cost_01.png"]{aspect-ratio:1588/888;object-fit:contain;height:auto}
+img[src="assets/photo-refresh/img_measures_02_sp-10year.png"]{aspect-ratio:922/1705;object-fit:contain;height:auto}
+img[src="assets/photo-refresh/ranking_bnr_01_sp.png"]{aspect-ratio:1155/1362;object-fit:contain;height:auto}
+img[src="assets/photo-refresh/img_measures_02_add_sp.png"]{aspect-ratio:1122/2300;object-fit:contain;height:auto}
+img[src="assets/photo-refresh/img_philosophy_01.png"]{aspect-ratio:941/1672;object-fit:contain;height:auto}
+img[src="assets/photo-refresh/img_prevention.png"]{aspect-ratio:1086/1448;object-fit:contain;height:auto}
+img[src="assets/photo-refresh/img_exp_01.png"]{aspect-ratio:1055/1491;object-fit:contain;height:auto}
+img[src="assets/photo-refresh/img_reason_01.png"]{aspect-ratio:1494/789;object-fit:contain;height:auto}
+img[src="assets/photo-refresh/voice-03.png"]{aspect-ratio:1536/1024;object-fit:contain;height:auto}
+img[src="assets/photo-refresh/voice-03_sp.png"]{aspect-ratio:1536/1850;object-fit:contain;height:auto}
+img[src="assets/photo-refresh/ex_01.png"]{aspect-ratio:941/1672;object-fit:contain;height:auto}
+
+/* Preserve source-banner geometry, including the original mobile crop of padded warranty banners. */
+img[src*="photo-refresh/SP_img_hosho_banner"]{aspect-ratio:4.4!important;object-fit:cover!important;width:100%;height:auto}
+@media(min-width:768px){img[src*="photo-refresh/SP_img_hosho_banner"]{aspect-ratio:3!important;object-fit:contain!important}}
+.hg-fv__photo-img{aspect-ratio:900/736;object-fit:cover;object-position:68% center;mask-image:linear-gradient(to right,transparent,#000 22%);-webkit-mask-image:linear-gradient(to right,transparent,#000 22%)}
+.hg-fv__photo{mix-blend-mode:multiply}
+.reason-sec__item-asset{aspect-ratio:1096/752;object-fit:cover}
+.flow-sec__list-asset{aspect-ratio:3/2;object-fit:cover}
+.reassurance-person img{aspect-ratio:1600/1847;object-fit:cover;object-position:70% center;border-radius:16px}
+.message-sec__img,.measures-add__box-img{object-fit:cover;aspect-ratio:552/440}
+.g-case-illustration{position:relative;container-type:inline-size;aspect-ratio:2;background:#fffdf3;overflow:hidden;text-align:center;margin-left:auto;margin-right:auto;width:100%}
+.g-case-illustration h3{position:absolute;top:2%;left:3%;width:94%;margin:0;font-size:4cqw;font-weight:700;line-height:1.3;color:#172f21}
+.g-case-illustration p{position:absolute;top:17%;left:3%;width:94%;margin:0;font-size:1.75cqw;line-height:1.4;color:#555}
+.g-case-labels{position:absolute;top:26%;left:6%;width:88%;display:flex;gap:2%;font-size:2cqw;line-height:1.3;font-weight:700;color:#fff}
+.g-case-labels span{width:49%;background:#2378af;padding:1%}.g-case-labels span+span{background:#ed541b}
+.g-case-illustration>img{position:absolute;top:35%;left:6%;width:88%;height:62%;object-fit:cover;object-position:center}
+@media(max-width:767px){
+ .g-case-illustration{aspect-ratio:682/447}
+ .g-case-illustration h3{font-size:5cqw;top:4%}
+ .g-case-illustration p{font-size:2.6cqw;top:17%;left:5%;width:90%}
+ .g-case-labels{top:29%;font-size:3cqw}
+ .g-case-illustration>img{top:38%;height:59%}
+ .hg-fv__photo-img{mask-image:linear-gradient(to bottom,#000 80%,transparent 99%);-webkit-mask-image:linear-gradient(to bottom,#000 80%,transparent 99%)}
+}
+@media(max-width:767px){img[src="assets/photo-refresh/voice-03.png"]{aspect-ratio:1536/1850}}
+
+@media(max-width:767px){.g-case-illustration[data-photo-section="case-07"]{aspect-ratio:682/444}}
